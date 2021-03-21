@@ -1,0 +1,10 @@
+framework module CredifyKit {
+  umbrella header "CredifyKit.h"
+
+  export *
+  module * { export * }
+}
+
+module CredifyKit.__Swift {
+    exclude header "CredifyKit-Swift.h"
+}

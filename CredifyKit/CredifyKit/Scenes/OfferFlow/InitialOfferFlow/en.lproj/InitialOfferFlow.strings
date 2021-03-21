@@ -1,0 +1,15 @@
+/* 
+  InitialOfferFlow.strings
+  CredifyKit
+
+  Created by Nalou Nguyen on 18/03/2021.
+  Copyright © 2021 Credify. All rights reserved.
+*/
+
+"ScreenTitle" = "Get offer with Digital passport";
+
+"YouAreReady" = "You are ready:";
+"LoggedInTo" = "Logged in to %@";
+"OwnedDigitalPassport" = "Owned digital passport";
+"CreateDigitalPassport" = "Create digital passport";
+"LoginToDigitalPassport" = "Login to digital passport";

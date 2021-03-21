@@ -1,0 +1,164 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ProviderUseCaseManager"
+provides-nominal:
+- "11CredifyCore22ProviderUseCaseManagerC"
+provides-member:
+- ["11CredifyCore22ProviderUseCaseManagerC", ""]
+provides-dynamic-lookup:
+- "createsIndividualEntity"
+- "credifyIdEvent"
+- "errorEvent"
+- "getCredifyIdFromProvider"
+- "getOffersFromProvider"
+- "loginSuccessEvent"
+- "loginWithPassword"
+- "offersFromProviderEvent"
+- "service"
+depends-top-level:
+- "AssignmentPrecedence"
+- "CCError"
+- "CCLoginMode"
+- "CCOfferData"
+- "CCProfileModel"
+- "CCUserExternalModel"
+- !private "KeyManagementRepository"
+- "Observable"
+- !private "ProviderRepositoryManager"
+- "ProviderUseCase"
+- "ProviderUseCaseManager"
+- "ProviderUseCaseProtocol"
+- "String"
+- "Void"
+- !private "service"
+depends-member:
+- !private ["11CredifyCore23KeyManagementRepositoryC", ""]
+- !private ["11CredifyCore23KeyManagementRepositoryC", "init"]
+- !private ["11CredifyCore31KeyManagementRepositoryProtocolP", "init"]
+- !private ["11CredifyCore25ProviderRepositoryManagerC", ""]
+- !private ["11CredifyCore25ProviderRepositoryManagerC", "init"]
+- !private ["11CredifyCore26ProviderRepositoryProtocolP", "init"]
+- !private ["11CredifyCore15ProviderUseCaseC", ""]
+- !private ["11CredifyCore15ProviderUseCaseC", "createsIndividualEntity"]
+- !private ["11CredifyCore15ProviderUseCaseC", "credifyIdEvent"]
+- !private ["11CredifyCore15ProviderUseCaseC", "errorEvent"]
+- !private ["11CredifyCore15ProviderUseCaseC", "getCredifyIdFromProvider"]
+- !private ["11CredifyCore15ProviderUseCaseC", "getOffersFromProvider"]
+- !private ["11CredifyCore15ProviderUseCaseC", "init"]
+- !private ["11CredifyCore15ProviderUseCaseC", "loginSuccessEvent"]
+- !private ["11CredifyCore15ProviderUseCaseC", "loginWithPassword"]
+- !private ["11CredifyCore15ProviderUseCaseC", "offersFromProviderEvent"]
+- ["11CredifyCore22ProviderUseCaseManagerC", "CCError"]
+- ["11CredifyCore22ProviderUseCaseManagerC", "CCLoginMode"]
+- ["11CredifyCore22ProviderUseCaseManagerC", "CCOfferData"]
+- ["11CredifyCore22ProviderUseCaseManagerC", "CCProfileModel"]
+- ["11CredifyCore22ProviderUseCaseManagerC", "CCUserExternalModel"]
+- !private ["11CredifyCore22ProviderUseCaseManagerC", "KeyManagementRepository"]
+- ["11CredifyCore22ProviderUseCaseManagerC", "Observable"]
+- !private ["11CredifyCore22ProviderUseCaseManagerC", "ProviderRepositoryManager"]
+- ["11CredifyCore22ProviderUseCaseManagerC", "ProviderUseCase"]
+- ["11CredifyCore22ProviderUseCaseManagerC", "String"]
+- ["11CredifyCore22ProviderUseCaseManagerC", "Void"]
+- ["11CredifyCore22ProviderUseCaseManagerC", "createsIndividualEntity"]
+- ["11CredifyCore22ProviderUseCaseManagerC", "credifyIdEvent"]
+- ["11CredifyCore22ProviderUseCaseManagerC", "deinit"]
+- ["11CredifyCore22ProviderUseCaseManagerC", "errorEvent"]
+- ["11CredifyCore22ProviderUseCaseManagerC", "getCredifyIdFromProvider"]
+- ["11CredifyCore22ProviderUseCaseManagerC", "getOffersFromProvider"]
+- ["11CredifyCore22ProviderUseCaseManagerC", "init"]
+- ["11CredifyCore22ProviderUseCaseManagerC", "loginSuccessEvent"]
+- ["11CredifyCore22ProviderUseCaseManagerC", "loginWithPassword"]
+- ["11CredifyCore22ProviderUseCaseManagerC", "offersFromProviderEvent"]
+- !private ["11CredifyCore22ProviderUseCaseManagerC", "service"]
+- !private ["11CredifyCore23ProviderUseCaseProtocolP", "KeyManagementRepository"]
+- !private ["11CredifyCore23ProviderUseCaseProtocolP", "ProviderRepositoryManager"]
+- !private ["11CredifyCore23ProviderUseCaseProtocolP", "ProviderUseCase"]
+- ["11CredifyCore23ProviderUseCaseProtocolP", ""]
+- ["11CredifyCore23ProviderUseCaseProtocolP", "createsIndividualEntity"]
+- ["11CredifyCore23ProviderUseCaseProtocolP", "credifyIdEvent"]
+- ["11CredifyCore23ProviderUseCaseProtocolP", "errorEvent"]
+- ["11CredifyCore23ProviderUseCaseProtocolP", "getCredifyIdFromProvider"]
+- ["11CredifyCore23ProviderUseCaseProtocolP", "getOffersFromProvider"]
+- !private ["11CredifyCore23ProviderUseCaseProtocolP", "init"]
+- ["11CredifyCore23ProviderUseCaseProtocolP", "loginSuccessEvent"]
+- ["11CredifyCore23ProviderUseCaseProtocolP", "loginWithPassword"]
+- ["11CredifyCore23ProviderUseCaseProtocolP", "offersFromProviderEvent"]
+- !private ["11CredifyCore23ProviderUseCaseProtocolP", "service"]
+depends-nominal:
+- !private "11CredifyCore23KeyManagementRepositoryC"
+- !private "11CredifyCore31KeyManagementRepositoryProtocolP"
+- !private "11CredifyCore25ProviderRepositoryManagerC"
+- !private "11CredifyCore26ProviderRepositoryProtocolP"
+- !private "11CredifyCore15ProviderUseCaseC"
+- "11CredifyCore22ProviderUseCaseManagerC"
+- "11CredifyCore23ProviderUseCaseProtocolP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphonesimulator/KeychainAccess/KeychainAccess.framework/Modules/KeychainAccess.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphonesimulator/CredifyCryptoSwift/CredifyCryptoSwift.framework/Modules/CredifyCryptoSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/WebKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/RxRelay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RX.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphonesimulator/KeychainAccess/KeychainAccess.framework/Headers/KeychainAccess-umbrella.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphonesimulator/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/CredifyCryptoSwift-umbrella.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-umbrella.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Headers/Universe.objc.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphonesimulator/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/Universe.objc.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Headers/Crypto.objc.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphonesimulator/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/Crypto.objc.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXObjCRuntime.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoaRuntime.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Headers/ref.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphonesimulator/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/ref.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Headers/Crypto.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphonesimulator/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/Crypto.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXKVOObserver.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphonesimulator/KeychainAccess/KeychainAccess.framework/Headers/KeychainAccess-Swift.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphonesimulator/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/CredifyCryptoSwift-Swift.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-Swift.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphonesimulator/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/CredifyCryptoSwift.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXDelegateProxy.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/module.modulemap"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Modules/module.modulemap"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphonesimulator/KeychainAccess/KeychainAccess.framework/Modules/module.modulemap"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphonesimulator/CredifyCryptoSwift/CredifyCryptoSwift.framework/Modules/module.modulemap"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "70d61a8c553a27ac91dcb928a7074b4a"

@@ -1,0 +1,392 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GetEncryptedPrivateKeyRequest"
+- "SignatureForPII"
+- "GetEncryptedKeysResponse"
+- "CCKeyPair"
+- "CCKeyPairs"
+- "EncryptedSecretRes"
+provides-nominal:
+- "11CredifyCore29GetEncryptedPrivateKeyRequestV"
+- "11CredifyCore15SignatureForPIIV"
+- "11CredifyCore24GetEncryptedKeysResponseV"
+- "11CredifyCore24GetEncryptedKeysResponseV0dE0V"
+- "11CredifyCore9CCKeyPairV"
+- "11CredifyCore10CCKeyPairsV"
+- "11CredifyCore18EncryptedSecretResV"
+- "11CredifyCore18EncryptedSecretResV3KeyV"
+provides-member:
+- ["11CredifyCore29GetEncryptedPrivateKeyRequestV", ""]
+- ["11CredifyCore15SignatureForPIIV", ""]
+- ["11CredifyCore24GetEncryptedKeysResponseV", ""]
+- ["11CredifyCore24GetEncryptedKeysResponseV0dE0V", ""]
+- ["11CredifyCore9CCKeyPairV", ""]
+- ["11CredifyCore10CCKeyPairsV", ""]
+- ["11CredifyCore18EncryptedSecretResV", ""]
+- ["11CredifyCore18EncryptedSecretResV3KeyV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "CCKeyPair"
+- "CCKeyPairs"
+- "CCPublicKeys"
+- "Codable"
+- "CodingKey"
+- !private "Dictionary"
+- "EncryptedKeys"
+- "EncryptedSecretRes"
+- !private "FloatLiteralType"
+- "GetEncryptedKeysResponse"
+- "GetEncryptedPrivateKeyRequest"
+- !private "IntegerLiteralType"
+- "Key"
+- "RestAPIMethod"
+- "RestAPIRequest"
+- "SignatureForPII"
+- "String"
+- "StringLiteralType"
+- !private "_findStringSwitchCase"
+- !private "body"
+- !private "eos"
+- !private "master"
+- !private "~="
+depends-member:
+- ["11CredifyCore9CCKeyPairV", "CodingKey"]
+- ["11CredifyCore9CCKeyPairV", "CodingKeys"]
+- ["11CredifyCore9CCKeyPairV", "String"]
+- ["11CredifyCore9CCKeyPairV", ""]
+- !private ["11CredifyCore9CCKeyPairV", "_findStringSwitchCase"]
+- ["11CredifyCore9CCKeyPairV", "encode"]
+- !private ["11CredifyCore9CCKeyPairV", "findStringSwitchCase"]
+- ["11CredifyCore9CCKeyPairV", "init"]
+- ["11CredifyCore9CCKeyPairV", "privKey"]
+- ["11CredifyCore9CCKeyPairV", "pubKey"]
+- ["11CredifyCore10CCKeyPairsV", "CCKeyPair"]
+- ["11CredifyCore10CCKeyPairsV", "CCPublicKeys"]
+- ["11CredifyCore10CCKeyPairsV", "eos"]
+- ["11CredifyCore10CCKeyPairsV", "init"]
+- ["11CredifyCore10CCKeyPairsV", "master"]
+- ["11CredifyCore10CCKeyPairsV", "toKeys"]
+- !private ["11CredifyCore12CCPublicKeysV", "CodingKeys"]
+- !private ["11CredifyCore12CCPublicKeysV", ""]
+- !private ["11CredifyCore12CCPublicKeysV", "init"]
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "Default_RawValue"]
+- ["s9CodingKeyP", "RawValue"]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- !private ["s9CodingKeyP", "findStringSwitchCase"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "rawValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", "Default_RawValue"]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "Default_RawValue"]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["Se", "Codable"]
+- ["Se", "CodingKey"]
+- ["Se", ""]
+- !private ["Se", "_findStringSwitchCase"]
+- !private ["Se", "data"]
+- ["Se", "encode"]
+- !private ["Se", "encryptionPublic"]
+- !private ["Se", "encryptionSecret"]
+- !private ["Se", "findStringSwitchCase"]
+- ["Se", "init"]
+- !private ["Se", "privKey"]
+- !private ["Se", "pubKey"]
+- !private ["Se", "secret"]
+- !private ["Se", "signingPublic"]
+- !private ["Se", "signingSecret"]
+- !private ["Se", "success"]
+- !private ["s7DecoderP", "container"]
+- ["SE", "Codable"]
+- ["SE", "CodingKey"]
+- ["SE", ""]
+- !private ["SE", "_findStringSwitchCase"]
+- !private ["SE", "data"]
+- ["SE", "encode"]
+- !private ["SE", "encryptionPublic"]
+- !private ["SE", "encryptionSecret"]
+- !private ["SE", "findStringSwitchCase"]
+- ["SE", "init"]
+- !private ["SE", "privKey"]
+- !private ["SE", "pubKey"]
+- !private ["SE", "secret"]
+- !private ["SE", "signingPublic"]
+- !private ["SE", "signingSecret"]
+- !private ["SE", "success"]
+- !private ["s7EncoderP", "container"]
+- ["11CredifyCore24GetEncryptedKeysResponseV0dE0V", "CodingKey"]
+- ["11CredifyCore24GetEncryptedKeysResponseV0dE0V", "CodingKeys"]
+- ["11CredifyCore24GetEncryptedKeysResponseV0dE0V", "String"]
+- ["11CredifyCore24GetEncryptedKeysResponseV0dE0V", ""]
+- !private ["11CredifyCore24GetEncryptedKeysResponseV0dE0V", "_findStringSwitchCase"]
+- ["11CredifyCore24GetEncryptedKeysResponseV0dE0V", "encode"]
+- ["11CredifyCore24GetEncryptedKeysResponseV0dE0V", "encryptionPublic"]
+- ["11CredifyCore24GetEncryptedKeysResponseV0dE0V", "encryptionSecret"]
+- !private ["11CredifyCore24GetEncryptedKeysResponseV0dE0V", "findStringSwitchCase"]
+- ["11CredifyCore24GetEncryptedKeysResponseV0dE0V", "init"]
+- ["11CredifyCore24GetEncryptedKeysResponseV0dE0V", "signingPublic"]
+- ["11CredifyCore24GetEncryptedKeysResponseV0dE0V", "signingSecret"]
+- ["11CredifyCore18EncryptedSecretResV", "Bool"]
+- ["11CredifyCore18EncryptedSecretResV", "Codable"]
+- ["11CredifyCore18EncryptedSecretResV", "CodingKey"]
+- ["11CredifyCore18EncryptedSecretResV", "CodingKeys"]
+- ["11CredifyCore18EncryptedSecretResV", "Key"]
+- ["11CredifyCore18EncryptedSecretResV", "String"]
+- ["11CredifyCore18EncryptedSecretResV", ""]
+- !private ["11CredifyCore18EncryptedSecretResV", "_findStringSwitchCase"]
+- ["11CredifyCore18EncryptedSecretResV", "data"]
+- ["11CredifyCore18EncryptedSecretResV", "encode"]
+- !private ["11CredifyCore18EncryptedSecretResV", "findStringSwitchCase"]
+- ["11CredifyCore18EncryptedSecretResV", "init"]
+- ["11CredifyCore18EncryptedSecretResV", "success"]
+- ["SQ", "=="]
+- ["SQ", "Default_RawValue"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- !private ["SQ", "findStringSwitchCase"]
+- ["SQ", "get"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- ["SQ", "post"]
+- ["SQ", "rawValue"]
+- ["SQ", "stringValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- ["11CredifyCore24GetEncryptedKeysResponseV", "Bool"]
+- ["11CredifyCore24GetEncryptedKeysResponseV", "Codable"]
+- ["11CredifyCore24GetEncryptedKeysResponseV", "CodingKey"]
+- ["11CredifyCore24GetEncryptedKeysResponseV", "CodingKeys"]
+- ["11CredifyCore24GetEncryptedKeysResponseV", "EncryptedKeys"]
+- ["11CredifyCore24GetEncryptedKeysResponseV", "String"]
+- ["11CredifyCore24GetEncryptedKeysResponseV", ""]
+- !private ["11CredifyCore24GetEncryptedKeysResponseV", "_findStringSwitchCase"]
+- ["11CredifyCore24GetEncryptedKeysResponseV", "data"]
+- ["11CredifyCore24GetEncryptedKeysResponseV", "encode"]
+- !private ["11CredifyCore24GetEncryptedKeysResponseV", "findStringSwitchCase"]
+- ["11CredifyCore24GetEncryptedKeysResponseV", "init"]
+- ["11CredifyCore24GetEncryptedKeysResponseV", "success"]
+- ["11CredifyCore29GetEncryptedPrivateKeyRequestV", "RestAPIMethod"]
+- ["11CredifyCore29GetEncryptedPrivateKeyRequestV", "String"]
+- ["11CredifyCore29GetEncryptedPrivateKeyRequestV", "body"]
+- ["11CredifyCore29GetEncryptedPrivateKeyRequestV", "init"]
+- ["11CredifyCore29GetEncryptedPrivateKeyRequestV", "method"]
+- ["11CredifyCore29GetEncryptedPrivateKeyRequestV", "parameters"]
+- ["11CredifyCore29GetEncryptedPrivateKeyRequestV", "path"]
+- ["SH", "=="]
+- ["SH", "Default_RawValue"]
+- ["SH", "RawValue"]
+- !private ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- !private ["SH", "findStringSwitchCase"]
+- ["SH", "get"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "post"]
+- ["SH", "rawValue"]
+- ["SH", "stringValue"]
+- !private ["s6HasherV", "combine"]
+- ["11CredifyCore18EncryptedSecretResV3KeyV", "CodingKey"]
+- ["11CredifyCore18EncryptedSecretResV3KeyV", "CodingKeys"]
+- ["11CredifyCore18EncryptedSecretResV3KeyV", "String"]
+- ["11CredifyCore18EncryptedSecretResV3KeyV", ""]
+- !private ["11CredifyCore18EncryptedSecretResV3KeyV", "_findStringSwitchCase"]
+- ["11CredifyCore18EncryptedSecretResV3KeyV", "encode"]
+- !private ["11CredifyCore18EncryptedSecretResV3KeyV", "findStringSwitchCase"]
+- ["11CredifyCore18EncryptedSecretResV3KeyV", "init"]
+- ["11CredifyCore18EncryptedSecretResV3KeyV", "secret"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- ["SY", "=="]
+- ["SY", "Default_RawValue"]
+- ["SY", "RawValue"]
+- !private ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- !private ["SY", "findStringSwitchCase"]
+- ["SY", "get"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "intValue"]
+- ["SY", "post"]
+- ["SY", "rawValue"]
+- ["SY", "stringValue"]
+- ["11CredifyCore13RestAPIMethodO", "get"]
+- ["11CredifyCore13RestAPIMethodO", "post"]
+- ["11CredifyCore14RestAPIRequestP", ""]
+- ["11CredifyCore14RestAPIRequestP", "body"]
+- ["11CredifyCore14RestAPIRequestP", "method"]
+- ["11CredifyCore14RestAPIRequestP", "parameters"]
+- ["11CredifyCore14RestAPIRequestP", "path"]
+- ["11CredifyCore15SignatureForPIIV", "RestAPIMethod"]
+- ["11CredifyCore15SignatureForPIIV", "String"]
+- !private ["11CredifyCore15SignatureForPIIV", ""]
+- ["11CredifyCore15SignatureForPIIV", "body"]
+- ["11CredifyCore15SignatureForPIIV", "init"]
+- ["11CredifyCore15SignatureForPIIV", "method"]
+- ["11CredifyCore15SignatureForPIIV", "parameters"]
+- ["11CredifyCore15SignatureForPIIV", "path"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+depends-nominal:
+- "11CredifyCore9CCKeyPairV"
+- "11CredifyCore10CCKeyPairsV"
+- !private "11CredifyCore12CCPublicKeysV"
+- "s9CodingKeyP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- "SE"
+- !private "s7EncoderP"
+- "11CredifyCore24GetEncryptedKeysResponseV0dE0V"
+- "11CredifyCore18EncryptedSecretResV"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- "11CredifyCore24GetEncryptedKeysResponseV"
+- "11CredifyCore29GetEncryptedPrivateKeyRequestV"
+- "SH"
+- !private "s6HasherV"
+- "11CredifyCore18EncryptedSecretResV3KeyV"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- "SY"
+- "11CredifyCore13RestAPIMethodO"
+- "11CredifyCore14RestAPIRequestP"
+- "11CredifyCore15SignatureForPIIV"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/KeychainAccess/KeychainAccess.framework/Modules/KeychainAccess.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Modules/CredifyCryptoSwift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/WebKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxRelay/RxRelay.framework/Modules/RxRelay.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RX.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/KeychainAccess/KeychainAccess.framework/Headers/KeychainAccess-umbrella.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/CredifyCryptoSwift-umbrella.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxRelay/RxRelay.framework/Headers/RxRelay-umbrella.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Headers/Universe.objc.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/Universe.objc.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Headers/Crypto.objc.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/Crypto.objc.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RXObjCRuntime.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoaRuntime.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Headers/ref.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/ref.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Headers/Crypto.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/Crypto.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RXKVOObserver.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/KeychainAccess/KeychainAccess.framework/Headers/KeychainAccess-Swift.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/CredifyCryptoSwift-Swift.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxRelay/RxRelay.framework/Headers/RxRelay-Swift.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/CredifyCryptoSwift.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RXDelegateProxy.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Modules/module.modulemap"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Modules/module.modulemap"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/KeychainAccess/KeychainAccess.framework/Modules/module.modulemap"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Modules/module.modulemap"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxRelay/RxRelay.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "89cee3d9784b906585c8a635bac11597"

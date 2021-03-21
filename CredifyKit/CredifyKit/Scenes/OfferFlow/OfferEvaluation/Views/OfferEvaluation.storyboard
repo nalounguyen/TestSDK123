@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qj1-BE-UG0">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Offer Evaluation View Controller-->
+        <scene sceneID="Oor-ZP-eBW">
+            <objects>
+                <viewController id="qj1-BE-UG0" customClass="OfferEvaluationViewController" customModule="CredifyKit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gQD-ug-hoh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsMultipleSelection="YES" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="jU6-Mf-ofR">
+                                <rect key="frame" x="0.0" y="44" width="414" height="721"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="qj1-BE-UG0" id="hrS-H2-3Vg"/>
+                                    <outlet property="delegate" destination="qj1-BE-UG0" id="Mar-1I-zK9"/>
+                                </connections>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8is-pn-KE0" customClass="BackgroundView" customModule="CredifyKit" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="765" width="414" height="97"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ST4-wt-zFp" customClass="PrimaryButton" customModule="CredifyKit" customModuleProvider="target">
+                                        <rect key="frame" x="15" y="22" width="384" height="53"/>
+                                        <state key="normal" title="Connect">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="26"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="evaluationAction:" destination="qj1-BE-UG0" eventType="touchUpInside" id="23U-Rk-Qnr"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="ST4-wt-zFp" secondAttribute="trailing" constant="15" id="Kxf-hW-2W5"/>
+                                    <constraint firstItem="ST4-wt-zFp" firstAttribute="centerY" secondItem="8is-pn-KE0" secondAttribute="centerY" id="S3A-hQ-nZa"/>
+                                    <constraint firstItem="ST4-wt-zFp" firstAttribute="height" secondItem="8is-pn-KE0" secondAttribute="height" multiplier="48:88" id="eaO-Gm-IqO"/>
+                                    <constraint firstItem="ST4-wt-zFp" firstAttribute="leading" secondItem="8is-pn-KE0" secondAttribute="leading" constant="15" id="f23-P3-kwi"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="u1H-Iu-aPG"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="8is-pn-KE0" firstAttribute="leading" secondItem="u1H-Iu-aPG" secondAttribute="leading" id="41k-ge-qoK"/>
+                            <constraint firstItem="u1H-Iu-aPG" firstAttribute="bottom" secondItem="8is-pn-KE0" secondAttribute="bottom" id="6IA-4e-9pg"/>
+                            <constraint firstItem="jU6-Mf-ofR" firstAttribute="leading" secondItem="u1H-Iu-aPG" secondAttribute="leading" id="7VQ-PA-0ag"/>
+                            <constraint firstItem="jU6-Mf-ofR" firstAttribute="top" secondItem="u1H-Iu-aPG" secondAttribute="top" id="J7N-wi-2ry"/>
+                            <constraint firstItem="8is-pn-KE0" firstAttribute="height" secondItem="gQD-ug-hoh" secondAttribute="height" multiplier="88:812" id="LoJ-FO-6j8"/>
+                            <constraint firstItem="u1H-Iu-aPG" firstAttribute="trailing" secondItem="jU6-Mf-ofR" secondAttribute="trailing" id="N8X-rX-kJb"/>
+                            <constraint firstItem="8is-pn-KE0" firstAttribute="top" secondItem="jU6-Mf-ofR" secondAttribute="bottom" id="WhN-iU-lbh"/>
+                            <constraint firstItem="u1H-Iu-aPG" firstAttribute="trailing" secondItem="8is-pn-KE0" secondAttribute="trailing" id="ZRd-dp-3um"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="evaluationButton" destination="ST4-wt-zFp" id="Dc5-f4-JQj"/>
+                        <outlet property="tableView" destination="jU6-Mf-ofR" id="COO-fr-IqX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C8s-nh-lzk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2295.6521739130435" y="128.57142857142856"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="ST4-wt-zFp">
+            <size key="intrinsicContentSize" width="59" height="30"/>
+        </designable>
+    </designables>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,21 @@
+/* 
+  Validator.strings
+  CredifyKit
+
+  Created by Nalou Nguyen on 18/03/2021.
+  Copyright © 2021 Credify. All rights reserved.
+*/
+
+
+"NameFormatInvalid" = "名前が誤っています";
+"EmailFormatInvalid" = "Eメールが誤っています";
+"DOBFormatInvalid" = "誕生日のフォーマットが誤っています";
+"InvalidYear" = "年が誤っています";
+"InvalidMonth" = "月が誤っています";
+"InvalidDay" = "日付が誤っています";
+"InvalidPassword" = "8文字以上にしてください";
+"Empty" = "値が空です";
+"DateError" = "本日の日付取得に失敗しました";
+"StringFormatInvalid" = "不適切な文字が入っています";
+"MnemonicFormatInvalid" = "復元コードのフォーマットが誤っています";
+"MnemonicCountInvalid" = "復元コードの単語数が誤っています";

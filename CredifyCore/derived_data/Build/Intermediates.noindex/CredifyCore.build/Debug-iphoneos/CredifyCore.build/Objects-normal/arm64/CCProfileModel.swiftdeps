@@ -1,0 +1,890 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CCNameModel"
+- "CCLocationModel"
+- "CCPhoneModel"
+- "CCEmailModel"
+- "CCDOBModel"
+- "CCNationalityModel"
+- "CCGIIDModel"
+- "CCProfileModel"
+provides-nominal:
+- "11CredifyCore11CCNameModelC"
+- "11CredifyCore15CCLocationModelV"
+- "11CredifyCore12CCPhoneModelV"
+- "11CredifyCore12CCEmailModelV"
+- "11CredifyCore10CCDOBModelV"
+- "11CredifyCore18CCNationalityModelV"
+- "11CredifyCore11CCGIIDModelV"
+- "11CredifyCore14CCProfileModelV"
+provides-member:
+- ["11CredifyCore11CCNameModelC", ""]
+- ["11CredifyCore15CCLocationModelV", ""]
+- ["11CredifyCore12CCPhoneModelV", ""]
+- ["11CredifyCore12CCEmailModelV", ""]
+- ["11CredifyCore10CCDOBModelV", ""]
+- ["11CredifyCore18CCNationalityModelV", ""]
+- ["11CredifyCore11CCGIIDModelV", ""]
+- ["11CredifyCore14CCProfileModelV", ""]
+provides-dynamic-lookup:
+- "clone"
+- "decrypted"
+- "encode"
+- "firstName"
+- "lastName"
+- "mergeWithHash"
+- "mergeWithRaw"
+- "middleName"
+- "verified"
+depends-top-level:
+- !private "!"
+- "=="
+- !private "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CCAccountProfile"
+- "CCDOBModel"
+- "CCEmailModel"
+- "CCGIIDModel"
+- "CCLocation"
+- "CCLocationModel"
+- "CCName"
+- "CCNameModel"
+- "CCNationalityModel"
+- "CCPhone"
+- "CCPhoneModel"
+- "CCProfileModel"
+- "Codable"
+- "CodingKey"
+- "Encryption"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "String"
+- "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "_findStringSwitchCase"
+- !private "address"
+- !private "addressLine"
+- !private "city"
+- !private "country"
+- !private "countryCode"
+- !private "date"
+- !private "dob"
+- !private "emailAddress"
+- !private "emails"
+- !private "expireDate"
+- !private "firstName"
+- !private "giid"
+- !private "id"
+- !private "issueDate"
+- !private "lastName"
+- !private "localName"
+- !private "middleName"
+- !private "name"
+- !private "nationality"
+- !private "numberWithoutZero"
+- !private "phoneNumber"
+- !private "phones"
+- !private "postalCode"
+- !private "province"
+- !private "verified"
+- !private "~="
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "filter"]
+- !private ["Sa", "first"]
+- !private ["Sa", "init"]
+- !private ["Sa", "map"]
+- !private ["SK", ""]
+- !private ["SK", "append"]
+- !private ["SK", "cutPrefixZero"]
+- !private ["SK", "filter"]
+- !private ["SK", "first"]
+- !private ["SK", "init"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "map"]
+- !private ["SK", "phoneNumberFormat"]
+- !private ["11CredifyCore16CCAccountProfileV", "address"]
+- !private ["11CredifyCore16CCAccountProfileV", "dob"]
+- !private ["11CredifyCore16CCAccountProfileV", "emailAddress"]
+- !private ["11CredifyCore16CCAccountProfileV", "localName"]
+- !private ["11CredifyCore16CCAccountProfileV", "name"]
+- !private ["11CredifyCore16CCAccountProfileV", "nationality"]
+- !private ["11CredifyCore16CCAccountProfileV", "phone"]
+- ["11CredifyCore10CCDOBModelV", "Bool"]
+- ["11CredifyCore10CCDOBModelV", "CCDOBModel"]
+- ["11CredifyCore10CCDOBModelV", "CodingKeys"]
+- ["11CredifyCore10CCDOBModelV", "Encryption"]
+- ["11CredifyCore10CCDOBModelV", "String"]
+- ["11CredifyCore10CCDOBModelV", ""]
+- ["11CredifyCore10CCDOBModelV", "clone"]
+- ["11CredifyCore10CCDOBModelV", "date"]
+- ["11CredifyCore10CCDOBModelV", "decrypted"]
+- ["11CredifyCore10CCDOBModelV", "encode"]
+- ["11CredifyCore10CCDOBModelV", "init"]
+- ["11CredifyCore10CCDOBModelV", "mergeWithHash"]
+- ["11CredifyCore10CCDOBModelV", "mergeWithRaw"]
+- ["11CredifyCore10CCDOBModelV", "verified"]
+- ["11CredifyCore12CCEmailModelV", "Bool"]
+- ["11CredifyCore12CCEmailModelV", "CCEmailModel"]
+- ["11CredifyCore12CCEmailModelV", "CodingKey"]
+- ["11CredifyCore12CCEmailModelV", "CodingKeys"]
+- ["11CredifyCore12CCEmailModelV", "Encryption"]
+- ["11CredifyCore12CCEmailModelV", "String"]
+- ["11CredifyCore12CCEmailModelV", ""]
+- !private ["11CredifyCore12CCEmailModelV", "_findStringSwitchCase"]
+- ["11CredifyCore12CCEmailModelV", "clone"]
+- ["11CredifyCore12CCEmailModelV", "decrypted"]
+- ["11CredifyCore12CCEmailModelV", "emailAddress"]
+- ["11CredifyCore12CCEmailModelV", "encode"]
+- !private ["11CredifyCore12CCEmailModelV", "findStringSwitchCase"]
+- ["11CredifyCore12CCEmailModelV", "init"]
+- ["11CredifyCore12CCEmailModelV", "mergeWithHash"]
+- ["11CredifyCore12CCEmailModelV", "mergeWithRaw"]
+- ["11CredifyCore12CCEmailModelV", "verified"]
+- ["11CredifyCore11CCGIIDModelV", "Bool"]
+- ["11CredifyCore11CCGIIDModelV", "CCGIIDModel"]
+- ["11CredifyCore11CCGIIDModelV", "CodingKey"]
+- ["11CredifyCore11CCGIIDModelV", "CodingKeys"]
+- ["11CredifyCore11CCGIIDModelV", "Encryption"]
+- ["11CredifyCore11CCGIIDModelV", "String"]
+- ["11CredifyCore11CCGIIDModelV", ""]
+- !private ["11CredifyCore11CCGIIDModelV", "_findStringSwitchCase"]
+- ["11CredifyCore11CCGIIDModelV", "clone"]
+- ["11CredifyCore11CCGIIDModelV", "country"]
+- ["11CredifyCore11CCGIIDModelV", "decrypted"]
+- ["11CredifyCore11CCGIIDModelV", "encode"]
+- ["11CredifyCore11CCGIIDModelV", "expireDate"]
+- !private ["11CredifyCore11CCGIIDModelV", "findStringSwitchCase"]
+- ["11CredifyCore11CCGIIDModelV", "id"]
+- ["11CredifyCore11CCGIIDModelV", "init"]
+- ["11CredifyCore11CCGIIDModelV", "issueDate"]
+- ["11CredifyCore11CCGIIDModelV", "mergeWithHash"]
+- ["11CredifyCore11CCGIIDModelV", "mergeWithRaw"]
+- ["11CredifyCore11CCGIIDModelV", "verified"]
+- !private ["11CredifyCore10CCLocationV", "addressLine"]
+- !private ["11CredifyCore10CCLocationV", "city"]
+- !private ["11CredifyCore10CCLocationV", "country"]
+- !private ["11CredifyCore10CCLocationV", "postalCode"]
+- !private ["11CredifyCore10CCLocationV", "province"]
+- ["11CredifyCore15CCLocationModelV", "Bool"]
+- ["11CredifyCore15CCLocationModelV", "CCLocation"]
+- ["11CredifyCore15CCLocationModelV", "CCLocationModel"]
+- ["11CredifyCore15CCLocationModelV", "CodingKey"]
+- ["11CredifyCore15CCLocationModelV", "CodingKeys"]
+- ["11CredifyCore15CCLocationModelV", "Encryption"]
+- ["11CredifyCore15CCLocationModelV", "String"]
+- ["11CredifyCore15CCLocationModelV", ""]
+- !private ["11CredifyCore15CCLocationModelV", "_findStringSwitchCase"]
+- ["11CredifyCore15CCLocationModelV", "addressLine"]
+- ["11CredifyCore15CCLocationModelV", "city"]
+- ["11CredifyCore15CCLocationModelV", "clone"]
+- ["11CredifyCore15CCLocationModelV", "country"]
+- ["11CredifyCore15CCLocationModelV", "decrypted"]
+- ["11CredifyCore15CCLocationModelV", "encode"]
+- !private ["11CredifyCore15CCLocationModelV", "findStringSwitchCase"]
+- ["11CredifyCore15CCLocationModelV", "init"]
+- ["11CredifyCore15CCLocationModelV", "mergeWithHash"]
+- ["11CredifyCore15CCLocationModelV", "mergeWithRaw"]
+- ["11CredifyCore15CCLocationModelV", "postalCode"]
+- ["11CredifyCore15CCLocationModelV", "province"]
+- ["11CredifyCore15CCLocationModelV", "verified"]
+- !private ["11CredifyCore6CCNameV", "firstName"]
+- !private ["11CredifyCore6CCNameV", "lastName"]
+- !private ["11CredifyCore6CCNameV", "middleName"]
+- ["11CredifyCore11CCNameModelC", "Bool"]
+- ["11CredifyCore11CCNameModelC", "CCName"]
+- ["11CredifyCore11CCNameModelC", "CCNameModel"]
+- ["11CredifyCore11CCNameModelC", "CodingKey"]
+- ["11CredifyCore11CCNameModelC", "CodingKeys"]
+- ["11CredifyCore11CCNameModelC", "Encryption"]
+- ["11CredifyCore11CCNameModelC", "String"]
+- ["11CredifyCore11CCNameModelC", ""]
+- !private ["11CredifyCore11CCNameModelC", "_findStringSwitchCase"]
+- ["11CredifyCore11CCNameModelC", "clone"]
+- ["11CredifyCore11CCNameModelC", "decrypted"]
+- ["11CredifyCore11CCNameModelC", "deinit"]
+- ["11CredifyCore11CCNameModelC", "encode"]
+- !private ["11CredifyCore11CCNameModelC", "findStringSwitchCase"]
+- ["11CredifyCore11CCNameModelC", "firstName"]
+- ["11CredifyCore11CCNameModelC", "init"]
+- ["11CredifyCore11CCNameModelC", "lastName"]
+- ["11CredifyCore11CCNameModelC", "mergeWithHash"]
+- ["11CredifyCore11CCNameModelC", "mergeWithRaw"]
+- ["11CredifyCore11CCNameModelC", "middleName"]
+- ["11CredifyCore11CCNameModelC", "verified"]
+- ["11CredifyCore18CCNationalityModelV", "Bool"]
+- ["11CredifyCore18CCNationalityModelV", "CCNationalityModel"]
+- ["11CredifyCore18CCNationalityModelV", "CodingKeys"]
+- ["11CredifyCore18CCNationalityModelV", "Encryption"]
+- ["11CredifyCore18CCNationalityModelV", "String"]
+- ["11CredifyCore18CCNationalityModelV", ""]
+- ["11CredifyCore18CCNationalityModelV", "clone"]
+- ["11CredifyCore18CCNationalityModelV", "country"]
+- ["11CredifyCore18CCNationalityModelV", "decrypted"]
+- ["11CredifyCore18CCNationalityModelV", "encode"]
+- ["11CredifyCore18CCNationalityModelV", "init"]
+- ["11CredifyCore18CCNationalityModelV", "mergeWithHash"]
+- ["11CredifyCore18CCNationalityModelV", "mergeWithRaw"]
+- ["11CredifyCore18CCNationalityModelV", "verified"]
+- !private ["11CredifyCore7CCPhoneV", "countryCode"]
+- !private ["11CredifyCore7CCPhoneV", "phoneNumber"]
+- ["11CredifyCore12CCPhoneModelV", "Bool"]
+- ["11CredifyCore12CCPhoneModelV", "CCPhone"]
+- ["11CredifyCore12CCPhoneModelV", "CCPhoneModel"]
+- ["11CredifyCore12CCPhoneModelV", "CodingKey"]
+- ["11CredifyCore12CCPhoneModelV", "CodingKeys"]
+- ["11CredifyCore12CCPhoneModelV", "Encryption"]
+- ["11CredifyCore12CCPhoneModelV", "String"]
+- ["11CredifyCore12CCPhoneModelV", ""]
+- !private ["11CredifyCore12CCPhoneModelV", "_findStringSwitchCase"]
+- ["11CredifyCore12CCPhoneModelV", "clone"]
+- ["11CredifyCore12CCPhoneModelV", "countryCode"]
+- ["11CredifyCore12CCPhoneModelV", "decrypted"]
+- ["11CredifyCore12CCPhoneModelV", "displayWithNoSpace"]
+- ["11CredifyCore12CCPhoneModelV", "displayWithSpace"]
+- ["11CredifyCore12CCPhoneModelV", "encode"]
+- !private ["11CredifyCore12CCPhoneModelV", "findStringSwitchCase"]
+- ["11CredifyCore12CCPhoneModelV", "init"]
+- ["11CredifyCore12CCPhoneModelV", "mergeWithHash"]
+- ["11CredifyCore12CCPhoneModelV", "mergeWithRaw"]
+- ["11CredifyCore12CCPhoneModelV", "numberWithoutZero"]
+- ["11CredifyCore12CCPhoneModelV", "phoneNumber"]
+- ["11CredifyCore12CCPhoneModelV", "verified"]
+- ["11CredifyCore14CCProfileModelV", "CCAccountProfile"]
+- ["11CredifyCore14CCProfileModelV", "CCDOBModel"]
+- ["11CredifyCore14CCProfileModelV", "CCEmailModel"]
+- ["11CredifyCore14CCProfileModelV", "CCGIIDModel"]
+- ["11CredifyCore14CCProfileModelV", "CCLocationModel"]
+- ["11CredifyCore14CCProfileModelV", "CCNameModel"]
+- ["11CredifyCore14CCProfileModelV", "CCNationalityModel"]
+- ["11CredifyCore14CCProfileModelV", "CCPhoneModel"]
+- ["11CredifyCore14CCProfileModelV", "CCProfileModel"]
+- ["11CredifyCore14CCProfileModelV", "CodingKey"]
+- ["11CredifyCore14CCProfileModelV", "CodingKeys"]
+- ["11CredifyCore14CCProfileModelV", "Encryption"]
+- ["11CredifyCore14CCProfileModelV", "String"]
+- ["11CredifyCore14CCProfileModelV", ""]
+- !private ["11CredifyCore14CCProfileModelV", "_findStringSwitchCase"]
+- ["11CredifyCore14CCProfileModelV", "address"]
+- ["11CredifyCore14CCProfileModelV", "clone"]
+- ["11CredifyCore14CCProfileModelV", "decrypted"]
+- ["11CredifyCore14CCProfileModelV", "dob"]
+- ["11CredifyCore14CCProfileModelV", "emails"]
+- ["11CredifyCore14CCProfileModelV", "encode"]
+- !private ["11CredifyCore14CCProfileModelV", "findStringSwitchCase"]
+- ["11CredifyCore14CCProfileModelV", "giid"]
+- ["11CredifyCore14CCProfileModelV", "init"]
+- ["11CredifyCore14CCProfileModelV", "localName"]
+- ["11CredifyCore14CCProfileModelV", "mergeWithHash"]
+- ["11CredifyCore14CCProfileModelV", "mergeWithRaw"]
+- ["11CredifyCore14CCProfileModelV", "name"]
+- ["11CredifyCore14CCProfileModelV", "nationality"]
+- ["11CredifyCore14CCProfileModelV", "phones"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "cutPrefixZero"]
+- !private ["s7CVarArgP", "filter"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "phoneNumberFormat"]
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "Default_RawValue"]
+- ["s9CodingKeyP", "RawValue"]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- !private ["s9CodingKeyP", "findStringSwitchCase"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "rawValue"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["Sl", ""]
+- !private ["Sl", "append"]
+- !private ["Sl", "cutPrefixZero"]
+- !private ["Sl", "filter"]
+- !private ["Sl", "first"]
+- !private ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "map"]
+- !private ["Sl", "phoneNumberFormat"]
+- !private ["SL", ""]
+- !private ["SL", "cutPrefixZero"]
+- !private ["SL", "isEmpty"]
+- !private ["SL", "phoneNumberFormat"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "filter"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", "Default_RawValue"]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "cutPrefixZero"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "findStringSwitchCase"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "phoneNumberFormat"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "cutPrefixZero"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "phoneNumberFormat"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "Default_RawValue"]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "cutPrefixZero"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "findStringSwitchCase"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "phoneNumberFormat"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "filter"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["Se", "CCDOBModel"]
+- !private ["Se", "CCEmailModel"]
+- !private ["Se", "CCGIIDModel"]
+- !private ["Se", "CCLocationModel"]
+- !private ["Se", "CCNameModel"]
+- !private ["Se", "CCNationalityModel"]
+- !private ["Se", "CCPhoneModel"]
+- !private ["Se", "CCProfileModel"]
+- ["Se", "CodingKey"]
+- ["Se", ""]
+- !private ["Se", "_findStringSwitchCase"]
+- !private ["Se", "address"]
+- !private ["Se", "addressLine"]
+- !private ["Se", "append"]
+- !private ["Se", "city"]
+- !private ["Se", "clone"]
+- !private ["Se", "country"]
+- !private ["Se", "countryCode"]
+- !private ["Se", "cutPrefixZero"]
+- !private ["Se", "date"]
+- !private ["Se", "decrypted"]
+- !private ["Se", "dob"]
+- !private ["Se", "emailAddress"]
+- !private ["Se", "emails"]
+- ["Se", "encode"]
+- !private ["Se", "expireDate"]
+- !private ["Se", "filter"]
+- !private ["Se", "findStringSwitchCase"]
+- !private ["Se", "first"]
+- !private ["Se", "firstName"]
+- !private ["Se", "giid"]
+- !private ["Se", "id"]
+- ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "issueDate"]
+- !private ["Se", "lastName"]
+- !private ["Se", "localName"]
+- !private ["Se", "map"]
+- !private ["Se", "mergeWithHash"]
+- !private ["Se", "mergeWithRaw"]
+- !private ["Se", "middleName"]
+- !private ["Se", "name"]
+- !private ["Se", "nationality"]
+- !private ["Se", "numberWithoutZero"]
+- !private ["Se", "phone"]
+- !private ["Se", "phoneNumber"]
+- !private ["Se", "phoneNumberFormat"]
+- !private ["Se", "phones"]
+- !private ["Se", "postalCode"]
+- !private ["Se", "province"]
+- !private ["Se", "verified"]
+- !private ["s7DecoderP", "container"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "CCDOBModel"]
+- !private ["SE", "CCEmailModel"]
+- !private ["SE", "CCGIIDModel"]
+- !private ["SE", "CCLocationModel"]
+- !private ["SE", "CCNameModel"]
+- !private ["SE", "CCNationalityModel"]
+- !private ["SE", "CCPhoneModel"]
+- !private ["SE", "CCProfileModel"]
+- ["SE", "CodingKey"]
+- ["SE", ""]
+- !private ["SE", "_findStringSwitchCase"]
+- !private ["SE", "address"]
+- !private ["SE", "addressLine"]
+- !private ["SE", "append"]
+- !private ["SE", "city"]
+- !private ["SE", "clone"]
+- !private ["SE", "country"]
+- !private ["SE", "countryCode"]
+- !private ["SE", "cutPrefixZero"]
+- !private ["SE", "date"]
+- !private ["SE", "decrypted"]
+- !private ["SE", "dob"]
+- !private ["SE", "emailAddress"]
+- !private ["SE", "emails"]
+- ["SE", "encode"]
+- !private ["SE", "expireDate"]
+- !private ["SE", "filter"]
+- !private ["SE", "findStringSwitchCase"]
+- !private ["SE", "first"]
+- !private ["SE", "firstName"]
+- !private ["SE", "giid"]
+- !private ["SE", "id"]
+- ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "issueDate"]
+- !private ["SE", "lastName"]
+- !private ["SE", "localName"]
+- !private ["SE", "map"]
+- !private ["SE", "mergeWithHash"]
+- !private ["SE", "mergeWithRaw"]
+- !private ["SE", "middleName"]
+- !private ["SE", "name"]
+- !private ["SE", "nationality"]
+- !private ["SE", "numberWithoutZero"]
+- !private ["SE", "phone"]
+- !private ["SE", "phoneNumber"]
+- !private ["SE", "phoneNumberFormat"]
+- !private ["SE", "phones"]
+- !private ["SE", "postalCode"]
+- !private ["SE", "province"]
+- !private ["SE", "verified"]
+- !private ["s7EncoderP", "container"]
+- !private ["18CredifyCryptoSwift10EncryptionV", "decrypt"]
+- ["SQ", "=="]
+- ["SQ", "Default_RawValue"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "append"]
+- !private ["SQ", "cutPrefixZero"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- !private ["SQ", "filter"]
+- !private ["SQ", "findStringSwitchCase"]
+- !private ["SQ", "first"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "map"]
+- !private ["SQ", "phoneNumberFormat"]
+- ["SQ", "rawValue"]
+- ["SQ", "stringValue"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "filter"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "cutPrefixZero"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "phoneNumberFormat"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "cutPrefixZero"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "isEmpty"]
+- !private ["s32ExpressibleByStringInterpolationP", "phoneNumberFormat"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "cutPrefixZero"]
+- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
+- !private ["s26ExpressibleByStringLiteralP", "phoneNumberFormat"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "cutPrefixZero"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "phoneNumberFormat"]
+- ["SH", "=="]
+- ["SH", "Default_RawValue"]
+- ["SH", "RawValue"]
+- !private ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "append"]
+- !private ["SH", "cutPrefixZero"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- !private ["SH", "filter"]
+- !private ["SH", "findStringSwitchCase"]
+- !private ["SH", "first"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "map"]
+- !private ["SH", "phoneNumberFormat"]
+- ["SH", "rawValue"]
+- ["SH", "stringValue"]
+- !private ["s6HasherV", "combine"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s22KeyedEncodingContainerV", "encodeIfPresent"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "cutPrefixZero"]
+- !private ["s25LosslessStringConvertibleP", "isEmpty"]
+- !private ["s25LosslessStringConvertibleP", "phoneNumberFormat"]
+- !private ["s10MirrorPathP", "cutPrefixZero"]
+- !private ["s10MirrorPathP", "isEmpty"]
+- !private ["s10MirrorPathP", "phoneNumberFormat"]
+- !private ["SM", ""]
+- !private ["SM", "append"]
+- !private ["SM", "filter"]
+- !private ["SM", "first"]
+- !private ["SM", "init"]
+- !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "filter"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "cutPrefixZero"]
+- !private ["So8NSCodingP", "isEmpty"]
+- !private ["So8NSCodingP", "phoneNumberFormat"]
+- !private ["So9NSCopyingP", "cutPrefixZero"]
+- !private ["So9NSCopyingP", "isEmpty"]
+- !private ["So9NSCopyingP", "phoneNumberFormat"]
+- !private ["So21NSItemProviderReadingP", "cutPrefixZero"]
+- !private ["So21NSItemProviderReadingP", "isEmpty"]
+- !private ["So21NSItemProviderReadingP", "phoneNumberFormat"]
+- !private ["So21NSItemProviderWritingP", "cutPrefixZero"]
+- !private ["So21NSItemProviderWritingP", "isEmpty"]
+- !private ["So21NSItemProviderWritingP", "phoneNumberFormat"]
+- !private ["So16NSMutableCopyingP", "cutPrefixZero"]
+- !private ["So16NSMutableCopyingP", "isEmpty"]
+- !private ["So16NSMutableCopyingP", "phoneNumberFormat"]
+- !private ["So8NSObjectC", "cutPrefixZero"]
+- !private ["So8NSObjectC", "isEmpty"]
+- !private ["So8NSObjectC", "phoneNumberFormat"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "cutPrefixZero"]
+- !private ["So8NSObjectP", "isEmpty"]
+- !private ["So8NSObjectP", "phoneNumberFormat"]
+- !private ["So14NSSecureCodingP", "cutPrefixZero"]
+- !private ["So14NSSecureCodingP", "isEmpty"]
+- !private ["So14NSSecureCodingP", "phoneNumberFormat"]
+- !private ["So8NSStringC", "cutPrefixZero"]
+- !private ["So8NSStringC", "isEmpty"]
+- !private ["So8NSStringC", "phoneNumberFormat"]
+- !private ["Sk", ""]
+- !private ["Sk", "append"]
+- !private ["Sk", "filter"]
+- !private ["Sk", "first"]
+- !private ["Sk", "init"]
+- !private ["Sk", "map"]
+- !private ["Sm", ""]
+- !private ["Sm", "append"]
+- !private ["Sm", "cutPrefixZero"]
+- !private ["Sm", "filter"]
+- !private ["Sm", "first"]
+- !private ["Sm", "init"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "map"]
+- !private ["Sm", "phoneNumberFormat"]
+- ["SY", "=="]
+- ["SY", "Default_RawValue"]
+- ["SY", "RawValue"]
+- !private ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- !private ["SY", "findStringSwitchCase"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "intValue"]
+- ["SY", "rawValue"]
+- ["SY", "stringValue"]
+- !private ["7RxSwift18ReactiveCompatibleP", "cutPrefixZero"]
+- !private ["7RxSwift18ReactiveCompatibleP", "isEmpty"]
+- !private ["7RxSwift18ReactiveCompatibleP", "phoneNumberFormat"]
+- !private ["ST", ""]
+- !private ["ST", "append"]
+- !private ["ST", "cutPrefixZero"]
+- !private ["ST", "filter"]
+- !private ["ST", "first"]
+- !private ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "map"]
+- !private ["ST", "phoneNumberFormat"]
+- !private ["SS", "cutPrefixZero"]
+- !private ["SS", "isEmpty"]
+- !private ["SS", "phoneNumberFormat"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["Sy", "cutPrefixZero"]
+- !private ["Sy", "isEmpty"]
+- !private ["Sy", "phoneNumberFormat"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "cutPrefixZero"]
+- !private ["s16TextOutputStreamP", "isEmpty"]
+- !private ["s16TextOutputStreamP", "phoneNumberFormat"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "cutPrefixZero"]
+- !private ["s20TextOutputStreamableP", "isEmpty"]
+- !private ["s20TextOutputStreamableP", "phoneNumberFormat"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "filter"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "cutPrefixZero"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "isEmpty"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "phoneNumberFormat"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "filter"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "cutPrefixZero"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "phoneNumberFormat"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "cutPrefixZero"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "phoneNumberFormat"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "cutPrefixZero"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "phoneNumberFormat"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "cutPrefixZero"]
+- !private ["s19_HasContiguousBytesP", "filter"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s19_HasContiguousBytesP", "phoneNumberFormat"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "cutPrefixZero"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "filter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "phoneNumberFormat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cutPrefixZero"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "phoneNumberFormat"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cutPrefixZero"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isEmpty"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "phoneNumberFormat"]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "cutPrefixZero"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "phoneNumberFormat"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "11CredifyCore16CCAccountProfileV"
+- "11CredifyCore10CCDOBModelV"
+- "11CredifyCore12CCEmailModelV"
+- "11CredifyCore11CCGIIDModelV"
+- !private "11CredifyCore10CCLocationV"
+- "11CredifyCore15CCLocationModelV"
+- !private "11CredifyCore6CCNameV"
+- "11CredifyCore11CCNameModelC"
+- "11CredifyCore18CCNationalityModelV"
+- !private "11CredifyCore7CCPhoneV"
+- "11CredifyCore12CCPhoneModelV"
+- "11CredifyCore14CCProfileModelV"
+- !private "s7CVarArgP"
+- "s9CodingKeyP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "s7DecoderP"
+- !private "s26DefaultStringInterpolationV"
+- "SE"
+- !private "s7EncoderP"
+- !private "18CredifyCryptoSwift10EncryptionV"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s6HasherV"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "7RxSwift18ReactiveCompatibleP"
+- !private "ST"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/KeychainAccess/KeychainAccess.framework/Modules/KeychainAccess.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Modules/CredifyCryptoSwift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/WebKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxRelay/RxRelay.framework/Modules/RxRelay.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RX.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/KeychainAccess/KeychainAccess.framework/Headers/KeychainAccess-umbrella.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/CredifyCryptoSwift-umbrella.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxRelay/RxRelay.framework/Headers/RxRelay-umbrella.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Headers/Universe.objc.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/Universe.objc.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Headers/Crypto.objc.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/Crypto.objc.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RXObjCRuntime.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoaRuntime.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Headers/ref.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/ref.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Headers/Crypto.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/Crypto.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RXKVOObserver.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/KeychainAccess/KeychainAccess.framework/Headers/KeychainAccess-Swift.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/CredifyCryptoSwift-Swift.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxRelay/RxRelay.framework/Headers/RxRelay-Swift.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/CredifyCryptoSwift.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RXDelegateProxy.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Modules/module.modulemap"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Modules/module.modulemap"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/KeychainAccess/KeychainAccess.framework/Modules/module.modulemap"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Modules/module.modulemap"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxRelay/RxRelay.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "76c00b3ddc5620df84587f56fcd5c1f4"

@@ -1,0 +1,1063 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name CredifyCore
+import CommonCrypto
+import CredifyCryptoSwift
+import Foundation
+import KeychainAccess
+import RxCocoa
+import RxRelay
+import RxSwift
+import Swift
+import UIKit
+extension String {
+  public func localized(bundle: Foundation.Bundle = .main, tableName: Swift.String = "Localizable", defaultValue: Swift.String = "") -> Swift.String
+  public func checkName() throws -> Swift.String
+  public func checkEmail() throws -> Swift.String
+  public func checkMnemonicPhrase() throws -> Swift.String
+  public func checkDOB() throws -> Swift.String
+  public func checkPassword() throws -> Swift.String
+  public func checkOnlyString() throws -> Swift.String
+  public func toDate() -> Foundation.Date?
+  public func toData() -> Foundation.Data?
+  public func trim() -> Swift.String
+  public func removingWhitespaces() -> Swift.String
+  public func cutPrefixZero() -> Swift.String
+  public func sha256() -> Swift.String
+  public func isEOSAddress() -> Swift.Bool
+  public func isETHAddress() -> Swift.Bool
+  public func isBTCAddress() -> Swift.Bool
+  public func isXRPAddress() -> Swift.Bool
+  public func phoneNumberFormat() -> Swift.String
+  public func convertToMetadataDictionary() -> [Swift.String : CredifyCore.CCMetadataType]?
+}
+public enum CCError : Swift.Error {
+  case storagePerformFailure
+  case seriarizeFailure
+  case secretFailure
+  case signFailure
+  case accountNotFound
+  case notificationError(message: Swift.String)
+  case serverError(message: Swift.String)
+  case validationError(message: Swift.String)
+  case noneNetwork
+  case unknown
+  case requestTimeOut
+  case internalError(message: Swift.String)
+}
+public struct CoreService {
+  public static var shared: CredifyCore.CoreService
+  public var encryption: CredifyCryptoSwift.Encryption?
+  public var signing: CredifyCryptoSwift.Signing?
+  public var password: Swift.String?
+  public var providerUseCase: CredifyCore.ProviderUseCaseProtocol
+  public var offerUseCase: CredifyCore.OfferUseCaseProtocol
+  public var claimUseCase: CredifyCore.ClaimUseCaseProtocol
+}
+public struct CoreServiceConfiguration {
+  public let env: CredifyCore.CCEnvironmentType
+  public let apiKey: Swift.String
+  public init(apiKey: Swift.String, environment: CredifyCore.CCEnvironmentType)
+}
+@_hasMissingDesignatedInitializers public class CredifyCoreSDK {
+  public static var shared: CredifyCore.CredifyCoreSDK
+  public func config(with config: CredifyCore.CoreServiceConfiguration)
+  public var isInitialSDK: Swift.Bool {
+    get
+  }
+  @objc deinit
+}
+public struct CCUserExternalModel {
+  public let id: Swift.Int
+  public let firName: Swift.String
+  public let lastName: Swift.String
+  public let email: Swift.String
+  public let credifyId: Swift.String?
+  public init(id: Swift.Int, firName: Swift.String, lastName: Swift.String, email: Swift.String, credifyId: Swift.String?)
+}
+public protocol ClaimUseCaseProtocol : AnyObject {
+  var getEncryptedClaimEvent: RxSwift.Observable<[CredifyCore.CCScopeModel]> { get }
+  var getCustomScopeEvent: RxSwift.Observable<[CredifyCore.CCScopeModel]> { get }
+  var errorEvent: RxSwift.Observable<CredifyCore.CCError> { get }
+  func getEncryptedClaim()
+  func getAttachedCustomClaims(providerId: Swift.String?)
+}
+public struct GetEncryptedKeysResponse : Swift.Codable {
+  public let success: Swift.Bool
+  public let data: CredifyCore.GetEncryptedKeysResponse.EncryptedKeys
+  public struct EncryptedKeys : Swift.Codable {
+    public let signingSecret: Swift.String
+    public let encryptionSecret: Swift.String
+    public let signingPublic: Swift.String
+    public let encryptionPublic: Swift.String
+    public init(from decoder: Swift.Decoder) throws
+    public func encode(to encoder: Swift.Encoder) throws
+  }
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct CCKeyPair : Swift.Codable {
+  public let pubKey: Swift.String
+  public let privKey: Swift.String
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct CCKeyPairs {
+  public let master: CredifyCore.CCKeyPair
+  public let eos: CredifyCore.CCKeyPair
+  public func toKeys() -> CredifyCore.CCPublicKeys
+}
+public class ClaimUseCaseManager : CredifyCore.ClaimUseCaseProtocol {
+  public init()
+  public var errorEvent: RxSwift.Observable<CredifyCore.CCError> {
+    get
+  }
+  public var getEncryptedClaimEvent: RxSwift.Observable<[CredifyCore.CCScopeModel]> {
+    get
+  }
+  public var getCustomScopeEvent: RxSwift.Observable<[CredifyCore.CCScopeModel]> {
+    get
+  }
+  public func getEncryptedClaim()
+  public func getAttachedCustomClaims(providerId: Swift.String?)
+  @objc deinit
+}
+public struct GetsAttachedCustomClaimRestResponse : Swift.Codable {
+  public struct GetsAttachedCustomClaimData : Swift.Codable {
+    public init(from decoder: Swift.Decoder) throws
+    public func encode(to encoder: Swift.Encoder) throws
+  }
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct ProviderRestResponse : Swift.Codable {
+  public let id: Swift.String
+  public let name: Swift.String?
+  public let description: Swift.String?
+  public let appUrl: Swift.String?
+  public let logoUrl: Swift.String?
+  public let categories: [CredifyCore.CategoryRestResponse]?
+  public let userCountsApi: Swift.String?
+  public let encryptedClaimsApi: Swift.Bool?
+  public let offerEvaluationApi: [Swift.String]?
+  public let offerFilteringApi: [Swift.String]?
+  public let scopes: [CredifyCore.ScopeRestResponse]
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct CategoryRestResponse : Swift.Codable {
+  public let id: Swift.String
+  public let name: Swift.String?
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct ScopeRestResponse : Swift.Codable {
+  public let id: Swift.String
+  public let providerId: Swift.String?
+  public let name: Swift.String?
+  public let displayName: Swift.String?
+  public let description: Swift.String?
+  public let isActive: Swift.Bool?
+  public let isOnetimeCharge: Swift.Bool?
+  public let claims: [CredifyCore.ProviderClaimsRestResponse]
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct ProviderClaimsRestResponse : Swift.Codable {
+  public let id: Swift.String
+  public let scopeId: Swift.String?
+  public let mainClaimId: Swift.String?
+  public let name: Swift.String?
+  public let displayName: Swift.String?
+  public let description: Swift.String?
+  public let valueType: Swift.String?
+  public let isActive: Swift.Bool?
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct ClaimsResResponse : Swift.Codable {
+  public let scope_name: Swift.String
+  public let scope_hash: Swift.String?
+  public let timestamp: Swift.Int
+  public let claim_token: Swift.String?
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public class KeyManagementUseCaseManager {
+  public init()
+  @objc deinit
+}
+public struct OfferListRestResponse : Swift.Codable {
+  public let success: Swift.Bool
+  public let data: CredifyCore.OfferListRestResponse.OfferListResponse
+  public struct OfferListResponse : Swift.Codable {
+    public let offers: [CredifyCore.CCOfferData]
+    public init(from decoder: Swift.Decoder) throws
+    public func encode(to encoder: Swift.Encoder) throws
+  }
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct CCOfferData : Swift.Codable {
+  public let id: Swift.String
+  public let code: Swift.String
+  public let campaign: CredifyCore.CCOfferCampaign
+  public let evaluationResult: CredifyCore.CCEvaluationResult
+  public let credifyId: Swift.String?
+  public let providerId: Swift.String?
+  public init(id: Swift.String, code: Swift.String, campaign: CredifyCore.CCOfferCampaign, evaluationResult: CredifyCore.CCEvaluationResult, credifyId: Swift.String?, providerId: Swift.String?)
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct CCEvaluationResult : Swift.Codable {
+  public let rank: Swift.Int
+  public let usedScopes: [Swift.String]
+  public let requiredScopes: [Swift.String]
+  public init(rank: Swift.Int, usedScopes: [Swift.String], requiredScopes: [Swift.String])
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct OfferListResponse : Swift.Codable {
+  public let offers: [CredifyCore.CCOfferData]
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct OfferEvaluationRestResponse : Swift.Codable {
+  public let success: Swift.Bool
+  public let data: CredifyCore.OfferEvaluationRestResponse.OfferLevel
+  public struct OfferLevel : Swift.Codable {
+    public let rank: Swift.Int
+    public init(from decoder: Swift.Decoder) throws
+    public func encode(to encoder: Swift.Encoder) throws
+  }
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct OfferRedeemRestResponse : Swift.Codable {
+  public let success: Swift.Bool
+  public let data: CredifyCore.CCOfferRedeem
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct CCOfferRedeem : Swift.Codable {
+  public let approval: CredifyCore.CCOfferApproval?
+  public let redirectUrlStr: Swift.String?
+  public var redirectUrl: Foundation.URL? {
+    get
+  }
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct CCOfferApproval : Swift.Codable {
+  public let id: Swift.String
+  public let appliedAt: Swift.String?
+  public let clientId: Swift.String?
+  public let offerId: Swift.String?
+  public let entityId: Swift.String?
+  public let offerLevel: Swift.Int?
+  public let scopes: [Swift.String]?
+  public var appliedAtlocalizedDate: Swift.String {
+    get
+  }
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct ConnectFinscoreRestResponse : Swift.Codable {
+  public let success: Swift.Bool
+  public let data: CredifyCore.ConnectFinscoreRestResponse.FinscoreRestResponse
+  public struct FinscoreRestResponse : Swift.Codable {
+    public let provider: Swift.String
+    public let claims: [Swift.String : [Swift.String : CredifyCore.CCMetadataType]]
+    public init(from decoder: Swift.Decoder) throws
+    public func encode(to encoder: Swift.Encoder) throws
+  }
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public protocol ProviderUseCaseProtocol : AnyObject {
+  var offersFromProviderEvent: RxSwift.Observable<[CredifyCore.CCOfferData]> { get }
+  var credifyIdEvent: RxSwift.Observable<(credifyId: Swift.String, password: Swift.String)> { get }
+  var loginSuccessEvent: RxSwift.Observable<Swift.Void> { get }
+  var errorEvent: RxSwift.Observable<CredifyCore.CCError> { get }
+  func getOffersFromProvider(phoneNumber: Swift.String?, countryCode: Swift.String?, localId: Swift.String, credifyId: Swift.String?)
+  func createsIndividualEntity(profile: CredifyCore.CCProfileModel, password: Swift.String)
+  func loginWithPassword(mode: CredifyCore.CCLoginMode, password: Swift.String)
+  func getCredifyIdFromProvider(userExternalInfo: CredifyCore.CCUserExternalModel, password: Swift.String)
+}
+public struct CreatesIndividualEntityResponse : Swift.Codable {
+  public let success: Swift.Bool
+  public let data: CredifyCore.CredifyInfo
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct CredifyInfo : Swift.Codable {
+  public let id: Swift.String
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct AccessTokenRestResponse : Swift.Codable {
+  public struct AccessTokenResponse : Swift.Codable {
+    public init(from decoder: Swift.Decoder) throws
+    public func encode(to encoder: Swift.Encoder) throws
+  }
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct GetCredifyIdFromProviderResponse : Swift.Codable {
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public enum CCLoginMode {
+  case withEntityId(id: Swift.String)
+  case withPhone(phone: CredifyCore.CCPhoneModel)
+  case withCredifyId(id: Swift.String)
+}
+public protocol ProviderRepositoryProtocol : AnyObject {
+  func getOffersFromProvider(phoneNumber: Swift.String?, countryCode: Swift.String?, localId: Swift.String, credifyId: Swift.String?) -> RxSwift.Observable<CredifyCore.OfferListRestResponse>
+  func createsIndividualEntity(profile: CredifyCore.CCProfileModel, signingPublicKey: Swift.String, signingSecret: Swift.String, encryptionPublicKey: Swift.String, encryptionSecret: Swift.String, password: Swift.String) -> RxSwift.Observable<CredifyCore.CreatesIndividualEntityResponse>
+  func retrieveAccessToken(mode: CredifyCore.CCLoginMode, password: Swift.String) -> RxSwift.Observable<CredifyCore.AccessTokenRestResponse>
+  func getCredifyIdFromProvider(userExternalInfo: CredifyCore.CCUserExternalModel, signingPublicKey: Swift.String, signingSecret: Swift.String, encryptionPublicKey: Swift.String, encryptionSecret: Swift.String, password: Swift.String) -> RxSwift.Observable<CredifyCore.GetCredifyIdFromProviderResponse>
+}
+@_hasMissingDesignatedInitializers public class ProviderRepositoryManager : CredifyCore.ProviderRepositoryProtocol {
+  public func getOffersFromProvider(phoneNumber: Swift.String?, countryCode: Swift.String?, localId: Swift.String, credifyId: Swift.String?) -> RxSwift.Observable<CredifyCore.OfferListRestResponse>
+  public func createsIndividualEntity(profile: CredifyCore.CCProfileModel, signingPublicKey: Swift.String, signingSecret: Swift.String, encryptionPublicKey: Swift.String, encryptionSecret: Swift.String, password: Swift.String) -> RxSwift.Observable<CredifyCore.CreatesIndividualEntityResponse>
+  public func retrieveAccessToken(mode: CredifyCore.CCLoginMode, password: Swift.String) -> RxSwift.Observable<CredifyCore.AccessTokenRestResponse>
+  public func getCredifyIdFromProvider(userExternalInfo: CredifyCore.CCUserExternalModel, signingPublicKey: Swift.String, signingSecret: Swift.String, encryptionPublicKey: Swift.String, encryptionSecret: Swift.String, password: Swift.String) -> RxSwift.Observable<CredifyCore.GetCredifyIdFromProviderResponse>
+  @objc deinit
+}
+public enum CCSecretFields : Swift.String {
+  case pincode
+  case mnemonic
+  case account
+  case publicKeys
+  case accessToken
+  case latestPincodeAuthentication
+  case recoveryMnemonic
+  case encryptionKey
+  case signingKey
+  case password
+  public typealias RawValue = Swift.String
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct CCClaimModel : Swift.Codable {
+  public let scopeName: Swift.String
+  public let claimName: Swift.String
+  public let claimValue: Swift.String
+  public let claimValueType: CredifyCore.CCMetadataType
+  public let displayName: Swift.String?
+  public init(scopeName: Swift.String, claimName: Swift.String, claimValue: Swift.String, claimValueType: CredifyCore.CCMetadataType, displayName: Swift.String?)
+  public var isStandardClaim: Swift.Bool {
+    get
+  }
+  public var isPassiveClaim: Swift.Bool {
+    get
+  }
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public protocol OfferRepositoryProtocol : AnyObject {
+  func getOfferEvaluation(_ offerCode: Swift.String, customScopeNames: [Swift.String], passiveScope: [CredifyCore.CCScopeModel]) -> RxSwift.Observable<CredifyCore.OfferEvaluationRestResponse>
+  func getOfferRedeem(offerCode: Swift.String, scopesNames: [Swift.String], persistedScopes: [Swift.String], standarAndPassiveScopes: [CredifyCore.CCScopeModel], approvalToken: Swift.String) -> RxSwift.Observable<CredifyCore.OfferRedeemRestResponse>
+}
+@_hasMissingDesignatedInitializers public class OfferRepositoryManager : CredifyCore.OfferRepositoryProtocol {
+  public func getOfferEvaluation(_ offerCode: Swift.String, customScopeNames: [Swift.String], passiveScope: [CredifyCore.CCScopeModel]) -> RxSwift.Observable<CredifyCore.OfferEvaluationRestResponse>
+  public func getOfferRedeem(offerCode: Swift.String, scopesNames: [Swift.String], persistedScopes: [Swift.String], standarAndPassiveScopes: [CredifyCore.CCScopeModel], approvalToken: Swift.String) -> RxSwift.Observable<CredifyCore.OfferRedeemRestResponse>
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class ClaimRepositoryManager {
+  @objc deinit
+}
+public class OfferUseCaseManager : CredifyCore.OfferUseCaseProtocol {
+  public init()
+  public var offerRedeemEvent: RxSwift.Observable<CredifyCore.CCOfferRedeem> {
+    get
+  }
+  public var offerEvaluationEvent: RxSwift.Observable<Swift.Int> {
+    get
+  }
+  public var requiredScopeEvent: RxSwift.Observable<[CredifyCore.CCScopeData]> {
+    get
+  }
+  public var errorEvent: RxSwift.Observable<CredifyCore.CCError> {
+    get
+  }
+  public func getOfferEvaluation(offerCode: Swift.String, selectedScopes: [CredifyCore.CCScopeModel])
+  public func getOfferRedeem(entityId: Swift.String, offerInfo: CredifyCore.CCOfferData, listScope: [CredifyCore.CCScopeModel])
+  @objc deinit
+}
+public enum CCEnvironmentType {
+  case DEV
+  case SIT
+  case UAT
+  case SANDBOX
+  case PRODUCTION
+  public static func == (a: CredifyCore.CCEnvironmentType, b: CredifyCore.CCEnvironmentType) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
+public enum CCIdentityCategory : Swift.String, Swift.Codable {
+  case kyc
+  case did
+  case oauth
+  public typealias RawValue = Swift.String
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum CCIdentitySource : Swift.String, Swift.Codable {
+  case credify
+  case facebook
+  case linkedin
+  case line
+  case passport
+  case drivingLicense
+  case nationID
+  case taxID
+  case bioResidence
+  case voterID
+  case all
+  public typealias RawValue = Swift.String
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum CCChainType : Swift.String, Swift.Codable {
+  case btc
+  case eth
+  case eos
+  case xrp
+  public typealias RawValue = Swift.String
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum CCEventType : Swift.String {
+  case notification
+  case unknown
+  public typealias RawValue = Swift.String
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum CCProfileField : Swift.String, Swift.Codable {
+  case firstName
+  case lastName
+  case middleName
+  case emailAddress
+  case phone
+  case dob
+  case country
+  case province
+  case city
+  case address
+  case zipCode
+  case localFirstName
+  case localLastName
+  case nationality
+  public var displayName: Swift.String {
+    get
+  }
+  public typealias RawValue = Swift.String
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum CCHistoryType : Swift.String, Swift.Codable {
+  case attachingIdentity
+  case transferring
+  case auth
+  case deauth
+  case attachIdentity
+  case detachIdentity
+  case receiveAsset
+  case transferAsset
+  case approveClaim
+  case rejectClaim
+  case updateClaim
+  case createStake
+  case updateStake
+  case cancelStake
+  case reward
+  case penalty
+  case offerRedeem
+  public typealias RawValue = Swift.String
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum CCConfirmationStatus : Swift.String, Swift.Codable {
+  case notConfirmed
+  case confirmed
+  case completed
+  public typealias RawValue = Swift.String
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum CCValueType : Swift.String, Swift.Codable {
+  case float
+  case int
+  case double
+  case string
+  case bool
+  case object
+  case any
+  public typealias RawValue = Swift.String
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum CCMetadataType : Swift.Codable {
+  case int(Swift.Int)
+  case double(Swift.Double)
+  case string(Swift.String)
+  case bool(Swift.Bool)
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+  public func toString() -> Swift.String
+  public var orignalValue: Any {
+    get
+  }
+}
+public enum CCCreditScoringProvider : Swift.String {
+  case finscore
+  public typealias RawValue = Swift.String
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct CCUserDefaultsUtil {
+  public static func instantiate(suiteName: Swift.String = "")
+  public static var registrationStep: Swift.String {
+    get
+    set(newValue)
+  }
+  public static var registrationType: Swift.String {
+    get
+    set(newValue)
+  }
+  public static var firstOnboarding: Swift.Bool {
+    get
+    set(newValue)
+  }
+  public static var mnemonicVerified: Swift.Bool {
+    get
+    set(newValue)
+  }
+  public static var emailConfirmed: Swift.Bool {
+    get
+    set(newValue)
+  }
+  public static var isDisplayLocalName: Swift.Bool {
+    get
+    set(newValue)
+  }
+  public static var socialIdentityNotMatch: [Swift.String] {
+    get
+    set(newValue)
+  }
+  public static var kycProcessingId: Swift.String {
+    get
+    set(newValue)
+  }
+  public static var defaultFiat: Swift.String {
+    get
+    set(newValue)
+  }
+  public static var debugRest: Swift.String? {
+    get
+    set(newValue)
+  }
+  public static var debugWS: Swift.String? {
+    get
+    set(newValue)
+  }
+  public static var debugEos: Swift.String? {
+    get
+    set(newValue)
+  }
+  public static func removeAll()
+  public static func removeValueForKey(string: Swift.String)
+  public static var recoveryStep: Swift.String {
+    get
+    set(newValue)
+  }
+  public static var recoveryEmailCode: Swift.String {
+    get
+    set(newValue)
+  }
+  public static var recoveryPhoneCode: Swift.String {
+    get
+    set(newValue)
+  }
+  public static var recoveryApplicantId: Swift.String {
+    get
+    set(newValue)
+  }
+  public static var recoveryPhoneNumber: Swift.String {
+    get
+    set(newValue)
+  }
+  public static var recoveryFacebookToken: Swift.String {
+    get
+    set(newValue)
+  }
+  public static var recoveryLinkedInToken: Swift.String {
+    get
+    set(newValue)
+  }
+  public static var recoveryEmail: Swift.String {
+    get
+    set(newValue)
+  }
+}
+public protocol KeyManagementRepositoryProtocol : AnyObject {
+  func generateEncryptionKeypair(priKey: Swift.String?, pubKey: Swift.String?, password: Swift.String?) -> RxSwift.Single<CredifyCryptoSwift.Encryption>
+  func saveEncryptionKeyPair(_ keyPair: CredifyCryptoSwift.Encryption) -> RxSwift.Completable
+  func generateSigningKeyPair(priKey: Swift.String?, pubKey: Swift.String?, password: Swift.String?) -> RxSwift.Single<CredifyCryptoSwift.Signing>
+  func saveSigningKeyPair(_ keyPair: CredifyCryptoSwift.Signing) -> RxSwift.Completable
+  func getEncryptionKey() -> RxSwift.Single<CredifyCryptoSwift.Encryption?>
+  func getSigningKey() -> RxSwift.Single<CredifyCryptoSwift.Signing?>
+  func fetchEncryptedKeys() -> RxSwift.Single<CredifyCore.GetEncryptedKeysResponse>
+  func sign(_: Swift.String) throws -> Swift.String
+  func signPII(identityId: Swift.String, identityHash: Swift.String) throws -> RxSwift.Observable<CredifyCore.CommonResponse>
+  func cacheAccessToken(_ token: Swift.String)
+  func cachePassword(_ password: Swift.String)
+}
+@_hasMissingDesignatedInitializers public class KeyManagementRepositoryManager : CredifyCore.KeyManagementRepositoryProtocol {
+  public func generateEncryptionKeypair(priKey: Swift.String?, pubKey: Swift.String?, password: Swift.String?) -> RxSwift.Single<CredifyCryptoSwift.Encryption>
+  public func saveEncryptionKeyPair(_ keyPair: CredifyCryptoSwift.Encryption) -> RxSwift.Completable
+  public func generateSigningKeyPair(priKey: Swift.String?, pubKey: Swift.String?, password: Swift.String?) -> RxSwift.Single<CredifyCryptoSwift.Signing>
+  public func saveSigningKeyPair(_ keyPair: CredifyCryptoSwift.Signing) -> RxSwift.Completable
+  public func hasSession() -> RxSwift.Observable<Swift.Bool>
+  public func hasAccessToken() -> Swift.Bool
+  public func getEncryptionKey() -> RxSwift.Single<CredifyCryptoSwift.Encryption?>
+  public func getSigningKey() -> RxSwift.Single<CredifyCryptoSwift.Signing?>
+  public func fetchEncryptedKeys() -> RxSwift.Single<CredifyCore.GetEncryptedKeysResponse>
+  public func sign(_ message: Swift.String) throws -> Swift.String
+  public func signPII(identityId: Swift.String, identityHash: Swift.String) throws -> RxSwift.Observable<CredifyCore.CommonResponse>
+  public func cacheAccessToken(_ token: Swift.String)
+  public func cachePassword(_ password: Swift.String)
+  @objc deinit
+}
+public enum RestAPIMethod : Swift.String {
+  case get
+  case put
+  case post
+  case delete
+  public typealias RawValue = Swift.String
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public class CCNameModel : Swift.Codable {
+  final public let firstName: Swift.String?
+  final public let lastName: Swift.String?
+  final public let middleName: Swift.String?
+  final public let verified: Swift.Bool
+  public init(_ input: CredifyCore.CCName?)
+  public init(firstName: Swift.String? = nil, lastName: Swift.String? = nil, middleName: Swift.String? = nil, verified: Swift.Bool = false)
+  public func mergeWithHash(_ model: CredifyCore.CCNameModel?) -> CredifyCore.CCNameModel
+  public func mergeWithRaw(_ model: CredifyCore.CCNameModel?) -> CredifyCore.CCNameModel
+  public func clone() -> CredifyCore.CCNameModel
+  public func decrypted(encryption: CredifyCryptoSwift.Encryption) -> CredifyCore.CCNameModel
+  @objc deinit
+  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct CCLocationModel : Swift.Codable {
+  public let country: Swift.String?
+  public let province: Swift.String?
+  public let city: Swift.String?
+  public var addressLine: Swift.String?
+  public let postalCode: Swift.String?
+  public var verified: Swift.Bool?
+  public init(country: Swift.String?, province: Swift.String?, city: Swift.String?, addressLine: Swift.String?, postalCode: Swift.String?, verified: Swift.Bool?)
+  public init?(_ input: CredifyCore.CCLocation?)
+  public func mergeWithHash(_ model: CredifyCore.CCLocationModel?) -> CredifyCore.CCLocationModel
+  public func mergeWithRaw(_ model: CredifyCore.CCLocationModel?) -> CredifyCore.CCLocationModel
+  public func clone() -> CredifyCore.CCLocationModel
+  public func decrypted(encryption: CredifyCryptoSwift.Encryption) -> CredifyCore.CCLocationModel
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct CCPhoneModel : Swift.Codable {
+  public var phoneNumber: Swift.String
+  public let countryCode: Swift.String
+  public var verified: Swift.Bool?
+  public init?(_ input: CredifyCore.CCPhone?)
+  public init(phoneNumber: Swift.String, countryCode: Swift.String, verified: Swift.Bool?)
+  public var displayWithNoSpace: Swift.String {
+    get
+  }
+  public var numberWithoutZero: Swift.String {
+    get
+  }
+  public var displayWithSpace: Swift.String {
+    get
+  }
+  public func mergeWithHash(_ model: CredifyCore.CCPhoneModel?) -> CredifyCore.CCPhoneModel
+  public func mergeWithRaw(_ model: CredifyCore.CCPhoneModel?) -> CredifyCore.CCPhoneModel
+  public func clone() -> CredifyCore.CCPhoneModel
+  public func decrypted(encryption: CredifyCryptoSwift.Encryption) -> CredifyCore.CCPhoneModel
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct CCEmailModel : Swift.Codable {
+  public var emailAddress: Swift.String
+  public var verified: Swift.Bool?
+  public init(_ input: Swift.String)
+  public init(emailAddress: Swift.String, verified: Swift.Bool?)
+  public func mergeWithHash(_ model: CredifyCore.CCEmailModel?) -> CredifyCore.CCEmailModel
+  public func mergeWithRaw(_ model: CredifyCore.CCEmailModel?) -> CredifyCore.CCEmailModel
+  public func clone() -> CredifyCore.CCEmailModel
+  public func decrypted(encryption: CredifyCryptoSwift.Encryption) -> CredifyCore.CCEmailModel
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct CCDOBModel : Swift.Codable {
+  public let date: Swift.String?
+  public var verified: Swift.Bool?
+  public init?(_ input: Swift.String?)
+  public init(date: Swift.String?, verified: Swift.Bool?)
+  public func mergeWithHash(_ model: CredifyCore.CCDOBModel?) -> CredifyCore.CCDOBModel
+  public func mergeWithRaw(_ model: CredifyCore.CCDOBModel?) -> CredifyCore.CCDOBModel
+  public func clone() -> CredifyCore.CCDOBModel
+  public func decrypted(encryption: CredifyCryptoSwift.Encryption) -> CredifyCore.CCDOBModel
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct CCNationalityModel : Swift.Codable {
+  public let country: Swift.String?
+  public var verified: Swift.Bool?
+  public init?(_ input: Swift.String?)
+  public init(country: Swift.String?, verified: Swift.Bool?)
+  public func mergeWithHash(_ model: CredifyCore.CCNationalityModel?) -> CredifyCore.CCNationalityModel
+  public func mergeWithRaw(_ model: CredifyCore.CCNationalityModel?) -> CredifyCore.CCNationalityModel
+  public func clone() -> CredifyCore.CCNationalityModel
+  public func decrypted(encryption: CredifyCryptoSwift.Encryption) -> CredifyCore.CCNationalityModel
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct CCGIIDModel : Swift.Codable {
+  public let id: Swift.String
+  public let country: Swift.String
+  public let expireDate: Swift.String
+  public let issueDate: Swift.String
+  public let verified: Swift.Bool
+  public init(id: Swift.String, country: Swift.String, expireDate: Swift.String, issueDate: Swift.String, verified: Swift.Bool)
+  public func mergeWithHash(_ model: CredifyCore.CCGIIDModel?) -> CredifyCore.CCGIIDModel
+  public func mergeWithRaw(_ model: CredifyCore.CCGIIDModel?) -> CredifyCore.CCGIIDModel
+  public func clone() -> CredifyCore.CCGIIDModel
+  public func decrypted(encryption: CredifyCryptoSwift.Encryption) -> CredifyCore.CCGIIDModel
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct CCProfileModel : Swift.Codable {
+  public var name: CredifyCore.CCNameModel?
+  public let localName: CredifyCore.CCNameModel?
+  public var emails: [CredifyCore.CCEmailModel]?
+  public var phones: [CredifyCore.CCPhoneModel]?
+  public let dob: CredifyCore.CCDOBModel?
+  public let address: CredifyCore.CCLocationModel?
+  public let nationality: CredifyCore.CCNationalityModel?
+  public let giid: CredifyCore.CCGIIDModel?
+  public init(name: CredifyCore.CCNameModel? = nil, localName: CredifyCore.CCNameModel? = nil, emails: [CredifyCore.CCEmailModel]? = nil, phones: [CredifyCore.CCPhoneModel]? = nil, dob: CredifyCore.CCDOBModel? = nil, address: CredifyCore.CCLocationModel? = nil, nationality: CredifyCore.CCNationalityModel? = nil, giid: CredifyCore.CCGIIDModel? = nil)
+  public init(_ input: CredifyCore.CCAccountProfile)
+  public func mergeWithHash(model: CredifyCore.CCProfileModel?) -> CredifyCore.CCProfileModel
+  public func mergeWithRaw(model: CredifyCore.CCProfileModel?) -> CredifyCore.CCProfileModel
+  public func clone() -> CredifyCore.CCProfileModel
+  public func decrypted(encryption: CredifyCryptoSwift.Encryption) -> CredifyCore.CCProfileModel
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct CommonResponse : Swift.Codable {
+  public let success: Swift.Bool
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct CCPublicKeys : Swift.Codable {
+  public let master: Swift.String
+  public let eos: Swift.String
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct CCAccountProfile : Swift.Codable {
+  public let name: CredifyCore.CCName?
+  public let localName: CredifyCore.CCName?
+  public let emailAddress: Swift.String?
+  public let phone: CredifyCore.CCPhone?
+  public let dob: Swift.String?
+  public let address: CredifyCore.CCLocation?
+  public let nationality: Swift.String?
+  public init(name: CredifyCore.CCName?, localName: CredifyCore.CCName?, email: Swift.String?, phone: CredifyCore.CCPhone?, dob: Swift.String?, address: CredifyCore.CCLocation?, nationality: Swift.String?)
+  public var primaryName: CredifyCore.CCName? {
+    get
+  }
+  public var fieldsCount: Swift.Int {
+    get
+  }
+  public func data(at index: Swift.Int) -> (field: CredifyCore.CCProfileField, value: Swift.String)?
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct CCName : Swift.Codable {
+  public let firstName: Swift.String
+  public let lastName: Swift.String
+  public let middleName: Swift.String?
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct CCPhone : Swift.Codable {
+  public let phoneNumber: Swift.String
+  public let countryCode: Swift.String
+  public var displayWithNoSpace: Swift.String {
+    get
+  }
+  public var numberWithoutZero: Swift.String {
+    get
+  }
+  public var displayWithSpace: Swift.String {
+    get
+  }
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct CCLocation : Swift.Codable {
+  public let country: Swift.String?
+  public let province: Swift.String?
+  public let city: Swift.String?
+  public let addressLine: Swift.String?
+  public let postalCode: Swift.String?
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct CCTransferCacheItem : Swift.Codable {
+  public let asset: CredifyCore.CCAsset
+  public let to: Swift.String
+  public let hash: Swift.String
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct CCAsset : Swift.Codable {
+  public let amount: Swift.String
+  public let symbol: Swift.String
+  public let decimals: Swift.Int
+  public func getAmount() -> Foundation.Decimal
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct CCIdentityResponse : Swift.Codable {
+  public let category: CredifyCore.CCIdentityCategory
+  public let source: CredifyCore.CCIdentitySource
+  public let profile: CredifyCore.CCAccountProfile
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct CCOIDCProfile {
+  public let name: CredifyCore.CCName?
+  public let dob: Swift.String?
+}
+public struct CCHistoryDetail : Swift.Codable {
+  public let identityType: CredifyCore.CCIdentitySource?
+  public let changes: [Swift.String]?
+  public let asset: CredifyCore.CCAsset?
+  public let from: Swift.String?
+  public let to: Swift.String?
+  public let client: CredifyCore.CCClient?
+  public let offer: CredifyCore.CCOfferHistory?
+  public let approval: CredifyCore.CCOfferApproval?
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct CCOfferHistory : Swift.Codable {
+  public let code: Swift.String
+  public let campaign: CredifyCore.CCOfferCampaign
+  public init(code: Swift.String, campaign: CredifyCore.CCOfferCampaign)
+  public var name: Swift.String {
+    get
+  }
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct CCOfferCampaign : Swift.Codable {
+  public let id: Swift.String?
+  public let consumer: CredifyCore.CCOfferConsumer?
+  public let name: Swift.String?
+  public let description: Swift.String?
+  public let isPublished: Swift.Bool?
+  public let startAt: Swift.String?
+  public let endAt: Swift.String?
+  public let extraSteps: Swift.Bool?
+  public let levels: [Swift.String]?
+  public let thumbnailUrl: Swift.String?
+  public init(id: Swift.String?, consumer: CredifyCore.CCOfferConsumer?, name: Swift.String?, description: Swift.String?, isPublished: Swift.Bool?, startAt: Swift.String?, endAt: Swift.String?, extraSteps: Swift.Bool?, levels: [Swift.String]?, thumbnailUrl: Swift.String?)
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct CCOfferConsumer : Swift.Codable {
+  public let id: Swift.String
+  public let name: Swift.String
+  public let description: Swift.String?
+  public let logoUrlStr: Swift.String
+  public let appUrlStr: Swift.String
+  public let scopes: [Swift.String]?
+  public init(id: Swift.String, name: Swift.String, description: Swift.String?, logoUrlStr: Swift.String, appUrlStr: Swift.String, scopes: [Swift.String]?)
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct CCClient : Swift.Codable {
+  public let name: Swift.String
+  public let logoUri: Swift.String
+  public let scopes: [Swift.String]?
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct CCProvider : Swift.Codable {
+  public let id: Swift.String
+  public let name: Swift.String
+  public let logoUri: Swift.String
+  public let uri: Swift.String
+  public let scopes: [CredifyCore.CCScopeDefinition]
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct CCScopeData : Swift.Equatable {
+  public let id: Swift.String
+  public let name: Swift.String
+  public let displayName: Swift.String
+  public let key: Swift.String
+  public let claims: [CredifyCore.CCClaimValue]
+  public let providerLogoUrl: Swift.String
+  public var isCustom: Swift.Bool {
+    get
+  }
+  public var localizedDisplayName: Swift.String {
+    get
+  }
+  public static func == (lhs: CredifyCore.CCScopeData, rhs: CredifyCore.CCScopeData) -> Swift.Bool
+}
+public struct CCScopeDefinition : Swift.Codable {
+  public let id: Swift.String
+  public let name: Swift.String
+  public let displayName: Swift.String
+  public let description: Swift.String
+  public let claims: [CredifyCore.CCClaimDefinition]
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct CCClaimValue {
+  public let id: Swift.String
+  public let name: Swift.String
+  public let displayName: Swift.String
+  public let value: Any?
+}
+public struct CCClaimDefinition : Swift.Codable {
+  public let id: Swift.String
+  public let scopeId: Swift.String
+  public let mainClaimId: Swift.String
+  public let name: Swift.String
+  public let displayName: Swift.String
+  public let description: Swift.String
+  public let valueType: CredifyCore.CCValueType
+  public let isActive: Swift.Bool?
+  public let maxValue: Swift.Float?
+  public let minValue: Swift.Float?
+  public let nested: [CredifyCore.CCClaimDefinition]?
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public protocol OfferUseCaseProtocol : AnyObject {
+  var offerRedeemEvent: RxSwift.Observable<CredifyCore.CCOfferRedeem> { get }
+  var offerEvaluationEvent: RxSwift.Observable<Swift.Int> { get }
+  var requiredScopeEvent: RxSwift.Observable<[CredifyCore.CCScopeData]> { get }
+  var errorEvent: RxSwift.Observable<CredifyCore.CCError> { get }
+  func getOfferEvaluation(offerCode: Swift.String, selectedScopes: [CredifyCore.CCScopeModel])
+  func getOfferRedeem(entityId: Swift.String, offerInfo: CredifyCore.CCOfferData, listScope: [CredifyCore.CCScopeModel])
+}
+public struct CCScopeModel {
+  public let name: Swift.String
+  public let type: CredifyCore.CCScopeType
+  public let claims: [CredifyCore.CCClaimModel]
+  public let displayName: Swift.String?
+  public init(name: Swift.String, type: CredifyCore.CCScopeType, claims: [CredifyCore.CCClaimModel], displayName: Swift.String?)
+  public init(name: Swift.String, displayName: Swift.String?, claims: [CredifyCore.CCClaimModel])
+  public var isStandard: Swift.Bool {
+    get
+  }
+  public var isPassive: Swift.Bool {
+    get
+  }
+  public var localizedDisplayName: Swift.String {
+    get
+  }
+  public static func converToScopes(with listClaim: [CredifyCore.CCClaimModel]) -> [CredifyCore.CCScopeModel]
+}
+public enum CCStandardScope : Swift.String {
+  case profile
+  case email
+  case phone
+  case address
+  case openId
+  public typealias RawValue = Swift.String
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum CCPassiveScope : Swift.String {
+  case finscore
+  case ekyc
+  case blockChain
+  public typealias RawValue = Swift.String
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum CCScopeType {
+  case standardScope(type: CredifyCore.CCStandardScope)
+  case passiveScope(type: CredifyCore.CCPassiveScope)
+  case custom(type: Swift.String)
+}
+public class ProviderUseCaseManager : CredifyCore.ProviderUseCaseProtocol {
+  public init()
+  public var offersFromProviderEvent: RxSwift.Observable<[CredifyCore.CCOfferData]> {
+    get
+  }
+  public var credifyIdEvent: RxSwift.Observable<(credifyId: Swift.String, password: Swift.String)> {
+    get
+  }
+  public var loginSuccessEvent: RxSwift.Observable<Swift.Void> {
+    get
+  }
+  public var errorEvent: RxSwift.Observable<CredifyCore.CCError> {
+    get
+  }
+  public func getOffersFromProvider(phoneNumber: Swift.String?, countryCode: Swift.String?, localId: Swift.String, credifyId: Swift.String?)
+  public func createsIndividualEntity(profile: CredifyCore.CCProfileModel, password: Swift.String)
+  public func loginWithPassword(mode: CredifyCore.CCLoginMode, password: Swift.String)
+  public func getCredifyIdFromProvider(userExternalInfo: CredifyCore.CCUserExternalModel, password: Swift.String)
+  @objc deinit
+}
+public struct CCSigner {
+  public static func accessToken() -> Swift.String?
+  public static func accessPincode() -> Swift.String?
+  public static func password() -> Swift.String?
+  public static func sign() -> Swift.String?
+}

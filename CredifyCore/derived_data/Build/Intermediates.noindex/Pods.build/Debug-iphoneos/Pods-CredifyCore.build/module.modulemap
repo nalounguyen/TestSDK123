@@ -1,0 +1,6 @@
+framework module Pods_CredifyCore {
+  umbrella header "Pods-CredifyCore-umbrella.h"
+
+  export *
+  module * { export * }
+}

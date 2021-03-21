@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "da6b13b7b42245d06a425ebb06a27dfd"
+build_time: [1616165692, 723225000]
+inputs:
+  "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyKit/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Encryption.swift": [9223372036, 854775807]
+  "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyKit/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Errors.swift": [9223372036, 854775807]
+  "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyKit/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Extensions.swift": [9223372036, 854775807]
+  "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyKit/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Helpers.swift": [9223372036, 854775807]
+  "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyKit/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Signing.swift": [9223372036, 854775807]

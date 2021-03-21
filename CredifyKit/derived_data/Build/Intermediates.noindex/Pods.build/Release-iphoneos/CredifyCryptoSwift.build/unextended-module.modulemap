@@ -1,0 +1,10 @@
+framework module CredifyCryptoSwift {
+  umbrella header "CredifyCryptoSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module CredifyCryptoSwift.__Swift {
+    exclude header "CredifyCryptoSwift-Swift.h"
+}

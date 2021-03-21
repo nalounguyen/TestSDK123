@@ -1,0 +1,17 @@
+/* 
+  OfferEvaluation.strings
+  CredifyKit
+
+  Created by Nalou Nguyen on 18/03/2021.
+  Copyright © 2021 Credify. All rights reserved.
+*/
+
+"Offers" = "Offer";
+
+
+"DescriptionOffer" = "In order to gets offer, you need to allow %@ to know these information";
+"DataToBeShared" = "Benefits with your data";
+"RequireConnect" = "You need to share more data";
+"RedeemOffer" = "Redeem the offer";
+"OfferSucessTitle" = "Congratulations,";
+"OfferSucessDescription" = "Successfully redeemed the offer from %@";

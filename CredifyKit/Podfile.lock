@@ -1,0 +1,46 @@
+PODS:
+  - Alamofire (5.4.1)
+  - CredifyCryptoSwift (1.0.17)
+  - KeychainAccess (4.2.1)
+  - Kingfisher (6.1.1)
+  - lottie-ios (3.2.1)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - CredifyCryptoSwift
+  - KeychainAccess
+  - Kingfisher
+  - lottie-ios
+  - RxCocoa (~> 5)
+  - RxSwift (~> 5)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CredifyCryptoSwift
+    - KeychainAccess
+    - Kingfisher
+    - lottie-ios
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  CredifyCryptoSwift: 514c4c048ef9ec5a07c8c504ff246523d46809d7
+  KeychainAccess: 9b07f665298d13c3a85881bd3171f6f49b8151c1
+  Kingfisher: 676d63307fbef6ed5d5ed400bff36983480d7500
+  lottie-ios: 106e92eaf11fbed0a76590b4cdb9b5ec26123ff7
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+
+PODFILE CHECKSUM: 1594d6cce55b8978de9c68618e5773d76e4d5d13
+
+COCOAPODS: 1.10.1

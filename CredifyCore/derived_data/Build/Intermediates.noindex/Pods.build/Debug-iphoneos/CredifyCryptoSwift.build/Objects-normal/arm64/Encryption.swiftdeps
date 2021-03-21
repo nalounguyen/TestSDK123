@@ -1,0 +1,327 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Encryption"
+provides-nominal:
+- "18CredifyCryptoSwift10EncryptionV"
+provides-member:
+- ["18CredifyCryptoSwift10EncryptionV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&&"
+- !private "=="
+- !private "??"
+- "AssignmentPrecedence"
+- !private "CredifyCryptoSwiftError"
+- !private "CryptoDecryptEncryptionPrivateKey"
+- "CryptoEncryptionKeyProtocol"
+- !private "CryptoGenerateEncryptionKeyPair"
+- !private "CryptoParseEncryptionPrivateKey"
+- !private "CryptoParseEncryptionPublicKey"
+- "Data"
+- "Encryption"
+- "NSError"
+- "String"
+- !private "StringLiteralType"
+- !private "print"
+- !private "privateKey"
+- !private "publicKey"
+depends-member:
+- !private ["SK", ""]
+- !private ["SK", "data"]
+- !private ["SK", "string"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "privateKey"]
+- !private ["s7CVarArgP", "publicKey"]
+- !private ["Sl", ""]
+- !private ["Sl", "data"]
+- !private ["Sl", "string"]
+- !private ["SL", ""]
+- !private ["SL", "data"]
+- !private ["10Foundation15ContiguousBytesP", "string"]
+- !private ["18CredifyCryptoSwift0abC5ErrorO", ""]
+- !private ["18CredifyCryptoSwift0abC5ErrorO", "aesEncryptionError"]
+- !private ["18CredifyCryptoSwift0abC5ErrorO", "rsaDecryptionInternalError"]
+- !private ["18CredifyCryptoSwift0abC5ErrorO", "rsaEncryptionIncorrectInitialization"]
+- !private ["18CredifyCryptoSwift0abC5ErrorO", "rsaEncryptionInternalError"]
+- !private ["18CredifyCryptoSwift0abC5ErrorO", "rsaKeyGenerationFailed"]
+- !private ["18CredifyCryptoSwift0abC5ErrorO", "rsaPrivateKeyMissing"]
+- !private ["18CredifyCryptoSwift0abC5ErrorO", "rsaPrivateKeyParsingFailed"]
+- !private ["18CredifyCryptoSwift0abC5ErrorO", "rsaPublicKeyMissing"]
+- !private ["18CredifyCryptoSwift0abC5ErrorO", "rsaPublicKeyParsingFailed"]
+- !private ["So23CryptoEncryptionKeyPairC", "privateKey"]
+- !private ["So23CryptoEncryptionKeyPairC", "publicKey"]
+- !private ["So19CryptoEncryptionKeyP", "decrypt"]
+- !private ["So19CryptoEncryptionKeyP", "decryptBase64"]
+- !private ["So19CryptoEncryptionKeyP", "encrypt"]
+- !private ["So19CryptoEncryptionKeyP", "export"]
+- !private ["So19CryptoEncryptionKeyP", "string"]
+- !private ["So19CryptoEncryptionKeyP", "stringParam"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "privateKey"]
+- !private ["s28CustomDebugStringConvertibleP", "publicKey"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s17CustomReflectableP", "data"]
+- !private ["s17CustomReflectableP", "string"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "privateKey"]
+- !private ["s23CustomStringConvertibleP", "publicKey"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["10Foundation4DataV", "string"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "string"]
+- !private ["Se", "data"]
+- !private ["Se", "string"]
+- !private ["SE", "data"]
+- !private ["SE", "string"]
+- !private ["18CredifyCryptoSwift10EncryptionV", "CredifyCryptoSwiftError"]
+- !private ["18CredifyCryptoSwift10EncryptionV", "CryptoDecryptEncryptionPrivateKey"]
+- ["18CredifyCryptoSwift10EncryptionV", "CryptoEncryptionKeyProtocol"]
+- !private ["18CredifyCryptoSwift10EncryptionV", "CryptoGenerateEncryptionKeyPair"]
+- !private ["18CredifyCryptoSwift10EncryptionV", "CryptoParseEncryptionPrivateKey"]
+- !private ["18CredifyCryptoSwift10EncryptionV", "CryptoParseEncryptionPublicKey"]
+- ["18CredifyCryptoSwift10EncryptionV", "Data"]
+- !private ["18CredifyCryptoSwift10EncryptionV", "NSError"]
+- ["18CredifyCryptoSwift10EncryptionV", "String"]
+- ["18CredifyCryptoSwift10EncryptionV", "base64UrlPrivateKey"]
+- ["18CredifyCryptoSwift10EncryptionV", "base64UrlPublicKey"]
+- ["18CredifyCryptoSwift10EncryptionV", "decrypt"]
+- ["18CredifyCryptoSwift10EncryptionV", "encrypt"]
+- ["18CredifyCryptoSwift10EncryptionV", "encryptBase64Url"]
+- ["18CredifyCryptoSwift10EncryptionV", "exportPrivateKey"]
+- ["18CredifyCryptoSwift10EncryptionV", "init"]
+- !private ["18CredifyCryptoSwift10EncryptionV", "print"]
+- !private ["18CredifyCryptoSwift10EncryptionV", "privateKey"]
+- ["18CredifyCryptoSwift10EncryptionV", "privateKeyPKCS8"]
+- !private ["18CredifyCryptoSwift10EncryptionV", "publicKey"]
+- ["18CredifyCryptoSwift10EncryptionV", "publicKeyPKCS8"]
+- !private ["SQ", ""]
+- !private ["SQ", "aesEncryptionError"]
+- !private ["SQ", "data"]
+- !private ["SQ", "privateKey"]
+- !private ["SQ", "publicKey"]
+- !private ["SQ", "rsaDecryptionInternalError"]
+- !private ["SQ", "rsaEncryptionIncorrectInitialization"]
+- !private ["SQ", "rsaEncryptionInternalError"]
+- !private ["SQ", "rsaKeyGenerationFailed"]
+- !private ["SQ", "rsaPrivateKeyMissing"]
+- !private ["SQ", "rsaPrivateKeyParsingFailed"]
+- !private ["SQ", "rsaPublicKeyMissing"]
+- !private ["SQ", "rsaPublicKeyParsingFailed"]
+- !private ["SQ", "string"]
+- !private ["s5ErrorP", ""]
+- !private ["s5ErrorP", "aesEncryptionError"]
+- !private ["s5ErrorP", "rsaDecryptionInternalError"]
+- !private ["s5ErrorP", "rsaEncryptionIncorrectInitialization"]
+- !private ["s5ErrorP", "rsaEncryptionInternalError"]
+- !private ["s5ErrorP", "rsaKeyGenerationFailed"]
+- !private ["s5ErrorP", "rsaPrivateKeyMissing"]
+- !private ["s5ErrorP", "rsaPrivateKeyParsingFailed"]
+- !private ["s5ErrorP", "rsaPublicKeyMissing"]
+- !private ["s5ErrorP", "rsaPublicKeyParsingFailed"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "data"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "data"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "data"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "data"]
+- !private ["SH", ""]
+- !private ["SH", "aesEncryptionError"]
+- !private ["SH", "data"]
+- !private ["SH", "privateKey"]
+- !private ["SH", "publicKey"]
+- !private ["SH", "rsaDecryptionInternalError"]
+- !private ["SH", "rsaEncryptionIncorrectInitialization"]
+- !private ["SH", "rsaEncryptionInternalError"]
+- !private ["SH", "rsaKeyGenerationFailed"]
+- !private ["SH", "rsaPrivateKeyMissing"]
+- !private ["SH", "rsaPrivateKeyParsingFailed"]
+- !private ["SH", "rsaPublicKeyMissing"]
+- !private ["SH", "rsaPublicKeyParsingFailed"]
+- !private ["SH", "string"]
+- !private ["10Foundation14LocalizedErrorP", "aesEncryptionError"]
+- !private ["10Foundation14LocalizedErrorP", "rsaDecryptionInternalError"]
+- !private ["10Foundation14LocalizedErrorP", "rsaEncryptionIncorrectInitialization"]
+- !private ["10Foundation14LocalizedErrorP", "rsaEncryptionInternalError"]
+- !private ["10Foundation14LocalizedErrorP", "rsaKeyGenerationFailed"]
+- !private ["10Foundation14LocalizedErrorP", "rsaPrivateKeyMissing"]
+- !private ["10Foundation14LocalizedErrorP", "rsaPrivateKeyParsingFailed"]
+- !private ["10Foundation14LocalizedErrorP", "rsaPublicKeyMissing"]
+- !private ["10Foundation14LocalizedErrorP", "rsaPublicKeyParsingFailed"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "data"]
+- !private ["s10MirrorPathP", "data"]
+- !private ["SM", ""]
+- !private ["SM", "string"]
+- !private ["10Foundation19MutableDataProtocolP", "string"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "data"]
+- !private ["So9NSCopyingP", "data"]
+- !private ["So21NSItemProviderReadingP", "data"]
+- !private ["So21NSItemProviderWritingP", "data"]
+- !private ["So16NSMutableCopyingP", "data"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectC", "dataUsingEncoding"]
+- !private ["So8NSObjectC", "privateKey"]
+- !private ["So8NSObjectC", "publicKey"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "data"]
+- !private ["So8NSObjectP", "dataUsingEncoding"]
+- !private ["So8NSObjectP", "decrypt"]
+- !private ["So8NSObjectP", "decryptBase64"]
+- !private ["So8NSObjectP", "encrypt"]
+- !private ["So8NSObjectP", "export"]
+- !private ["So8NSObjectP", "privateKey"]
+- !private ["So8NSObjectP", "publicKey"]
+- !private ["So8NSObjectP", "string"]
+- !private ["So8NSObjectP", "stringParam"]
+- !private ["So14NSSecureCodingP", "data"]
+- !private ["So8NSStringC", "data"]
+- !private ["Sk", ""]
+- !private ["Sk", "string"]
+- !private ["Sm", ""]
+- !private ["Sm", "data"]
+- !private ["Sm", "string"]
+- !private ["10Foundation20ReferenceConvertibleP", "string"]
+- !private ["ST", ""]
+- !private ["ST", "data"]
+- !private ["ST", "string"]
+- !private ["SS", "data"]
+- !private ["Sy", "data"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "data"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "data"]
+- !private ["So18UIFocusEnvironmentP", ""]
+- !private ["s30_CustomPlaygroundQuickLookableP", "data"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "data"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "data"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "data"]
+- !private ["s19_HasContiguousBytesP", "data"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "privateKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "publicKey"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "data"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "privateKey"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "publicKey"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "_bridgeToObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_conditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_forceBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "data"]
+- !private ["s21_ObjectiveCBridgeableP", "string"]
+- !private ["So17goSeqRefInterfaceP", "privateKey"]
+- !private ["So17goSeqRefInterfaceP", "publicKey"]
+depends-nominal:
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "18CredifyCryptoSwift0abC5ErrorO"
+- !private "So23CryptoEncryptionKeyPairC"
+- !private "So19CryptoEncryptionKeyP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- "18CredifyCryptoSwift10EncryptionV"
+- !private "SQ"
+- !private "s5ErrorP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- !private "10Foundation14LocalizedErrorP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sk"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So18UIFocusEnvironmentP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "So17goSeqRefInterfaceP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/Target Support Files/CredifyCryptoSwift/CredifyCryptoSwift-umbrella.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Versions/A/Headers/Universe.objc.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Headers/Universe.objc.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Versions/A/Headers/Crypto.objc.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Headers/Crypto.objc.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Versions/A/Headers/ref.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Headers/ref.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Versions/A/Headers/Crypto.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Headers/Crypto.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/CredifyCryptoSwift.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/CredifyCryptoSwift.build/unextended-module.modulemap"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "3d7f3cf34fe10b6f1bd7cd58bf9ca092"

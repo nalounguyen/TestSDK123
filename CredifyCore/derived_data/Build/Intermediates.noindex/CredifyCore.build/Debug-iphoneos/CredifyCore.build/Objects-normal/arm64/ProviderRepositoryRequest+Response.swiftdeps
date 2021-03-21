@@ -1,0 +1,514 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GetOffersFromProviderRequest"
+- "CreatesIndividualEntityRequest"
+- "GetAccessTokenRequest"
+- "GetCredifyIdFromProviderRequest"
+- "CreatesIndividualEntityResponse"
+- "CredifyInfo"
+- "AccessTokenRestResponse"
+- "GetCredifyIdFromProviderResponse"
+provides-nominal:
+- "11CredifyCore28GetOffersFromProviderRequestV"
+- "11CredifyCore30CreatesIndividualEntityRequestV"
+- "11CredifyCore21GetAccessTokenRequestV"
+- "11CredifyCore03GetA21IdFromProviderRequestV"
+- "11CredifyCore31CreatesIndividualEntityResponseV"
+- "11CredifyCore0A4InfoV"
+- "11CredifyCore23AccessTokenRestResponseV"
+- "11CredifyCore23AccessTokenRestResponseV0cdF0V"
+- "11CredifyCore03GetA22IdFromProviderResponseV"
+provides-member:
+- ["11CredifyCore28GetOffersFromProviderRequestV", ""]
+- ["11CredifyCore30CreatesIndividualEntityRequestV", ""]
+- ["11CredifyCore21GetAccessTokenRequestV", ""]
+- ["11CredifyCore03GetA21IdFromProviderRequestV", ""]
+- ["11CredifyCore31CreatesIndividualEntityResponseV", ""]
+- ["11CredifyCore0A4InfoV", ""]
+- ["11CredifyCore23AccessTokenRestResponseV", ""]
+- ["11CredifyCore23AccessTokenRestResponseV0cdF0V", ""]
+- ["11CredifyCore03GetA22IdFromProviderResponseV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AccessTokenResponse"
+- "AccessTokenRestResponse"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "CCLoginMode"
+- "CCProfileModel"
+- "CCUserExternalModel"
+- "Codable"
+- "CodingKey"
+- "CreatesIndividualEntityRequest"
+- "CreatesIndividualEntityResponse"
+- "CredifyInfo"
+- !private "Dictionary"
+- !private "FloatLiteralType"
+- "GetAccessTokenRequest"
+- "GetCredifyIdFromProviderRequest"
+- "GetCredifyIdFromProviderResponse"
+- "GetOffersFromProviderRequest"
+- !private "IntegerLiteralType"
+- "RestAPIMethod"
+- "RestAPIRequest"
+- "String"
+- "StringLiteralType"
+- !private "_findStringSwitchCase"
+- !private "body"
+- !private "parameters"
+- !private "~="
+depends-member:
+- ["11CredifyCore23AccessTokenRestResponseV0cdF0V", "CodingKey"]
+- ["11CredifyCore23AccessTokenRestResponseV0cdF0V", "CodingKeys"]
+- ["11CredifyCore23AccessTokenRestResponseV0cdF0V", "String"]
+- ["11CredifyCore23AccessTokenRestResponseV0cdF0V", ""]
+- !private ["11CredifyCore23AccessTokenRestResponseV0cdF0V", "_findStringSwitchCase"]
+- ["11CredifyCore23AccessTokenRestResponseV0cdF0V", "accessToken"]
+- ["11CredifyCore23AccessTokenRestResponseV0cdF0V", "encode"]
+- !private ["11CredifyCore23AccessTokenRestResponseV0cdF0V", "findStringSwitchCase"]
+- ["11CredifyCore23AccessTokenRestResponseV0cdF0V", "init"]
+- ["11CredifyCore23AccessTokenRestResponseV", "AccessTokenResponse"]
+- ["11CredifyCore23AccessTokenRestResponseV", "Bool"]
+- ["11CredifyCore23AccessTokenRestResponseV", "Codable"]
+- ["11CredifyCore23AccessTokenRestResponseV", "CodingKey"]
+- ["11CredifyCore23AccessTokenRestResponseV", "CodingKeys"]
+- ["11CredifyCore23AccessTokenRestResponseV", "String"]
+- ["11CredifyCore23AccessTokenRestResponseV", ""]
+- !private ["11CredifyCore23AccessTokenRestResponseV", "_findStringSwitchCase"]
+- ["11CredifyCore23AccessTokenRestResponseV", "data"]
+- ["11CredifyCore23AccessTokenRestResponseV", "encode"]
+- !private ["11CredifyCore23AccessTokenRestResponseV", "findStringSwitchCase"]
+- ["11CredifyCore23AccessTokenRestResponseV", "init"]
+- ["11CredifyCore23AccessTokenRestResponseV", "success"]
+- !private ["SK", ""]
+- !private ["SK", "trim"]
+- ["11CredifyCore11CCLoginModeO", "withCredifyId"]
+- ["11CredifyCore11CCLoginModeO", "withEntityId"]
+- ["11CredifyCore11CCLoginModeO", "withPhone"]
+- !private ["11CredifyCore12CCPhoneModelV", "countryCode"]
+- !private ["11CredifyCore12CCPhoneModelV", "phoneNumber"]
+- !private ["11CredifyCore14CCProfileModelV", ""]
+- !private ["11CredifyCore14CCProfileModelV", "asDictionary"]
+- !private ["11CredifyCore19CCUserExternalModelV", "id"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "trim"]
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "Default_RawValue"]
+- ["s9CodingKeyP", "RawValue"]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- !private ["s9CodingKeyP", "findStringSwitchCase"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "rawValue"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["Sl", ""]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "trim"]
+- !private ["SL", ""]
+- !private ["SL", "trim"]
+- ["11CredifyCore30CreatesIndividualEntityRequestV", "CCProfileModel"]
+- ["11CredifyCore30CreatesIndividualEntityRequestV", "RestAPIMethod"]
+- ["11CredifyCore30CreatesIndividualEntityRequestV", "String"]
+- !private ["11CredifyCore30CreatesIndividualEntityRequestV", ""]
+- ["11CredifyCore30CreatesIndividualEntityRequestV", "body"]
+- ["11CredifyCore30CreatesIndividualEntityRequestV", "init"]
+- ["11CredifyCore30CreatesIndividualEntityRequestV", "method"]
+- ["11CredifyCore30CreatesIndividualEntityRequestV", "parameters"]
+- ["11CredifyCore30CreatesIndividualEntityRequestV", "path"]
+- ["11CredifyCore31CreatesIndividualEntityResponseV", "Bool"]
+- ["11CredifyCore31CreatesIndividualEntityResponseV", "CodingKeys"]
+- ["11CredifyCore31CreatesIndividualEntityResponseV", "CredifyInfo"]
+- ["11CredifyCore31CreatesIndividualEntityResponseV", ""]
+- ["11CredifyCore31CreatesIndividualEntityResponseV", "data"]
+- ["11CredifyCore31CreatesIndividualEntityResponseV", "encode"]
+- ["11CredifyCore31CreatesIndividualEntityResponseV", "init"]
+- ["11CredifyCore31CreatesIndividualEntityResponseV", "success"]
+- ["11CredifyCore0A4InfoV", "CodingKeys"]
+- ["11CredifyCore0A4InfoV", "String"]
+- ["11CredifyCore0A4InfoV", ""]
+- ["11CredifyCore0A4InfoV", "encode"]
+- ["11CredifyCore0A4InfoV", "id"]
+- ["11CredifyCore0A4InfoV", "init"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", "Default_RawValue"]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "trim"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "trim"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "Default_RawValue"]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "trim"]
+- ["Se", "Codable"]
+- ["Se", "CodingKey"]
+- ["Se", ""]
+- !private ["Se", "_findStringSwitchCase"]
+- !private ["Se", "accessToken"]
+- !private ["Se", "asDictionary"]
+- !private ["Se", "countryCode"]
+- !private ["Se", "data"]
+- ["Se", "encode"]
+- !private ["Se", "findStringSwitchCase"]
+- !private ["Se", "id"]
+- ["Se", "init"]
+- !private ["Se", "phoneNumber"]
+- !private ["Se", "subscript"]
+- !private ["Se", "success"]
+- !private ["Se", "trim"]
+- !private ["s7DecoderP", "container"]
+- !private ["SD", "subscript"]
+- ["SE", "Codable"]
+- ["SE", "CodingKey"]
+- ["SE", ""]
+- !private ["SE", "_findStringSwitchCase"]
+- !private ["SE", "accessToken"]
+- !private ["SE", "asDictionary"]
+- !private ["SE", "countryCode"]
+- !private ["SE", "data"]
+- ["SE", "encode"]
+- !private ["SE", "findStringSwitchCase"]
+- !private ["SE", "id"]
+- ["SE", "init"]
+- !private ["SE", "phoneNumber"]
+- !private ["SE", "subscript"]
+- !private ["SE", "success"]
+- !private ["SE", "trim"]
+- !private ["s7EncoderP", "container"]
+- ["SQ", "=="]
+- ["SQ", "Default_RawValue"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- !private ["SQ", "findStringSwitchCase"]
+- ["SQ", "get"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- ["SQ", "post"]
+- ["SQ", "rawValue"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "trim"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "trim"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "trim"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "trim"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "trim"]
+- ["11CredifyCore21GetAccessTokenRequestV", "CCLoginMode"]
+- ["11CredifyCore21GetAccessTokenRequestV", "RestAPIMethod"]
+- ["11CredifyCore21GetAccessTokenRequestV", "String"]
+- !private ["11CredifyCore21GetAccessTokenRequestV", ""]
+- ["11CredifyCore21GetAccessTokenRequestV", "body"]
+- ["11CredifyCore21GetAccessTokenRequestV", "init"]
+- ["11CredifyCore21GetAccessTokenRequestV", "method"]
+- ["11CredifyCore21GetAccessTokenRequestV", "parameters"]
+- ["11CredifyCore21GetAccessTokenRequestV", "path"]
+- ["11CredifyCore03GetA21IdFromProviderRequestV", "CCUserExternalModel"]
+- ["11CredifyCore03GetA21IdFromProviderRequestV", "RestAPIMethod"]
+- ["11CredifyCore03GetA21IdFromProviderRequestV", "String"]
+- !private ["11CredifyCore03GetA21IdFromProviderRequestV", ""]
+- ["11CredifyCore03GetA21IdFromProviderRequestV", "body"]
+- ["11CredifyCore03GetA21IdFromProviderRequestV", "init"]
+- ["11CredifyCore03GetA21IdFromProviderRequestV", "method"]
+- ["11CredifyCore03GetA21IdFromProviderRequestV", "parameters"]
+- ["11CredifyCore03GetA21IdFromProviderRequestV", "path"]
+- ["11CredifyCore03GetA22IdFromProviderResponseV", "CodingKeys"]
+- ["11CredifyCore03GetA22IdFromProviderResponseV", "String"]
+- ["11CredifyCore03GetA22IdFromProviderResponseV", ""]
+- ["11CredifyCore03GetA22IdFromProviderResponseV", "encode"]
+- ["11CredifyCore03GetA22IdFromProviderResponseV", "id"]
+- ["11CredifyCore03GetA22IdFromProviderResponseV", "init"]
+- ["11CredifyCore28GetOffersFromProviderRequestV", "RestAPIMethod"]
+- ["11CredifyCore28GetOffersFromProviderRequestV", "String"]
+- !private ["11CredifyCore28GetOffersFromProviderRequestV", ""]
+- ["11CredifyCore28GetOffersFromProviderRequestV", "body"]
+- ["11CredifyCore28GetOffersFromProviderRequestV", "init"]
+- ["11CredifyCore28GetOffersFromProviderRequestV", "method"]
+- ["11CredifyCore28GetOffersFromProviderRequestV", "parameters"]
+- ["11CredifyCore28GetOffersFromProviderRequestV", "path"]
+- ["SH", "=="]
+- ["SH", "Default_RawValue"]
+- ["SH", "RawValue"]
+- !private ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- !private ["SH", "findStringSwitchCase"]
+- ["SH", "get"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "post"]
+- ["SH", "rawValue"]
+- ["SH", "stringValue"]
+- !private ["SH", "subscript"]
+- !private ["SH", "trim"]
+- !private ["s6HasherV", "combine"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "trim"]
+- !private ["s10MirrorPathP", "trim"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "trim"]
+- !private ["So9NSCopyingP", "trim"]
+- !private ["So21NSItemProviderReadingP", "trim"]
+- !private ["So21NSItemProviderWritingP", "trim"]
+- !private ["So16NSMutableCopyingP", "trim"]
+- !private ["So8NSObjectC", "trim"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "trim"]
+- !private ["So14NSSecureCodingP", "trim"]
+- !private ["So8NSStringC", "trim"]
+- !private ["Sm", "trim"]
+- ["SY", "=="]
+- ["SY", "Default_RawValue"]
+- ["SY", "RawValue"]
+- !private ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- !private ["SY", "findStringSwitchCase"]
+- ["SY", "get"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "intValue"]
+- ["SY", "post"]
+- ["SY", "rawValue"]
+- ["SY", "stringValue"]
+- !private ["7RxSwift18ReactiveCompatibleP", "trim"]
+- ["11CredifyCore13RestAPIMethodO", "get"]
+- ["11CredifyCore13RestAPIMethodO", "post"]
+- ["11CredifyCore14RestAPIRequestP", ""]
+- ["11CredifyCore14RestAPIRequestP", "body"]
+- ["11CredifyCore14RestAPIRequestP", "method"]
+- ["11CredifyCore14RestAPIRequestP", "parameters"]
+- ["11CredifyCore14RestAPIRequestP", "path"]
+- !private ["ST", ""]
+- !private ["ST", "subscript"]
+- !private ["ST", "trim"]
+- !private ["SS", "trim"]
+- !private ["Sy", "trim"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "trim"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "trim"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "trim"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "trim"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "trim"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "trim"]
+- !private ["s19_HasContiguousBytesP", "trim"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "trim"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "trim"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "trim"]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "_bridgeToObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_conditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_forceBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "trim"]
+depends-nominal:
+- "11CredifyCore23AccessTokenRestResponseV0cdF0V"
+- "11CredifyCore23AccessTokenRestResponseV"
+- !private "SK"
+- "11CredifyCore11CCLoginModeO"
+- !private "11CredifyCore12CCPhoneModelV"
+- !private "11CredifyCore14CCProfileModelV"
+- !private "11CredifyCore19CCUserExternalModelV"
+- !private "s7CVarArgP"
+- "s9CodingKeyP"
+- !private "Sl"
+- !private "SL"
+- "11CredifyCore30CreatesIndividualEntityRequestV"
+- "11CredifyCore31CreatesIndividualEntityResponseV"
+- "11CredifyCore0A4InfoV"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- !private "SD"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "11CredifyCore21GetAccessTokenRequestV"
+- "11CredifyCore03GetA21IdFromProviderRequestV"
+- "11CredifyCore03GetA22IdFromProviderResponseV"
+- "11CredifyCore28GetOffersFromProviderRequestV"
+- "SH"
+- !private "s6HasherV"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sm"
+- "SY"
+- !private "7RxSwift18ReactiveCompatibleP"
+- "11CredifyCore13RestAPIMethodO"
+- "11CredifyCore14RestAPIRequestP"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/KeychainAccess/KeychainAccess.framework/Modules/KeychainAccess.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Modules/CredifyCryptoSwift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/WebKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxRelay/RxRelay.framework/Modules/RxRelay.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RX.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/KeychainAccess/KeychainAccess.framework/Headers/KeychainAccess-umbrella.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/CredifyCryptoSwift-umbrella.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxRelay/RxRelay.framework/Headers/RxRelay-umbrella.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Headers/Universe.objc.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/Universe.objc.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Headers/Crypto.objc.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/Crypto.objc.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RXObjCRuntime.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoaRuntime.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Headers/ref.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/ref.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Headers/Crypto.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/Crypto.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RXKVOObserver.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/KeychainAccess/KeychainAccess.framework/Headers/KeychainAccess-Swift.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/CredifyCryptoSwift-Swift.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxRelay/RxRelay.framework/Headers/RxRelay-Swift.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/CredifyCryptoSwift.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RXDelegateProxy.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Modules/module.modulemap"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Modules/module.modulemap"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/KeychainAccess/KeychainAccess.framework/Modules/module.modulemap"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Modules/module.modulemap"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxRelay/RxRelay.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "1c031a8802bd0b0b10079095d3de1328"

@@ -1,0 +1,251 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CredifyCryptoSwiftError"
+provides-nominal:
+- "18CredifyCryptoSwift0abC5ErrorO"
+provides-member:
+- ["18CredifyCryptoSwift0abC5ErrorO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "CredifyCryptoSwiftError"
+- "Error"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "LocalizedError"
+- !private "NSLocalizedString"
+- "String"
+- !private "StringLiteralType"
+depends-member:
+- ["18CredifyCryptoSwift0abC5ErrorO", "=="]
+- !private ["18CredifyCryptoSwift0abC5ErrorO", "NSLocalizedString"]
+- ["18CredifyCryptoSwift0abC5ErrorO", "String"]
+- ["18CredifyCryptoSwift0abC5ErrorO", ""]
+- ["18CredifyCryptoSwift0abC5ErrorO", "__derived_enum_equals"]
+- ["18CredifyCryptoSwift0abC5ErrorO", "_code"]
+- ["18CredifyCryptoSwift0abC5ErrorO", "_domain"]
+- ["18CredifyCryptoSwift0abC5ErrorO", "_getEmbeddedNSError"]
+- ["18CredifyCryptoSwift0abC5ErrorO", "_rawHashValue"]
+- ["18CredifyCryptoSwift0abC5ErrorO", "_userInfo"]
+- ["18CredifyCryptoSwift0abC5ErrorO", "aesEncryptionError"]
+- ["18CredifyCryptoSwift0abC5ErrorO", "code"]
+- ["18CredifyCryptoSwift0abC5ErrorO", "curve25519KeyGenerationFailed"]
+- ["18CredifyCryptoSwift0abC5ErrorO", "curve25519KeyIncorrectInitialization"]
+- ["18CredifyCryptoSwift0abC5ErrorO", "curve25519PrivateKeyMissing"]
+- ["18CredifyCryptoSwift0abC5ErrorO", "curve25519PrivateKeyParsingFailed"]
+- ["18CredifyCryptoSwift0abC5ErrorO", "curve25519PublicKeyMissing"]
+- ["18CredifyCryptoSwift0abC5ErrorO", "curve25519PublicKeyParsingFailed"]
+- ["18CredifyCryptoSwift0abC5ErrorO", "domain"]
+- ["18CredifyCryptoSwift0abC5ErrorO", "ed25519SigningInternalError"]
+- ["18CredifyCryptoSwift0abC5ErrorO", "ed25519VerificationInternalError"]
+- ["18CredifyCryptoSwift0abC5ErrorO", "errorDescription"]
+- ["18CredifyCryptoSwift0abC5ErrorO", "failureReason"]
+- ["18CredifyCryptoSwift0abC5ErrorO", "hash"]
+- ["18CredifyCryptoSwift0abC5ErrorO", "hashValue"]
+- ["18CredifyCryptoSwift0abC5ErrorO", "helpAnchor"]
+- ["18CredifyCryptoSwift0abC5ErrorO", "recoverySuggestion"]
+- ["18CredifyCryptoSwift0abC5ErrorO", "rsaDecryptionInternalError"]
+- ["18CredifyCryptoSwift0abC5ErrorO", "rsaEncryptionIncorrectInitialization"]
+- ["18CredifyCryptoSwift0abC5ErrorO", "rsaEncryptionInternalError"]
+- ["18CredifyCryptoSwift0abC5ErrorO", "rsaKeyGenerationFailed"]
+- ["18CredifyCryptoSwift0abC5ErrorO", "rsaPrivateKeyMissing"]
+- ["18CredifyCryptoSwift0abC5ErrorO", "rsaPrivateKeyParsingFailed"]
+- ["18CredifyCryptoSwift0abC5ErrorO", "rsaPublicKeyMissing"]
+- ["18CredifyCryptoSwift0abC5ErrorO", "rsaPublicKeyParsingFailed"]
+- ["18CredifyCryptoSwift0abC5ErrorO", "userInfo"]
+- ["SQ", "=="]
+- !private ["SQ", "NSLocalizedString"]
+- ["SQ", ""]
+- ["SQ", "_code"]
+- ["SQ", "_domain"]
+- ["SQ", "_getEmbeddedNSError"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "_userInfo"]
+- ["SQ", "aesEncryptionError"]
+- ["SQ", "code"]
+- ["SQ", "curve25519KeyGenerationFailed"]
+- ["SQ", "curve25519KeyIncorrectInitialization"]
+- ["SQ", "curve25519PrivateKeyMissing"]
+- ["SQ", "curve25519PrivateKeyParsingFailed"]
+- ["SQ", "curve25519PublicKeyMissing"]
+- ["SQ", "curve25519PublicKeyParsingFailed"]
+- ["SQ", "domain"]
+- ["SQ", "ed25519SigningInternalError"]
+- ["SQ", "ed25519VerificationInternalError"]
+- ["SQ", "errorDescription"]
+- ["SQ", "failureReason"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "helpAnchor"]
+- ["SQ", "recoverySuggestion"]
+- ["SQ", "rsaDecryptionInternalError"]
+- ["SQ", "rsaEncryptionIncorrectInitialization"]
+- ["SQ", "rsaEncryptionInternalError"]
+- ["SQ", "rsaKeyGenerationFailed"]
+- ["SQ", "rsaPrivateKeyMissing"]
+- ["SQ", "rsaPrivateKeyParsingFailed"]
+- ["SQ", "rsaPublicKeyMissing"]
+- ["SQ", "rsaPublicKeyParsingFailed"]
+- ["SQ", "userInfo"]
+- ["s5ErrorP", "=="]
+- !private ["s5ErrorP", "NSLocalizedString"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_rawHashValue"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "aesEncryptionError"]
+- ["s5ErrorP", "code"]
+- ["s5ErrorP", "curve25519KeyGenerationFailed"]
+- ["s5ErrorP", "curve25519KeyIncorrectInitialization"]
+- ["s5ErrorP", "curve25519PrivateKeyMissing"]
+- ["s5ErrorP", "curve25519PrivateKeyParsingFailed"]
+- ["s5ErrorP", "curve25519PublicKeyMissing"]
+- ["s5ErrorP", "curve25519PublicKeyParsingFailed"]
+- ["s5ErrorP", "domain"]
+- ["s5ErrorP", "ed25519SigningInternalError"]
+- ["s5ErrorP", "ed25519VerificationInternalError"]
+- ["s5ErrorP", "errorDescription"]
+- ["s5ErrorP", "failureReason"]
+- ["s5ErrorP", "hash"]
+- ["s5ErrorP", "hashValue"]
+- ["s5ErrorP", "helpAnchor"]
+- ["s5ErrorP", "recoverySuggestion"]
+- ["s5ErrorP", "rsaDecryptionInternalError"]
+- ["s5ErrorP", "rsaEncryptionIncorrectInitialization"]
+- ["s5ErrorP", "rsaEncryptionInternalError"]
+- ["s5ErrorP", "rsaKeyGenerationFailed"]
+- ["s5ErrorP", "rsaPrivateKeyMissing"]
+- ["s5ErrorP", "rsaPrivateKeyParsingFailed"]
+- ["s5ErrorP", "rsaPublicKeyMissing"]
+- ["s5ErrorP", "rsaPublicKeyParsingFailed"]
+- ["s5ErrorP", "userInfo"]
+- ["SH", "=="]
+- !private ["SH", "NSLocalizedString"]
+- ["SH", ""]
+- ["SH", "_code"]
+- ["SH", "_domain"]
+- ["SH", "_getEmbeddedNSError"]
+- ["SH", "_rawHashValue"]
+- ["SH", "_userInfo"]
+- ["SH", "aesEncryptionError"]
+- ["SH", "code"]
+- ["SH", "curve25519KeyGenerationFailed"]
+- ["SH", "curve25519KeyIncorrectInitialization"]
+- ["SH", "curve25519PrivateKeyMissing"]
+- ["SH", "curve25519PrivateKeyParsingFailed"]
+- ["SH", "curve25519PublicKeyMissing"]
+- ["SH", "curve25519PublicKeyParsingFailed"]
+- ["SH", "domain"]
+- ["SH", "ed25519SigningInternalError"]
+- ["SH", "ed25519VerificationInternalError"]
+- ["SH", "errorDescription"]
+- ["SH", "failureReason"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "helpAnchor"]
+- ["SH", "recoverySuggestion"]
+- ["SH", "rsaDecryptionInternalError"]
+- ["SH", "rsaEncryptionIncorrectInitialization"]
+- ["SH", "rsaEncryptionInternalError"]
+- ["SH", "rsaKeyGenerationFailed"]
+- ["SH", "rsaPrivateKeyMissing"]
+- ["SH", "rsaPrivateKeyParsingFailed"]
+- ["SH", "rsaPublicKeyMissing"]
+- ["SH", "rsaPublicKeyParsingFailed"]
+- ["SH", "userInfo"]
+- !private ["s6HasherV", "combine"]
+- ["10Foundation14LocalizedErrorP", "=="]
+- !private ["10Foundation14LocalizedErrorP", "NSLocalizedString"]
+- ["10Foundation14LocalizedErrorP", ""]
+- ["10Foundation14LocalizedErrorP", "_code"]
+- ["10Foundation14LocalizedErrorP", "_domain"]
+- ["10Foundation14LocalizedErrorP", "_getEmbeddedNSError"]
+- ["10Foundation14LocalizedErrorP", "_rawHashValue"]
+- ["10Foundation14LocalizedErrorP", "_userInfo"]
+- ["10Foundation14LocalizedErrorP", "aesEncryptionError"]
+- ["10Foundation14LocalizedErrorP", "code"]
+- ["10Foundation14LocalizedErrorP", "curve25519KeyGenerationFailed"]
+- ["10Foundation14LocalizedErrorP", "curve25519KeyIncorrectInitialization"]
+- ["10Foundation14LocalizedErrorP", "curve25519PrivateKeyMissing"]
+- ["10Foundation14LocalizedErrorP", "curve25519PrivateKeyParsingFailed"]
+- ["10Foundation14LocalizedErrorP", "curve25519PublicKeyMissing"]
+- ["10Foundation14LocalizedErrorP", "curve25519PublicKeyParsingFailed"]
+- ["10Foundation14LocalizedErrorP", "domain"]
+- ["10Foundation14LocalizedErrorP", "ed25519SigningInternalError"]
+- ["10Foundation14LocalizedErrorP", "ed25519VerificationInternalError"]
+- ["10Foundation14LocalizedErrorP", "errorDescription"]
+- ["10Foundation14LocalizedErrorP", "failureReason"]
+- ["10Foundation14LocalizedErrorP", "hash"]
+- ["10Foundation14LocalizedErrorP", "hashValue"]
+- ["10Foundation14LocalizedErrorP", "helpAnchor"]
+- ["10Foundation14LocalizedErrorP", "recoverySuggestion"]
+- ["10Foundation14LocalizedErrorP", "rsaDecryptionInternalError"]
+- ["10Foundation14LocalizedErrorP", "rsaEncryptionIncorrectInitialization"]
+- ["10Foundation14LocalizedErrorP", "rsaEncryptionInternalError"]
+- ["10Foundation14LocalizedErrorP", "rsaKeyGenerationFailed"]
+- ["10Foundation14LocalizedErrorP", "rsaPrivateKeyMissing"]
+- ["10Foundation14LocalizedErrorP", "rsaPrivateKeyParsingFailed"]
+- ["10Foundation14LocalizedErrorP", "rsaPublicKeyMissing"]
+- ["10Foundation14LocalizedErrorP", "rsaPublicKeyParsingFailed"]
+- ["10Foundation14LocalizedErrorP", "userInfo"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectP", ""]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+depends-nominal:
+- "18CredifyCryptoSwift0abC5ErrorO"
+- "SQ"
+- "s5ErrorP"
+- "SH"
+- !private "s6HasherV"
+- "10Foundation14LocalizedErrorP"
+- "So8NSCodingP"
+- "So8NSObjectP"
+- "So18UIFocusEnvironmentP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/Target Support Files/CredifyCryptoSwift/CredifyCryptoSwift-umbrella.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Versions/A/Headers/Universe.objc.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Headers/Universe.objc.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Versions/A/Headers/Crypto.objc.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Headers/Crypto.objc.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Versions/A/Headers/ref.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Headers/ref.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Versions/A/Headers/Crypto.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Headers/Crypto.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/CredifyCryptoSwift.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/CredifyCryptoSwift.build/unextended-module.modulemap"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "eed9a0c4fbb0e4376e3f528142e39fe8"

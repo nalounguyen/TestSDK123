@@ -1,0 +1,40 @@
+/*
+  Errors.strings
+  Credify
+
+  Created by ShuichiNagao on 2019/06/05.
+  Copyright © 2019 Credify. All rights reserved.
+*/
+
+"seriarizeFailure" = "データの取得に失敗しました。";
+"pincodeFailure" = "セキュリティコードの確認ができませんでした。もう一度入力してください。";
+"pincodeFailureLimitTimes" = "%@秒後にお試しください";
+"generateWalletFailure" = "ウォレットの作成に失敗しました。";
+"secretFailure" = "端末に保存されている情報にアクセスできませんでした。";
+"restoreFailure" = "キーペアの復元に失敗しました。正しいフレーズかどうか確認してください。";
+"accountNotFound" = "アカウントが見つかりませんでした。";
+"phoneVerificationFailure" = "確認コードが誤っています。";
+"signFailure" = "データの署名に失敗しました。";
+"linkedinConnectFailure" = "LinkedInのアクセストークンの取得に失敗しました。";
+"onfidoCheckRequestFailure" = "本人確認プロバイダへのリクエストに失敗しました。";
+"noneNetwork" = "インターネットにつながっているか確認してください。";
+"unknown" = "予期していないエラーが発生しました。";
+"cancel" = "キャンセルされました。";
+"requestTimeOut" = "要求がタイムアウトしました";
+
+"UNKNOWN_ERROR" = "予期していないエラーが発生しました。";
+"storagePerformFailure" = "データの保存に失敗しました。";
+
+
+"Error" = "エラー";
+"OK" = "OK";
+"Yes" = "はい";
+"No" = "いいえ";
+"Cancel" = "キャンセルする";
+"Done" = "完了";
+"Save" = "保存する";
+"Delete" = "削除する";
+"Copy" = "コピー";
+"Share" = "シェア";
+"QR" = "QRコード";
+"Others" = "その他";

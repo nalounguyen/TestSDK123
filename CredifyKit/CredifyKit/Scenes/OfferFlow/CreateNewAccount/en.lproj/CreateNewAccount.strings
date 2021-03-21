@@ -1,0 +1,21 @@
+/* 
+  CreateNewAccount.strings
+  CredifyKit
+
+  Created by Nalou Nguyen on 18/03/2021.
+  Copyright © 2021 Credify. All rights reserved.
+*/
+
+
+"ScreenTitleCreate" = "Create digital passport";
+"ScreenTitleLogin" = "Login to digital passport";
+
+"DigitalPassport" = "Digital passport";
+"Password" = "Password";
+"ConfirmTermsAndPrivacyPolicy" = "Confirm terms of use and privacy policy";
+"Next" = "Next";
+"Login" = "Login";
+
+
+"TermOfUse" = "Term of Use";
+"TermOfUseAndPrivacyPolicy" = "By signing up you agree to our Term of Use";

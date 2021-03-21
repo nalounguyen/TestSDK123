@@ -1,0 +1,34 @@
+PODS:
+  - CredifyCryptoSwift (1.0.17)
+  - KeychainAccess (4.2.1)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+
+DEPENDENCIES:
+  - CredifyCryptoSwift
+  - KeychainAccess
+  - RxCocoa (~> 5)
+  - RxSwift (~> 5)
+
+SPEC REPOS:
+  trunk:
+    - CredifyCryptoSwift
+    - KeychainAccess
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+SPEC CHECKSUMS:
+  CredifyCryptoSwift: 514c4c048ef9ec5a07c8c504ff246523d46809d7
+  KeychainAccess: 9b07f665298d13c3a85881bd3171f6f49b8151c1
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+
+PODFILE CHECKSUM: a42b825d6a82b562ca799f3a1748afd7b500dc31
+
+COCOAPODS: 1.10.1

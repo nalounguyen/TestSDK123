@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OfferBenefitHeaderView" customModule="ALLEX" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="OfferBenefitHeaderView" customModule="ALLEX" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="479" height="119"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mv8-IF-RKq" customClass="ViewWithBorder" customModule="ALLEX" customModuleProvider="target">
+                    <rect key="frame" x="20" y="10" width="439" height="94"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PQg-aX-SZi">
+                            <rect key="frame" x="0.0" y="0.0" width="439" height="94"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1,000,000 Vnđ voucher" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="jHs-N5-7DQ" customClass="CredifyGradientLabel" customModule="ALLEX" customModuleProvider="target">
+                                    <rect key="frame" x="10" y="36" width="419" height="48"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Extra benefit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="JLm-DT-pNb">
+                                    <rect key="frame" x="10" y="10" width="419" height="16"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="jHs-N5-7DQ" firstAttribute="top" secondItem="JLm-DT-pNb" secondAttribute="bottom" constant="10" id="31f-3G-ed2"/>
+                                <constraint firstAttribute="trailing" secondItem="jHs-N5-7DQ" secondAttribute="trailing" constant="10" id="5wT-2h-UvH"/>
+                                <constraint firstItem="JLm-DT-pNb" firstAttribute="leading" secondItem="PQg-aX-SZi" secondAttribute="leading" constant="10" id="O4n-wJ-mdC"/>
+                                <constraint firstAttribute="bottom" secondItem="jHs-N5-7DQ" secondAttribute="bottom" constant="10" id="PE0-WJ-4qD"/>
+                                <constraint firstItem="jHs-N5-7DQ" firstAttribute="leading" secondItem="PQg-aX-SZi" secondAttribute="leading" constant="10" id="ZPd-9M-WEZ"/>
+                                <constraint firstAttribute="trailing" secondItem="JLm-DT-pNb" secondAttribute="trailing" constant="10" id="nhc-Os-3I7"/>
+                                <constraint firstItem="JLm-DT-pNb" firstAttribute="top" secondItem="PQg-aX-SZi" secondAttribute="top" constant="10" id="xDD-sU-6pZ"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="PQg-aX-SZi" firstAttribute="top" secondItem="mv8-IF-RKq" secondAttribute="top" id="88U-yl-rDH"/>
+                        <constraint firstItem="PQg-aX-SZi" firstAttribute="leading" secondItem="mv8-IF-RKq" secondAttribute="leading" id="FRZ-Hp-cN0"/>
+                        <constraint firstItem="PQg-aX-SZi" firstAttribute="centerY" secondItem="mv8-IF-RKq" secondAttribute="centerY" id="Sas-7I-xkR"/>
+                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="PQg-aX-SZi" secondAttribute="bottom" id="aHm-Si-dfG"/>
+                        <constraint firstAttribute="trailing" secondItem="PQg-aX-SZi" secondAttribute="trailing" id="s3B-3D-6lW"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="15"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="mv8-IF-RKq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="VWx-w7-1NY"/>
+                <constraint firstAttribute="trailing" secondItem="mv8-IF-RKq" secondAttribute="trailing" constant="20" id="azK-3s-0rA"/>
+                <constraint firstItem="mv8-IF-RKq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="hrE-st-LoF"/>
+                <constraint firstAttribute="bottom" secondItem="mv8-IF-RKq" secondAttribute="bottom" constant="15" id="suK-zi-WaD"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="background" destination="mv8-IF-RKq" id="hUh-9s-PtH"/>
+                <outlet property="benefitDescriptionLabel" destination="jHs-N5-7DQ" id="ghP-fv-gkp"/>
+                <outlet property="titleLabel" destination="JLm-DT-pNb" id="LxM-op-FlZ"/>
+            </connections>
+            <point key="canvasLocation" x="166" y="104"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="jHs-N5-7DQ">
+            <size key="intrinsicContentSize" width="177" height="20.5"/>
+        </designable>
+    </designables>
+</document>

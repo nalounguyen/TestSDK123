@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "e529607fad8632a91ccb93d7951cbe32"
+build_time: [1616311884, 239724000]
+inputs:
+  "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/KeychainAccess/Lib/KeychainAccess/Keychain.swift": [1615819335, 685808385]

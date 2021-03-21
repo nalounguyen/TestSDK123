@@ -1,0 +1,21 @@
+/* 
+  Validator.strings
+  CredifyKit
+
+  Created by Nalou Nguyen on 18/03/2021.
+  Copyright © 2021 Credify. All rights reserved.
+*/
+
+
+"NameFormatInvalid" = "Name format has an invalid value";
+"EmailFormatInvalid" = "Email format is not correct";
+"DOBFormatInvalid" = "Birthday format is not correct";
+"InvalidYear" = "Year is not correct";
+"InvalidMonth" = "Month is not correct";
+"InvalidDay" = "Day is not correct";
+"InvalidPassword" = "Needs 8 or more characters";
+"Empty" = "Value is empty";
+"DateError" = "Failed to fetch the current date";
+"StringFormatInvalid" = "Value has an invalid character";
+"MnemonicFormatInvalid" = "Recovery phrase format is wrong";
+"MnemonicCountInvalid" = "Recovery phrase requires 12 words";

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3lV-O1-W9i">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Web View View Controller-->
+        <scene sceneID="KOm-Ji-wj8">
+            <objects>
+                <viewController id="3lV-O1-W9i" customClass="WKWebViewViewController" customModule="CredifyKit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NAC-PS-rdI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Ww-XL-SVR">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UnN-4u-Cc7">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <color key="backgroundColor" name="BackgroundDark"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="B9U-yt-CFv"/>
+                                </constraints>
+                                <color key="tintColor" name="Primary Text"/>
+                                <color key="barTintColor" name="BackgroundDark"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" name="Primary Text"/>
+                                </textAttributes>
+                                <textAttributes key="largeTitleTextAttributes">
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Title" id="VDo-OW-SVf">
+                                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="7g0-xE-Qej">
+                                            <color key="tintColor" name="Primary"/>
+                                            <connections>
+                                                <action selector="cancel:" destination="3lV-O1-W9i" id="ez3-U9-fXB"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="JYB-45-5pm"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="UnN-4u-Cc7" firstAttribute="trailing" secondItem="JYB-45-5pm" secondAttribute="trailing" id="4Vy-Ju-AcB"/>
+                            <constraint firstItem="0Ww-XL-SVR" firstAttribute="leading" secondItem="JYB-45-5pm" secondAttribute="leading" id="RWT-9a-UDU"/>
+                            <constraint firstItem="UnN-4u-Cc7" firstAttribute="leading" secondItem="JYB-45-5pm" secondAttribute="leading" id="SLT-YT-Qfb"/>
+                            <constraint firstItem="JYB-45-5pm" firstAttribute="trailing" secondItem="0Ww-XL-SVR" secondAttribute="trailing" id="arA-Vx-74f"/>
+                            <constraint firstItem="UnN-4u-Cc7" firstAttribute="top" secondItem="JYB-45-5pm" secondAttribute="top" id="c97-Uz-dx9"/>
+                            <constraint firstItem="0Ww-XL-SVR" firstAttribute="top" secondItem="UnN-4u-Cc7" secondAttribute="bottom" id="dFt-sp-3yM"/>
+                            <constraint firstItem="JYB-45-5pm" firstAttribute="bottom" secondItem="0Ww-XL-SVR" secondAttribute="bottom" id="hn8-XB-ZFJ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="navBar" destination="UnN-4u-Cc7" id="XWx-Yn-cVH"/>
+                        <outlet property="navItem" destination="VDo-OW-SVf" id="sa0-zk-q4X"/>
+                        <outlet property="webView" destination="0Ww-XL-SVR" id="iFs-xG-sxM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SMv-JJ-DkA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="334.78260869565219" y="-249.10714285714283"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="BackgroundDark">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Primary">
+            <color red="0.6705882352941176" green="0.12941176470588237" blue="0.52156862745098043" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Primary Text">
+            <color red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

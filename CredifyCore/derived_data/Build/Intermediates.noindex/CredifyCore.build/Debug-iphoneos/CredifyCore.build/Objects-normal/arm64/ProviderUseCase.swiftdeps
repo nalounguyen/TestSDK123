@@ -1,0 +1,462 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ProviderUseCase"
+provides-nominal:
+- "11CredifyCore15ProviderUseCaseC"
+provides-member:
+- ["11CredifyCore15ProviderUseCaseC", ""]
+provides-dynamic-lookup:
+- "$__lazy_storage_$_credifyIdEvent"
+- "$__lazy_storage_$_errorEvent"
+- "$__lazy_storage_$_loginSuccessEvent"
+- "$__lazy_storage_$_offersFromProviderEvent"
+- "bag"
+- "createsIndividualEntity"
+- "credifyIdEvent"
+- "credifyIdEventSubject"
+- "errorEvent"
+- "errorEventSubject"
+- "getCredifyIdFromProvider"
+- "getOffersFromProvider"
+- "kmRepository"
+- "loginSuccessEvent"
+- "loginSuccessEventSubject"
+- "loginWithPassword"
+- "offersFromProviderEvent"
+- "offersFromProviderEventSubject"
+- "repository"
+depends-top-level:
+- "??"
+- "AssignmentPrecedence"
+- "CCError"
+- "CCLoginMode"
+- "CCOfferData"
+- "CCProfileModel"
+- "CCUserExternalModel"
+- "Completable"
+- "CoreService"
+- "CreatesIndividualEntityResponse"
+- "DisposeBag"
+- "Encryption"
+- "FloatLiteralType"
+- "GetCredifyIdFromProviderResponse"
+- "GetEncryptedKeysResponse"
+- "IntegerLiteralType"
+- "KeyManagementRepositoryProtocol"
+- "Observable"
+- "ProviderRepositoryProtocol"
+- "ProviderUseCase"
+- "ProviderUseCaseProtocol"
+- "PublishSubject"
+- "Signing"
+- "Single"
+- "String"
+- "StringLiteralType"
+- "Void"
+- !private "bag"
+- "credifyIdEventSubject"
+- "errorEventSubject"
+- !private "kmRepository"
+- "loginSuccessEventSubject"
+- "offersFromProviderEventSubject"
+- "print"
+- !private "repository"
+depends-member:
+- !private ["11CredifyCore23AccessTokenRestResponseV0cdF0V", "accessToken"]
+- !private ["11CredifyCore23AccessTokenRestResponseV", "data"]
+- !private ["SK", ""]
+- !private ["SK", "sha256"]
+- !private ["11CredifyCore7CCErrorO", ""]
+- !private ["11CredifyCore7CCErrorO", "init"]
+- !private ["11CredifyCore7CCErrorO", "unknown"]
+- !private ["s7CVarArgP", "sha256"]
+- ["7RxSwift10CancelableP", "asObservable"]
+- ["7RxSwift10CancelableP", "asObserver"]
+- ["7RxSwift10CancelableP", "init"]
+- !private ["7RxSwift10CancelableP", "onNext"]
+- !private ["Sl", ""]
+- !private ["Sl", "sha256"]
+- !private ["SL", ""]
+- !private ["SL", "sha256"]
+- !private ["11CredifyCore0B7ServiceV", "encryption"]
+- !private ["11CredifyCore0B7ServiceV", "password"]
+- !private ["11CredifyCore0B7ServiceV", "shared"]
+- !private ["11CredifyCore0B7ServiceV", "signing"]
+- !private ["11CredifyCore31CreatesIndividualEntityResponseV", "data"]
+- !private ["11CredifyCore0A4InfoV", "id"]
+- !private ["s28CustomDebugStringConvertibleP", "sha256"]
+- !private ["s17CustomReflectableP", "sha256"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "sha256"]
+- !private ["Se", "accessToken"]
+- !private ["Se", "data"]
+- !private ["Se", "encryptionPublic"]
+- !private ["Se", "encryptionSecret"]
+- !private ["Se", "id"]
+- !private ["Se", "offers"]
+- !private ["Se", "sha256"]
+- !private ["Se", "signingPublic"]
+- !private ["Se", "signingSecret"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["7RxSwift10DisposableP", ""]
+- ["7RxSwift10DisposableP", "asObservable"]
+- ["7RxSwift10DisposableP", "asObserver"]
+- !private ["7RxSwift10DisposableP", "disposed"]
+- ["7RxSwift10DisposableP", "init"]
+- !private ["7RxSwift10DisposableP", "onNext"]
+- ["7RxSwift10DisposeBagC", "init"]
+- ["7RxSwift11DisposeBaseC", ""]
+- ["7RxSwift11DisposeBaseC", "init"]
+- !private ["SE", "accessToken"]
+- !private ["SE", "data"]
+- !private ["SE", "encryptionPublic"]
+- !private ["SE", "encryptionSecret"]
+- !private ["SE", "id"]
+- !private ["SE", "offers"]
+- !private ["SE", "sha256"]
+- !private ["SE", "signingPublic"]
+- !private ["SE", "signingSecret"]
+- !private ["11CredifyCore24GetEncryptedKeysResponseV0dE0V", "encryptionPublic"]
+- !private ["11CredifyCore24GetEncryptedKeysResponseV0dE0V", "encryptionSecret"]
+- !private ["11CredifyCore24GetEncryptedKeysResponseV0dE0V", "signingPublic"]
+- !private ["11CredifyCore24GetEncryptedKeysResponseV0dE0V", "signingSecret"]
+- !private ["18CredifyCryptoSwift10EncryptionV", "exportPrivateKey"]
+- !private ["18CredifyCryptoSwift10EncryptionV", "privateKeyPKCS8"]
+- !private ["18CredifyCryptoSwift10EncryptionV", "publicKeyPKCS8"]
+- !private ["SQ", ""]
+- !private ["SQ", "sha256"]
+- !private ["s5ErrorP", "init"]
+- !private ["s5ErrorP", "unknown"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "sha256"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "sha256"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "sha256"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "sha256"]
+- !private ["11CredifyCore03GetA22IdFromProviderResponseV", "id"]
+- !private ["11CredifyCore24GetEncryptedKeysResponseV", "data"]
+- !private ["SH", ""]
+- !private ["SH", "sha256"]
+- !private ["11CredifyCore31KeyManagementRepositoryProtocolP", "cacheAccessToken"]
+- !private ["11CredifyCore31KeyManagementRepositoryProtocolP", "cachePassword"]
+- !private ["11CredifyCore31KeyManagementRepositoryProtocolP", "fetchEncryptedKeys"]
+- !private ["11CredifyCore31KeyManagementRepositoryProtocolP", "generateEncryptionKeypair"]
+- !private ["11CredifyCore31KeyManagementRepositoryProtocolP", "generateSigningKeyPair"]
+- !private ["11CredifyCore31KeyManagementRepositoryProtocolP", "saveEncryptionKeyPair"]
+- !private ["11CredifyCore31KeyManagementRepositoryProtocolP", "saveSigningKeyPair"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "sha256"]
+- !private ["s10MirrorPathP", "sha256"]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "sha256"]
+- !private ["So9NSCopyingP", "sha256"]
+- !private ["So21NSItemProviderReadingP", "sha256"]
+- !private ["So21NSItemProviderWritingP", "sha256"]
+- !private ["So16NSMutableCopyingP", "sha256"]
+- !private ["So8NSObjectC", "sha256"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "sha256"]
+- !private ["So14NSSecureCodingP", "sha256"]
+- !private ["So8NSStringC", "sha256"]
+- ["7RxSwift10ObservableC", ""]
+- ["7RxSwift10ObservableC", "asObservable"]
+- ["7RxSwift10ObservableC", "asObserver"]
+- !private ["7RxSwift10ObservableC", "flatMap"]
+- ["7RxSwift10ObservableC", "init"]
+- !private ["7RxSwift10ObservableC", "onNext"]
+- !private ["7RxSwift10ObservableC", "subscribe"]
+- ["7RxSwift25ObservableConvertibleTypeP", ""]
+- ["7RxSwift25ObservableConvertibleTypeP", "asObservable"]
+- ["7RxSwift25ObservableConvertibleTypeP", "asObserver"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "error"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "flatMap"]
+- ["7RxSwift25ObservableConvertibleTypeP", "init"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "onNext"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "subscribe"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "zip"]
+- ["7RxSwift14ObservableTypeP", ""]
+- ["7RxSwift14ObservableTypeP", "asObservable"]
+- ["7RxSwift14ObservableTypeP", "asObserver"]
+- !private ["7RxSwift14ObservableTypeP", "flatMap"]
+- ["7RxSwift14ObservableTypeP", "init"]
+- !private ["7RxSwift14ObservableTypeP", "onNext"]
+- !private ["7RxSwift14ObservableTypeP", "subscribe"]
+- ["7RxSwift12ObserverTypeP", "asObservable"]
+- ["7RxSwift12ObserverTypeP", "asObserver"]
+- ["7RxSwift12ObserverTypeP", "init"]
+- !private ["7RxSwift12ObserverTypeP", "onNext"]
+- !private ["11CredifyCore21OfferListRestResponseV0cdF0V", "offers"]
+- !private ["11CredifyCore21OfferListRestResponseV", "data"]
+- !private ["7RxSwift17PrimitiveSequenceV", "asObservable"]
+- !private ["7RxSwift17PrimitiveSequenceV", "error"]
+- !private ["7RxSwift17PrimitiveSequenceV", "zip"]
+- !private ["7RxSwift21PrimitiveSequenceTypeP", "asObservable"]
+- !private ["7RxSwift21PrimitiveSequenceTypeP", "error"]
+- !private ["7RxSwift21PrimitiveSequenceTypeP", "zip"]
+- !private ["11CredifyCore26ProviderRepositoryProtocolP", "createsIndividualEntity"]
+- !private ["11CredifyCore26ProviderRepositoryProtocolP", "getCredifyIdFromProvider"]
+- !private ["11CredifyCore26ProviderRepositoryProtocolP", "getOffersFromProvider"]
+- !private ["11CredifyCore26ProviderRepositoryProtocolP", "retrieveAccessToken"]
+- !private ["11CredifyCore15ProviderUseCaseC", "$__lazy_storage_$_credifyIdEvent"]
+- !private ["11CredifyCore15ProviderUseCaseC", "$__lazy_storage_$_errorEvent"]
+- !private ["11CredifyCore15ProviderUseCaseC", "$__lazy_storage_$_loginSuccessEvent"]
+- !private ["11CredifyCore15ProviderUseCaseC", "$__lazy_storage_$_offersFromProviderEvent"]
+- ["11CredifyCore15ProviderUseCaseC", "CCError"]
+- ["11CredifyCore15ProviderUseCaseC", "CCLoginMode"]
+- ["11CredifyCore15ProviderUseCaseC", "CCOfferData"]
+- ["11CredifyCore15ProviderUseCaseC", "CCProfileModel"]
+- ["11CredifyCore15ProviderUseCaseC", "CCUserExternalModel"]
+- !private ["11CredifyCore15ProviderUseCaseC", "Completable"]
+- !private ["11CredifyCore15ProviderUseCaseC", "CoreService"]
+- !private ["11CredifyCore15ProviderUseCaseC", "CreatesIndividualEntityResponse"]
+- ["11CredifyCore15ProviderUseCaseC", "DisposeBag"]
+- !private ["11CredifyCore15ProviderUseCaseC", "Encryption"]
+- !private ["11CredifyCore15ProviderUseCaseC", "GetCredifyIdFromProviderResponse"]
+- !private ["11CredifyCore15ProviderUseCaseC", "GetEncryptedKeysResponse"]
+- ["11CredifyCore15ProviderUseCaseC", "KeyManagementRepositoryProtocol"]
+- ["11CredifyCore15ProviderUseCaseC", "Observable"]
+- ["11CredifyCore15ProviderUseCaseC", "ProviderRepositoryProtocol"]
+- ["11CredifyCore15ProviderUseCaseC", "PublishSubject"]
+- !private ["11CredifyCore15ProviderUseCaseC", "Signing"]
+- !private ["11CredifyCore15ProviderUseCaseC", "Single"]
+- ["11CredifyCore15ProviderUseCaseC", "String"]
+- ["11CredifyCore15ProviderUseCaseC", "Void"]
+- !private ["11CredifyCore15ProviderUseCaseC", "bag"]
+- ["11CredifyCore15ProviderUseCaseC", "createsIndividualEntity"]
+- ["11CredifyCore15ProviderUseCaseC", "credifyIdEvent"]
+- ["11CredifyCore15ProviderUseCaseC", "credifyIdEventSubject"]
+- ["11CredifyCore15ProviderUseCaseC", "deinit"]
+- ["11CredifyCore15ProviderUseCaseC", "errorEvent"]
+- ["11CredifyCore15ProviderUseCaseC", "errorEventSubject"]
+- ["11CredifyCore15ProviderUseCaseC", "getCredifyIdFromProvider"]
+- ["11CredifyCore15ProviderUseCaseC", "getOffersFromProvider"]
+- ["11CredifyCore15ProviderUseCaseC", "init"]
+- !private ["11CredifyCore15ProviderUseCaseC", "kmRepository"]
+- ["11CredifyCore15ProviderUseCaseC", "loginSuccessEvent"]
+- ["11CredifyCore15ProviderUseCaseC", "loginSuccessEventSubject"]
+- ["11CredifyCore15ProviderUseCaseC", "loginWithPassword"]
+- ["11CredifyCore15ProviderUseCaseC", "offersFromProviderEvent"]
+- ["11CredifyCore15ProviderUseCaseC", "offersFromProviderEventSubject"]
+- !private ["11CredifyCore15ProviderUseCaseC", "print"]
+- !private ["11CredifyCore15ProviderUseCaseC", "repository"]
+- !private ["11CredifyCore23ProviderUseCaseProtocolP", "CCError"]
+- !private ["11CredifyCore23ProviderUseCaseProtocolP", "Completable"]
+- !private ["11CredifyCore23ProviderUseCaseProtocolP", "CoreService"]
+- ["11CredifyCore23ProviderUseCaseProtocolP", "DisposeBag"]
+- ["11CredifyCore23ProviderUseCaseProtocolP", "PublishSubject"]
+- !private ["11CredifyCore23ProviderUseCaseProtocolP", "Single"]
+- ["11CredifyCore23ProviderUseCaseProtocolP", ""]
+- !private ["11CredifyCore23ProviderUseCaseProtocolP", "bag"]
+- ["11CredifyCore23ProviderUseCaseProtocolP", "createsIndividualEntity"]
+- ["11CredifyCore23ProviderUseCaseProtocolP", "credifyIdEvent"]
+- ["11CredifyCore23ProviderUseCaseProtocolP", "credifyIdEventSubject"]
+- ["11CredifyCore23ProviderUseCaseProtocolP", "errorEvent"]
+- ["11CredifyCore23ProviderUseCaseProtocolP", "errorEventSubject"]
+- ["11CredifyCore23ProviderUseCaseProtocolP", "getCredifyIdFromProvider"]
+- ["11CredifyCore23ProviderUseCaseProtocolP", "getOffersFromProvider"]
+- !private ["11CredifyCore23ProviderUseCaseProtocolP", "kmRepository"]
+- ["11CredifyCore23ProviderUseCaseProtocolP", "loginSuccessEvent"]
+- ["11CredifyCore23ProviderUseCaseProtocolP", "loginSuccessEventSubject"]
+- ["11CredifyCore23ProviderUseCaseProtocolP", "loginWithPassword"]
+- ["11CredifyCore23ProviderUseCaseProtocolP", "offersFromProviderEvent"]
+- ["11CredifyCore23ProviderUseCaseProtocolP", "offersFromProviderEventSubject"]
+- !private ["11CredifyCore23ProviderUseCaseProtocolP", "print"]
+- !private ["11CredifyCore23ProviderUseCaseProtocolP", "repository"]
+- ["7RxSwift14PublishSubjectC", "asObservable"]
+- ["7RxSwift14PublishSubjectC", "asObserver"]
+- ["7RxSwift14PublishSubjectC", "init"]
+- !private ["7RxSwift14PublishSubjectC", "onNext"]
+- !private ["Sm", "sha256"]
+- !private ["7RxSwift18ReactiveCompatibleP", "sha256"]
+- !private ["ST", ""]
+- !private ["ST", "sha256"]
+- !private ["18CredifyCryptoSwift7SigningV", "exportPrivateKey"]
+- !private ["18CredifyCryptoSwift7SigningV", "privateKeyPKCS8"]
+- !private ["18CredifyCryptoSwift7SigningV", "publicKeyPKCS8"]
+- !private ["SS", "sha256"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["Sy", "sha256"]
+- ["7RxSwift11SubjectTypeP", "asObservable"]
+- ["7RxSwift11SubjectTypeP", "asObserver"]
+- ["7RxSwift11SubjectTypeP", "init"]
+- !private ["7RxSwift11SubjectTypeP", "onNext"]
+- ["7RxSwift27SynchronizedUnsubscribeTypeP", "asObservable"]
+- ["7RxSwift27SynchronizedUnsubscribeTypeP", "asObserver"]
+- ["7RxSwift27SynchronizedUnsubscribeTypeP", "init"]
+- !private ["7RxSwift27SynchronizedUnsubscribeTypeP", "onNext"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "sha256"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "sha256"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "sha256"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "sha256"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "sha256"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "sha256"]
+- !private ["s19_HasContiguousBytesP", "sha256"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "sha256"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sha256"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sha256"]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "sha256"]
+depends-nominal:
+- !private "11CredifyCore23AccessTokenRestResponseV0cdF0V"
+- !private "11CredifyCore23AccessTokenRestResponseV"
+- !private "SK"
+- !private "11CredifyCore7CCErrorO"
+- !private "s7CVarArgP"
+- "7RxSwift10CancelableP"
+- !private "Sl"
+- !private "SL"
+- !private "11CredifyCore0B7ServiceV"
+- !private "11CredifyCore31CreatesIndividualEntityResponseV"
+- !private "11CredifyCore0A4InfoV"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- "7RxSwift10DisposableP"
+- "7RxSwift10DisposeBagC"
+- "7RxSwift11DisposeBaseC"
+- !private "SE"
+- !private "11CredifyCore24GetEncryptedKeysResponseV0dE0V"
+- !private "18CredifyCryptoSwift10EncryptionV"
+- !private "SQ"
+- !private "s5ErrorP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "11CredifyCore03GetA22IdFromProviderResponseV"
+- !private "11CredifyCore24GetEncryptedKeysResponseV"
+- !private "SH"
+- !private "11CredifyCore31KeyManagementRepositoryProtocolP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "7RxSwift10ObservableC"
+- "7RxSwift25ObservableConvertibleTypeP"
+- "7RxSwift14ObservableTypeP"
+- "7RxSwift12ObserverTypeP"
+- !private "11CredifyCore21OfferListRestResponseV0cdF0V"
+- !private "11CredifyCore21OfferListRestResponseV"
+- !private "7RxSwift17PrimitiveSequenceV"
+- !private "7RxSwift21PrimitiveSequenceTypeP"
+- !private "11CredifyCore26ProviderRepositoryProtocolP"
+- "11CredifyCore15ProviderUseCaseC"
+- "11CredifyCore23ProviderUseCaseProtocolP"
+- "7RxSwift14PublishSubjectC"
+- !private "Sm"
+- !private "7RxSwift18ReactiveCompatibleP"
+- !private "ST"
+- !private "18CredifyCryptoSwift7SigningV"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- "7RxSwift11SubjectTypeP"
+- "7RxSwift27SynchronizedUnsubscribeTypeP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/KeychainAccess/KeychainAccess.framework/Modules/KeychainAccess.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Modules/CredifyCryptoSwift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/WebKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxRelay/RxRelay.framework/Modules/RxRelay.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RX.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/KeychainAccess/KeychainAccess.framework/Headers/KeychainAccess-umbrella.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/CredifyCryptoSwift-umbrella.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxRelay/RxRelay.framework/Headers/RxRelay-umbrella.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Headers/Universe.objc.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/Universe.objc.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Headers/Crypto.objc.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/Crypto.objc.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RXObjCRuntime.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoaRuntime.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Headers/ref.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/ref.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Headers/Crypto.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/Crypto.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RXKVOObserver.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/KeychainAccess/KeychainAccess.framework/Headers/KeychainAccess-Swift.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/CredifyCryptoSwift-Swift.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxRelay/RxRelay.framework/Headers/RxRelay-Swift.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/CredifyCryptoSwift.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RXDelegateProxy.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Modules/module.modulemap"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Modules/module.modulemap"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/KeychainAccess/KeychainAccess.framework/Modules/module.modulemap"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Modules/module.modulemap"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxRelay/RxRelay.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ff755f2e58fa8a30b3596f089b23486d"

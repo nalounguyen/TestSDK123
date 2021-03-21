@@ -1,0 +1,15 @@
+/* 
+  OfferRedeemSuccess.strings
+  Credify
+
+  Created by Nalou Nguyen on 07/01/2021.
+  Copyright © 2021 Credify. All rights reserved.
+*/
+
+"NavTitle" = "オファー";
+"CongratulationMessage" = "%@のオファーの申請が完了しました！";
+"Details" = "詳細";
+"Timestamp" = "適用した日時";
+"TransactionID" = "トランザクションID";
+"SupportMessage" = "%@が登録プロセスを完了するために連絡いたします。ご利用ありがとうございます。";
+"goToConsumerWebsite" = "%@を開く";

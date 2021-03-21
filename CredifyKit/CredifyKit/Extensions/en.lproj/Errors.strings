@@ -1,0 +1,40 @@
+/*
+  Errors.strings
+  Credify
+
+  Created by ShuichiNagao on 2019/06/05.
+  Copyright © 2019 Credify. All rights reserved.
+*/
+
+"seriarizeFailure" = "Failed to seriarize data.";
+"pincodeFailure" = "4-Digit PIN Number is wrong. Please try again.";
+"pincodeFailureLimitTimes" = "Please try after %@ seconds";
+"generateWalletFailure" = "Failed to load your wallet.";
+"secretFailure" = "Failed to access secret data.";
+"restoreFailure" = "Failed to restore your key pair from the recovery phrase. Please check if the recovery phrase is correct.";
+"accountNotFound" = "Account is not found.";
+"phoneVerificationFailure" = "Phone number verification code is wrong.";
+"signFailure" = "Failed to sign a message with your private key.";
+"linkedinConnectFailure" = "Failed to load your LinkedIn access token.";
+"onfidoCheckRequestFailure" = "Failed to request KYC provider's check.";
+"noneNetwork" = "Please check your Internet connection.";
+"unknown" = "Unknown error occurred.";
+"cancel" = "Canceled to connect.";
+"requestTimeOut" = "The request timed out";
+
+"UNKNOWN_ERROR" = "Unexpected error occurred.";
+"storagePerformFailure" = "Failed to store data.";
+
+
+"Error" = "Error";
+"OK" = "OK";
+"Yes" = "Yes";
+"No" = "No";
+"Cancel" = "Cancel";
+"Done" = "Done";
+"Save" = "Save";
+"Delete" = "Remove";
+"Copy" = "Copy";
+"Share" = "Share";
+"QR" = "QR code";
+"Others" = "Others";

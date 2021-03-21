@@ -1,0 +1,181 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "KeyManagementRepositoryProtocol"
+- "KeyManagementRepositoryManager"
+provides-nominal:
+- "11CredifyCore31KeyManagementRepositoryProtocolP"
+- "11CredifyCore30KeyManagementRepositoryManagerC"
+provides-member:
+- ["11CredifyCore31KeyManagementRepositoryProtocolP", ""]
+- ["11CredifyCore30KeyManagementRepositoryManagerC", ""]
+provides-dynamic-lookup:
+- "cacheAccessToken"
+- "cachePassword"
+- "fetchEncryptedKeys"
+- "generateEncryptionKeypair"
+- "generateSigningKeyPair"
+- "getEncryptionKey"
+- "getSigningKey"
+- "hasAccessToken"
+- "hasSession"
+- "saveEncryptionKeyPair"
+- "saveSigningKeyPair"
+- "service"
+- "sign"
+- "signPII"
+depends-top-level:
+- "AnyObject"
+- "Bool"
+- "CommonResponse"
+- "Completable"
+- "Encryption"
+- "GetEncryptedKeysResponse"
+- "KeyManagementRepository"
+- "KeyManagementRepositoryManager"
+- "KeyManagementRepositoryProtocol"
+- "Observable"
+- "Signing"
+- "Single"
+- "String"
+- !private "service"
+depends-member:
+- !private ["11CredifyCore23KeyManagementRepositoryC", ""]
+- !private ["11CredifyCore23KeyManagementRepositoryC", "cacheAccessToken"]
+- !private ["11CredifyCore23KeyManagementRepositoryC", "cachePassword"]
+- !private ["11CredifyCore23KeyManagementRepositoryC", "fetchEncryptedKeys"]
+- !private ["11CredifyCore23KeyManagementRepositoryC", "generateEncryptionKeypair"]
+- !private ["11CredifyCore23KeyManagementRepositoryC", "generateSigningKeyPair"]
+- !private ["11CredifyCore23KeyManagementRepositoryC", "getEncryptionKey"]
+- !private ["11CredifyCore23KeyManagementRepositoryC", "getSigningKey"]
+- !private ["11CredifyCore23KeyManagementRepositoryC", "hasAccessToken"]
+- !private ["11CredifyCore23KeyManagementRepositoryC", "hasSession"]
+- ["11CredifyCore23KeyManagementRepositoryC", "init"]
+- !private ["11CredifyCore23KeyManagementRepositoryC", "saveEncryptionKeyPair"]
+- !private ["11CredifyCore23KeyManagementRepositoryC", "saveSigningKeyPair"]
+- !private ["11CredifyCore23KeyManagementRepositoryC", "sign"]
+- !private ["11CredifyCore23KeyManagementRepositoryC", "signPII"]
+- ["11CredifyCore30KeyManagementRepositoryManagerC", "Bool"]
+- ["11CredifyCore30KeyManagementRepositoryManagerC", "CommonResponse"]
+- ["11CredifyCore30KeyManagementRepositoryManagerC", "Completable"]
+- ["11CredifyCore30KeyManagementRepositoryManagerC", "Encryption"]
+- ["11CredifyCore30KeyManagementRepositoryManagerC", "GetEncryptedKeysResponse"]
+- ["11CredifyCore30KeyManagementRepositoryManagerC", "KeyManagementRepository"]
+- ["11CredifyCore30KeyManagementRepositoryManagerC", "Observable"]
+- ["11CredifyCore30KeyManagementRepositoryManagerC", "Signing"]
+- ["11CredifyCore30KeyManagementRepositoryManagerC", "Single"]
+- ["11CredifyCore30KeyManagementRepositoryManagerC", "String"]
+- ["11CredifyCore30KeyManagementRepositoryManagerC", "cacheAccessToken"]
+- ["11CredifyCore30KeyManagementRepositoryManagerC", "cachePassword"]
+- ["11CredifyCore30KeyManagementRepositoryManagerC", "deinit"]
+- ["11CredifyCore30KeyManagementRepositoryManagerC", "fetchEncryptedKeys"]
+- ["11CredifyCore30KeyManagementRepositoryManagerC", "generateEncryptionKeypair"]
+- ["11CredifyCore30KeyManagementRepositoryManagerC", "generateSigningKeyPair"]
+- ["11CredifyCore30KeyManagementRepositoryManagerC", "getEncryptionKey"]
+- ["11CredifyCore30KeyManagementRepositoryManagerC", "getSigningKey"]
+- ["11CredifyCore30KeyManagementRepositoryManagerC", "hasAccessToken"]
+- ["11CredifyCore30KeyManagementRepositoryManagerC", "hasSession"]
+- ["11CredifyCore30KeyManagementRepositoryManagerC", "init"]
+- ["11CredifyCore30KeyManagementRepositoryManagerC", "saveEncryptionKeyPair"]
+- ["11CredifyCore30KeyManagementRepositoryManagerC", "saveSigningKeyPair"]
+- !private ["11CredifyCore30KeyManagementRepositoryManagerC", "service"]
+- ["11CredifyCore30KeyManagementRepositoryManagerC", "sign"]
+- ["11CredifyCore30KeyManagementRepositoryManagerC", "signPII"]
+- ["11CredifyCore31KeyManagementRepositoryProtocolP", "CommonResponse"]
+- ["11CredifyCore31KeyManagementRepositoryProtocolP", "Completable"]
+- ["11CredifyCore31KeyManagementRepositoryProtocolP", "Encryption"]
+- ["11CredifyCore31KeyManagementRepositoryProtocolP", "GetEncryptedKeysResponse"]
+- ["11CredifyCore31KeyManagementRepositoryProtocolP", "KeyManagementRepository"]
+- ["11CredifyCore31KeyManagementRepositoryProtocolP", "Observable"]
+- ["11CredifyCore31KeyManagementRepositoryProtocolP", "Signing"]
+- ["11CredifyCore31KeyManagementRepositoryProtocolP", "Single"]
+- ["11CredifyCore31KeyManagementRepositoryProtocolP", "String"]
+- ["11CredifyCore31KeyManagementRepositoryProtocolP", ""]
+- ["11CredifyCore31KeyManagementRepositoryProtocolP", "cacheAccessToken"]
+- ["11CredifyCore31KeyManagementRepositoryProtocolP", "cachePassword"]
+- ["11CredifyCore31KeyManagementRepositoryProtocolP", "fetchEncryptedKeys"]
+- ["11CredifyCore31KeyManagementRepositoryProtocolP", "generateEncryptionKeypair"]
+- ["11CredifyCore31KeyManagementRepositoryProtocolP", "generateSigningKeyPair"]
+- ["11CredifyCore31KeyManagementRepositoryProtocolP", "getEncryptionKey"]
+- ["11CredifyCore31KeyManagementRepositoryProtocolP", "getSigningKey"]
+- !private ["11CredifyCore31KeyManagementRepositoryProtocolP", "hasAccessToken"]
+- !private ["11CredifyCore31KeyManagementRepositoryProtocolP", "hasSession"]
+- ["11CredifyCore31KeyManagementRepositoryProtocolP", "init"]
+- ["11CredifyCore31KeyManagementRepositoryProtocolP", "saveEncryptionKeyPair"]
+- ["11CredifyCore31KeyManagementRepositoryProtocolP", "saveSigningKeyPair"]
+- !private ["11CredifyCore31KeyManagementRepositoryProtocolP", "service"]
+- ["11CredifyCore31KeyManagementRepositoryProtocolP", "sign"]
+- ["11CredifyCore31KeyManagementRepositoryProtocolP", "signPII"]
+depends-nominal:
+- "11CredifyCore23KeyManagementRepositoryC"
+- "11CredifyCore30KeyManagementRepositoryManagerC"
+- "11CredifyCore31KeyManagementRepositoryProtocolP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/KeychainAccess/KeychainAccess.framework/Modules/KeychainAccess.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Modules/CredifyCryptoSwift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/WebKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxRelay/RxRelay.framework/Modules/RxRelay.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RX.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/KeychainAccess/KeychainAccess.framework/Headers/KeychainAccess-umbrella.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/CredifyCryptoSwift-umbrella.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxRelay/RxRelay.framework/Headers/RxRelay-umbrella.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Headers/Universe.objc.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/Universe.objc.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Headers/Crypto.objc.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/Crypto.objc.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RXObjCRuntime.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoaRuntime.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Headers/ref.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/ref.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Headers/Crypto.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/Crypto.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RXKVOObserver.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/KeychainAccess/KeychainAccess.framework/Headers/KeychainAccess-Swift.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/CredifyCryptoSwift-Swift.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxRelay/RxRelay.framework/Headers/RxRelay-Swift.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Headers/CredifyCryptoSwift.h"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RXDelegateProxy.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Modules/module.modulemap"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/Pods/CredifyCryptoSwift/CredifyCryptoSwift/Crypto.framework/Modules/module.modulemap"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/KeychainAccess/KeychainAccess.framework/Modules/module.modulemap"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/CredifyCryptoSwift/CredifyCryptoSwift.framework/Modules/module.modulemap"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyCore/derived_data/Build/Products/Debug-iphoneos/RxRelay/RxRelay.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "bae3d5751b56209e535915b1f9dc59cc"

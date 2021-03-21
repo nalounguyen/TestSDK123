@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		B15B1EE925FF421700273A4C /* TheCredifyCore */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B15B1EEC25FF421700273A4C /* Build configuration list for PBXAggregateTarget "TheCredifyCore" */;
+			buildPhases = (
+				B15B1EEF25FF421F00273A4C /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = TheCredifyCore;
+			productName = TheCredifyCore;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		90995D0A857E952367465CAF /* Pods_CredifyCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3223E5622855C7B608A6239F /* Pods_CredifyCore.framework */; };
+		B14789DD2601AC7400985CCD /* KeyManagementUseCaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14789DC2601AC7400985CCD /* KeyManagementUseCaseProtocol.swift */; };
+		B14789E12601AC8000985CCD /* KeyManagementUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14789E02601AC8000985CCD /* KeyManagementUseCase.swift */; };
+		B14789E52601AC8B00985CCD /* KeyManagementUseCaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14789E42601AC8B00985CCD /* KeyManagementUseCaseManager.swift */; };
+		B1478A032601EA0800985CCD /* ClaimRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1478A022601EA0800985CCD /* ClaimRepositoryProtocol.swift */; };
+		B1478A092601EA3500985CCD /* ClaimRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1478A082601EA3500985CCD /* ClaimRepository.swift */; };
+		B1478A0D2601EA5F00985CCD /* ClaimRepositoryRequest+Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1478A0C2601EA5E00985CCD /* ClaimRepositoryRequest+Response.swift */; };
+		B1478A1A2601EAC600985CCD /* ClaimUseCaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1478A192601EAC600985CCD /* ClaimUseCaseProtocol.swift */; };
+		B1478A1E2601EB2E00985CCD /* ClaimUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1478A1D2601EB2E00985CCD /* ClaimUseCase.swift */; };
+		B1478A222601F08B00985CCD /* ClaimUseCaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1478A212601F08B00985CCD /* ClaimUseCaseManager.swift */; };
+		B1480932260046A9004243E2 /* OfferRepositoryRequest+Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1480931260046A9004243E2 /* OfferRepositoryRequest+Response.swift */; };
+		B1480936260046B1004243E2 /* OfferRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1480935260046B1004243E2 /* OfferRepositoryProtocol.swift */; };
+		B148093A260046BA004243E2 /* OfferRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1480939260046BA004243E2 /* OfferRepository.swift */; };
+		B148094726004883004243E2 /* OfferUseCaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148094626004883004243E2 /* OfferUseCaseProtocol.swift */; };
+		B148094D26004A8A004243E2 /* OfferUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148094C26004A8A004243E2 /* OfferUseCase.swift */; };
+		B148095B26004D67004243E2 /* OfferUseCaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148095A26004D67004243E2 /* OfferUseCaseManager.swift */; };
+		B14809D626008C64004243E2 /* ProviderUseCaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14809D526008C64004243E2 /* ProviderUseCaseManager.swift */; };
+		B1C44C4F26046263004FB287 /* CCUserExternalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C44C4E26046263004FB287 /* CCUserExternalModel.swift */; };
+		B1D83C9125FE6987001D3A91 /* CredifyCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D83C9025FE6987001D3A91 /* CredifyCore.swift */; };
+		B1D843E725FE82C0001D3A91 /* RestAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D843E625FE82C0001D3A91 /* RestAPIClient.swift */; };
+		B1D843EC25FE832F001D3A91 /* RestAPIRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D843EB25FE832F001D3A91 /* RestAPIRequests.swift */; };
+		B1D843F025FE8388001D3A91 /* CCUserDefaultsUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D843EF25FE8388001D3A91 /* CCUserDefaultsUtil.swift */; };
+		B1D843F425FE840E001D3A91 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D843F325FE840E001D3A91 /* Enums.swift */; };
+		B1D843F725FE8525001D3A91 /* CCEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D843F625FE8525001D3A91 /* CCEnvironment.swift */; };
+		B1D843FA25FE871D001D3A91 /* CoreServiceConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D843F925FE871D001D3A91 /* CoreServiceConfiguration.swift */; };
+		B1D8440225FE894C001D3A91 /* CCError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D8440125FE894C001D3A91 /* CCError.swift */; };
+		B1D8440525FE89E2001D3A91 /* CCSigner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D8440425FE89E2001D3A91 /* CCSigner.swift */; };
+		B1D8440825FE8A21001D3A91 /* CCKeychainAccessClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D8440725FE8A21001D3A91 /* CCKeychainAccessClient.swift */; };
+		B1D8440C25FE8F10001D3A91 /* CCAccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D8440B25FE8F10001D3A91 /* CCAccountModel.swift */; };
+		B1D8440F25FE8F4C001D3A91 /* CCClaimModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D8440E25FE8F4C001D3A91 /* CCClaimModel.swift */; };
+		B1D8441225FE8F6E001D3A91 /* CCProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D8441125FE8F6E001D3A91 /* CCProfileModel.swift */; };
+		B1D8441525FE8F88001D3A91 /* CCScopeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D8441425FE8F88001D3A91 /* CCScopeModel.swift */; };
+		B1D8441825FE9081001D3A91 /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D8441725FE9081001D3A91 /* Structs.swift */; };
+		B1D8441B25FE9181001D3A91 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D8441A25FE9181001D3A91 /* String+Extension.swift */; };
+		B1D8441E25FE9197001D3A91 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D8441D25FE9197001D3A91 /* Date+Extension.swift */; };
+		B1D8442325FE9235001D3A91 /* KeyManagementRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D8442225FE9235001D3A91 /* KeyManagementRepositoryProtocol.swift */; };
+		B1D8442625FE9392001D3A91 /* KeyManagementRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D8442525FE9392001D3A91 /* KeyManagementRepository.swift */; };
+		B1D8442925FE961F001D3A91 /* KeyManagementRepositoryRequest+Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D8442825FE961F001D3A91 /* KeyManagementRepositoryRequest+Response.swift */; };
+		B1D8444A25FEFA19001D3A91 /* ProviderRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D8444925FEFA19001D3A91 /* ProviderRepositoryProtocol.swift */; };
+		B1D8444E25FEFA2E001D3A91 /* ProviderRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D8444D25FEFA2E001D3A91 /* ProviderRepository.swift */; };
+		B1D8445125FEFABB001D3A91 /* ProviderRepositoryRequest+Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D8445025FEFABB001D3A91 /* ProviderRepositoryRequest+Response.swift */; };
+		B1D8445425FEFB33001D3A91 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D8445325FEFB33001D3A91 /* Array+Extension.swift */; };
+		B1D8445725FEFB48001D3A91 /* Encodable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D8445625FEFB48001D3A91 /* Encodable+Extension.swift */; };
+		B1D8445C25FEFD58001D3A91 /* ProviderUseCaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D8445B25FEFD58001D3A91 /* ProviderUseCaseProtocol.swift */; };
+		B1D8446025FEFD85001D3A91 /* ProviderUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D8445F25FEFD85001D3A91 /* ProviderUseCase.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B1D83C8B25FE6987001D3A91 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3223E5622855C7B608A6239F /* Pods_CredifyCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CredifyCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		537E2B80A4F79B31E6132E64 /* Pods-CredifyCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CredifyCore.debug.xcconfig"; path = "Target Support Files/Pods-CredifyCore/Pods-CredifyCore.debug.xcconfig"; sourceTree = "<group>"; };
+		69B5AF4D3CBFC77F4C6E4509 /* Pods-CredifyCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CredifyCore.release.xcconfig"; path = "Target Support Files/Pods-CredifyCore/Pods-CredifyCore.release.xcconfig"; sourceTree = "<group>"; };
+		B14789DC2601AC7400985CCD /* KeyManagementUseCaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyManagementUseCaseProtocol.swift; sourceTree = "<group>"; };
+		B14789E02601AC8000985CCD /* KeyManagementUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyManagementUseCase.swift; sourceTree = "<group>"; };
+		B14789E42601AC8B00985CCD /* KeyManagementUseCaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyManagementUseCaseManager.swift; sourceTree = "<group>"; };
+		B1478A022601EA0800985CCD /* ClaimRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimRepositoryProtocol.swift; sourceTree = "<group>"; };
+		B1478A082601EA3500985CCD /* ClaimRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimRepository.swift; sourceTree = "<group>"; };
+		B1478A0C2601EA5E00985CCD /* ClaimRepositoryRequest+Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ClaimRepositoryRequest+Response.swift"; sourceTree = "<group>"; };
+		B1478A192601EAC600985CCD /* ClaimUseCaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimUseCaseProtocol.swift; sourceTree = "<group>"; };
+		B1478A1D2601EB2E00985CCD /* ClaimUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimUseCase.swift; sourceTree = "<group>"; };
+		B1478A212601F08B00985CCD /* ClaimUseCaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimUseCaseManager.swift; sourceTree = "<group>"; };
+		B1480931260046A9004243E2 /* OfferRepositoryRequest+Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "OfferRepositoryRequest+Response.swift"; sourceTree = "<group>"; };
+		B1480935260046B1004243E2 /* OfferRepositoryProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferRepositoryProtocol.swift; sourceTree = "<group>"; };
+		B1480939260046BA004243E2 /* OfferRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferRepository.swift; sourceTree = "<group>"; };
+		B148094626004883004243E2 /* OfferUseCaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferUseCaseProtocol.swift; sourceTree = "<group>"; };
+		B148094C26004A8A004243E2 /* OfferUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferUseCase.swift; sourceTree = "<group>"; };
+		B148095A26004D67004243E2 /* OfferUseCaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferUseCaseManager.swift; sourceTree = "<group>"; };
+		B14809D526008C64004243E2 /* ProviderUseCaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderUseCaseManager.swift; sourceTree = "<group>"; };
+		B1C44C4E26046263004FB287 /* CCUserExternalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCUserExternalModel.swift; sourceTree = "<group>"; };
+		B1D83C8D25FE6987001D3A91 /* libCredifyCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCredifyCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1D83C9025FE6987001D3A91 /* CredifyCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredifyCore.swift; sourceTree = "<group>"; };
+		B1D843E625FE82C0001D3A91 /* RestAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAPIClient.swift; sourceTree = "<group>"; };
+		B1D843EB25FE832F001D3A91 /* RestAPIRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAPIRequests.swift; sourceTree = "<group>"; };
+		B1D843EF25FE8388001D3A91 /* CCUserDefaultsUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCUserDefaultsUtil.swift; sourceTree = "<group>"; };
+		B1D843F325FE840E001D3A91 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		B1D843F625FE8525001D3A91 /* CCEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCEnvironment.swift; sourceTree = "<group>"; };
+		B1D843F925FE871D001D3A91 /* CoreServiceConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreServiceConfiguration.swift; sourceTree = "<group>"; };
+		B1D8440125FE894C001D3A91 /* CCError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCError.swift; sourceTree = "<group>"; };
+		B1D8440425FE89E2001D3A91 /* CCSigner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCSigner.swift; sourceTree = "<group>"; };
+		B1D8440725FE8A21001D3A91 /* CCKeychainAccessClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCKeychainAccessClient.swift; sourceTree = "<group>"; };
+		B1D8440B25FE8F10001D3A91 /* CCAccountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCAccountModel.swift; sourceTree = "<group>"; };
+		B1D8440E25FE8F4C001D3A91 /* CCClaimModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCClaimModel.swift; sourceTree = "<group>"; };
+		B1D8441125FE8F6E001D3A91 /* CCProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCProfileModel.swift; sourceTree = "<group>"; };
+		B1D8441425FE8F88001D3A91 /* CCScopeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCScopeModel.swift; sourceTree = "<group>"; };
+		B1D8441725FE9081001D3A91 /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
+		B1D8441A25FE9181001D3A91 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		B1D8441D25FE9197001D3A91 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		B1D8442225FE9235001D3A91 /* KeyManagementRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyManagementRepositoryProtocol.swift; sourceTree = "<group>"; };
+		B1D8442525FE9392001D3A91 /* KeyManagementRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyManagementRepository.swift; sourceTree = "<group>"; };
+		B1D8442825FE961F001D3A91 /* KeyManagementRepositoryRequest+Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KeyManagementRepositoryRequest+Response.swift"; sourceTree = "<group>"; };
+		B1D8444925FEFA19001D3A91 /* ProviderRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderRepositoryProtocol.swift; sourceTree = "<group>"; };
+		B1D8444D25FEFA2E001D3A91 /* ProviderRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderRepository.swift; sourceTree = "<group>"; };
+		B1D8445025FEFABB001D3A91 /* ProviderRepositoryRequest+Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProviderRepositoryRequest+Response.swift"; sourceTree = "<group>"; };
+		B1D8445325FEFB33001D3A91 /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		B1D8445625FEFB48001D3A91 /* Encodable+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+Extension.swift"; sourceTree = "<group>"; };
+		B1D8445B25FEFD58001D3A91 /* ProviderUseCaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderUseCaseProtocol.swift; sourceTree = "<group>"; };
+		B1D8445F25FEFD85001D3A91 /* ProviderUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderUseCase.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1D83C8A25FE6987001D3A91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90995D0A857E952367465CAF /* Pods_CredifyCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49156B3467DF50947484CE94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				537E2B80A4F79B31E6132E64 /* Pods-CredifyCore.debug.xcconfig */,
+				69B5AF4D3CBFC77F4C6E4509 /* Pods-CredifyCore.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7DF27A234827831E3E4C9B9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3223E5622855C7B608A6239F /* Pods_CredifyCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B14789DB2601AC5600985CCD /* KeyManagementUseCases */ = {
+			isa = PBXGroup;
+			children = (
+				B14789DC2601AC7400985CCD /* KeyManagementUseCaseProtocol.swift */,
+				B14789E02601AC8000985CCD /* KeyManagementUseCase.swift */,
+				B14789E42601AC8B00985CCD /* KeyManagementUseCaseManager.swift */,
+			);
+			path = KeyManagementUseCases;
+			sourceTree = "<group>";
+		};
+		B1478A012601E9CE00985CCD /* Claim */ = {
+			isa = PBXGroup;
+			children = (
+				B1478A022601EA0800985CCD /* ClaimRepositoryProtocol.swift */,
+				B1478A082601EA3500985CCD /* ClaimRepository.swift */,
+				B1478A0C2601EA5E00985CCD /* ClaimRepositoryRequest+Response.swift */,
+			);
+			path = Claim;
+			sourceTree = "<group>";
+		};
+		B1478A102601EAA500985CCD /* ClaimUseCases */ = {
+			isa = PBXGroup;
+			children = (
+				B1478A192601EAC600985CCD /* ClaimUseCaseProtocol.swift */,
+				B1478A1D2601EB2E00985CCD /* ClaimUseCase.swift */,
+				B1478A212601F08B00985CCD /* ClaimUseCaseManager.swift */,
+			);
+			path = ClaimUseCases;
+			sourceTree = "<group>";
+		};
+		B148093026004698004243E2 /* Offer */ = {
+			isa = PBXGroup;
+			children = (
+				B1480935260046B1004243E2 /* OfferRepositoryProtocol.swift */,
+				B1480931260046A9004243E2 /* OfferRepositoryRequest+Response.swift */,
+				B1480939260046BA004243E2 /* OfferRepository.swift */,
+			);
+			path = Offer;
+			sourceTree = "<group>";
+		};
+		B148094526004831004243E2 /* OfferUseCases */ = {
+			isa = PBXGroup;
+			children = (
+				B148094626004883004243E2 /* OfferUseCaseProtocol.swift */,
+				B148094C26004A8A004243E2 /* OfferUseCase.swift */,
+				B148095A26004D67004243E2 /* OfferUseCaseManager.swift */,
+			);
+			path = OfferUseCases;
+			sourceTree = "<group>";
+		};
+		B1D83C8425FE6987001D3A91 = {
+			isa = PBXGroup;
+			children = (
+				B1D83C8F25FE6987001D3A91 /* CredifyCore */,
+				B1D83C8E25FE6987001D3A91 /* Products */,
+				49156B3467DF50947484CE94 /* Pods */,
+				7DF27A234827831E3E4C9B9C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B1D83C8E25FE6987001D3A91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1D83C8D25FE6987001D3A91 /* libCredifyCore.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1D83C8F25FE6987001D3A91 /* CredifyCore */ = {
+			isa = PBXGroup;
+			children = (
+				B1D8445925FEFD2D001D3A91 /* UseCases */,
+				B1D8442025FE91D1001D3A91 /* Repositories */,
+				B1D8440A25FE8F04001D3A91 /* Models */,
+				B1D8440025FE8942001D3A91 /* Extensions */,
+				B1D843F225FE83FD001D3A91 /* Common */,
+				B1D843EE25FE837B001D3A91 /* Utilities */,
+				B1D843E425FE82A4001D3A91 /* Network */,
+				B1D83C9025FE6987001D3A91 /* CredifyCore.swift */,
+				B1D843F925FE871D001D3A91 /* CoreServiceConfiguration.swift */,
+			);
+			path = CredifyCore;
+			sourceTree = "<group>";
+		};
+		B1D843E425FE82A4001D3A91 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B1D843E525FE82AC001D3A91 /* RestAPI */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B1D843E525FE82AC001D3A91 /* RestAPI */ = {
+			isa = PBXGroup;
+			children = (
+				B1D843E625FE82C0001D3A91 /* RestAPIClient.swift */,
+				B1D843EB25FE832F001D3A91 /* RestAPIRequests.swift */,
+			);
+			path = RestAPI;
+			sourceTree = "<group>";
+		};
+		B1D843EE25FE837B001D3A91 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B1D843EF25FE8388001D3A91 /* CCUserDefaultsUtil.swift */,
+				B1D843F625FE8525001D3A91 /* CCEnvironment.swift */,
+				B1D8440425FE89E2001D3A91 /* CCSigner.swift */,
+				B1D8440725FE8A21001D3A91 /* CCKeychainAccessClient.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		B1D843F225FE83FD001D3A91 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B1D843F325FE840E001D3A91 /* Enums.swift */,
+				B1D8441725FE9081001D3A91 /* Structs.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B1D8440025FE8942001D3A91 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B1D8440125FE894C001D3A91 /* CCError.swift */,
+				B1D8441A25FE9181001D3A91 /* String+Extension.swift */,
+				B1D8441D25FE9197001D3A91 /* Date+Extension.swift */,
+				B1D8445325FEFB33001D3A91 /* Array+Extension.swift */,
+				B1D8445625FEFB48001D3A91 /* Encodable+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B1D8440A25FE8F04001D3A91 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B1D8440B25FE8F10001D3A91 /* CCAccountModel.swift */,
+				B1D8440E25FE8F4C001D3A91 /* CCClaimModel.swift */,
+				B1D8441125FE8F6E001D3A91 /* CCProfileModel.swift */,
+				B1D8441425FE8F88001D3A91 /* CCScopeModel.swift */,
+				B1C44C4E26046263004FB287 /* CCUserExternalModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B1D8442025FE91D1001D3A91 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				B1478A012601E9CE00985CCD /* Claim */,
+				B148093026004698004243E2 /* Offer */,
+				B1D8444825FEFA0C001D3A91 /* Provider */,
+				B1D8442125FE922A001D3A91 /* KeyManagementRepository */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		B1D8442125FE922A001D3A91 /* KeyManagementRepository */ = {
+			isa = PBXGroup;
+			children = (
+				B1D8442225FE9235001D3A91 /* KeyManagementRepositoryProtocol.swift */,
+				B1D8442525FE9392001D3A91 /* KeyManagementRepository.swift */,
+				B1D8442825FE961F001D3A91 /* KeyManagementRepositoryRequest+Response.swift */,
+			);
+			path = KeyManagementRepository;
+			sourceTree = "<group>";
+		};
+		B1D8444825FEFA0C001D3A91 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				B1D8444925FEFA19001D3A91 /* ProviderRepositoryProtocol.swift */,
+				B1D8444D25FEFA2E001D3A91 /* ProviderRepository.swift */,
+				B1D8445025FEFABB001D3A91 /* ProviderRepositoryRequest+Response.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		B1D8445925FEFD2D001D3A91 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				B1478A102601EAA500985CCD /* ClaimUseCases */,
+				B14789DB2601AC5600985CCD /* KeyManagementUseCases */,
+				B148094526004831004243E2 /* OfferUseCases */,
+				B1D8445A25FEFD4C001D3A91 /* ProviderUseCases */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		B1D8445A25FEFD4C001D3A91 /* ProviderUseCases */ = {
+			isa = PBXGroup;
+			children = (
+				B1D8445B25FEFD58001D3A91 /* ProviderUseCaseProtocol.swift */,
+				B1D8445F25FEFD85001D3A91 /* ProviderUseCase.swift */,
+				B14809D526008C64004243E2 /* ProviderUseCaseManager.swift */,
+			);
+			path = ProviderUseCases;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1D83C8C25FE6987001D3A91 /* CredifyCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1D83C9425FE6987001D3A91 /* Build configuration list for PBXNativeTarget "CredifyCore" */;
+			buildPhases = (
+				0D1E81D0064B0E745E900850 /* [CP] Check Pods Manifest.lock */,
+				B1D83C8925FE6987001D3A91 /* Sources */,
+				B1D83C8A25FE6987001D3A91 /* Frameworks */,
+				B1D83C8B25FE6987001D3A91 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CredifyCore;
+			productName = CredifyCore;
+			productReference = B1D83C8D25FE6987001D3A91 /* libCredifyCore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1D83C8525FE6987001D3A91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = "Credify One";
+				TargetAttributes = {
+					B15B1EE925FF421700273A4C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					B1D83C8C25FE6987001D3A91 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = B1D83C8825FE6987001D3A91 /* Build configuration list for PBXProject "CredifyCore" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1D83C8425FE6987001D3A91;
+			productRefGroup = B1D83C8E25FE6987001D3A91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1D83C8C25FE6987001D3A91 /* CredifyCore */,
+				B15B1EE925FF421700273A4C /* TheCredifyCore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D1E81D0064B0E745E900850 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CredifyCore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B15B1EEF25FF421F00273A4C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh \"${PROJECT_DIR}/universal.sh\"\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1D83C8925FE6987001D3A91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D8441B25FE9181001D3A91 /* String+Extension.swift in Sources */,
+				B1D8440C25FE8F10001D3A91 /* CCAccountModel.swift in Sources */,
+				B1D8440225FE894C001D3A91 /* CCError.swift in Sources */,
+				B1D83C9125FE6987001D3A91 /* CredifyCore.swift in Sources */,
+				B1D8446025FEFD85001D3A91 /* ProviderUseCase.swift in Sources */,
+				B1D8444E25FEFA2E001D3A91 /* ProviderRepository.swift in Sources */,
+				B1D843FA25FE871D001D3A91 /* CoreServiceConfiguration.swift in Sources */,
+				B1C44C4F26046263004FB287 /* CCUserExternalModel.swift in Sources */,
+				B1478A1A2601EAC600985CCD /* ClaimUseCaseProtocol.swift in Sources */,
+				B1478A1E2601EB2E00985CCD /* ClaimUseCase.swift in Sources */,
+				B1D8442925FE961F001D3A91 /* KeyManagementRepositoryRequest+Response.swift in Sources */,
+				B1478A222601F08B00985CCD /* ClaimUseCaseManager.swift in Sources */,
+				B14789E12601AC8000985CCD /* KeyManagementUseCase.swift in Sources */,
+				B1478A0D2601EA5F00985CCD /* ClaimRepositoryRequest+Response.swift in Sources */,
+				B148094D26004A8A004243E2 /* OfferUseCase.swift in Sources */,
+				B1D843F725FE8525001D3A91 /* CCEnvironment.swift in Sources */,
+				B14789E52601AC8B00985CCD /* KeyManagementUseCaseManager.swift in Sources */,
+				B1480932260046A9004243E2 /* OfferRepositoryRequest+Response.swift in Sources */,
+				B1D8445C25FEFD58001D3A91 /* ProviderUseCaseProtocol.swift in Sources */,
+				B1D8445125FEFABB001D3A91 /* ProviderRepositoryRequest+Response.swift in Sources */,
+				B1D8444A25FEFA19001D3A91 /* ProviderRepositoryProtocol.swift in Sources */,
+				B14789DD2601AC7400985CCD /* KeyManagementUseCaseProtocol.swift in Sources */,
+				B1D8440825FE8A21001D3A91 /* CCKeychainAccessClient.swift in Sources */,
+				B1D8440F25FE8F4C001D3A91 /* CCClaimModel.swift in Sources */,
+				B1D843E725FE82C0001D3A91 /* RestAPIClient.swift in Sources */,
+				B148093A260046BA004243E2 /* OfferRepository.swift in Sources */,
+				B1480936260046B1004243E2 /* OfferRepositoryProtocol.swift in Sources */,
+				B1478A032601EA0800985CCD /* ClaimRepositoryProtocol.swift in Sources */,
+				B148095B26004D67004243E2 /* OfferUseCaseManager.swift in Sources */,
+				B1D8441E25FE9197001D3A91 /* Date+Extension.swift in Sources */,
+				B1D843F425FE840E001D3A91 /* Enums.swift in Sources */,
+				B1D8445425FEFB33001D3A91 /* Array+Extension.swift in Sources */,
+				B1D843F025FE8388001D3A91 /* CCUserDefaultsUtil.swift in Sources */,
+				B1D8442325FE9235001D3A91 /* KeyManagementRepositoryProtocol.swift in Sources */,
+				B1D8445725FEFB48001D3A91 /* Encodable+Extension.swift in Sources */,
+				B1D8442625FE9392001D3A91 /* KeyManagementRepository.swift in Sources */,
+				B1D843EC25FE832F001D3A91 /* RestAPIRequests.swift in Sources */,
+				B1D8441225FE8F6E001D3A91 /* CCProfileModel.swift in Sources */,
+				B1D8441825FE9081001D3A91 /* Structs.swift in Sources */,
+				B148094726004883004243E2 /* OfferUseCaseProtocol.swift in Sources */,
+				B1D8441525FE8F88001D3A91 /* CCScopeModel.swift in Sources */,
+				B14809D626008C64004243E2 /* ProviderUseCaseManager.swift in Sources */,
+				B1D8440525FE89E2001D3A91 /* CCSigner.swift in Sources */,
+				B1478A092601EA3500985CCD /* ClaimRepository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B15B1EEA25FF421700273A4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34C29C245L;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B15B1EEB25FF421700273A4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34C29C245L;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B1D83C9225FE6987001D3A91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1D83C9325FE6987001D3A91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1D83C9525FE6987001D3A91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 537E2B80A4F79B31E6132E64 /* Pods-CredifyCore.debug.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1D83C9625FE6987001D3A91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69B5AF4D3CBFC77F4C6E4509 /* Pods-CredifyCore.release.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B15B1EEC25FF421700273A4C /* Build configuration list for PBXAggregateTarget "TheCredifyCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B15B1EEA25FF421700273A4C /* Debug */,
+				B15B1EEB25FF421700273A4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1D83C8825FE6987001D3A91 /* Build configuration list for PBXProject "CredifyCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D83C9225FE6987001D3A91 /* Debug */,
+				B1D83C9325FE6987001D3A91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1D83C9425FE6987001D3A91 /* Build configuration list for PBXNativeTarget "CredifyCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D83C9525FE6987001D3A91 /* Debug */,
+				B1D83C9625FE6987001D3A91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1D83C8525FE6987001D3A91 /* Project object */;
+}

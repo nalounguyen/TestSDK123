@@ -1,0 +1,16 @@
+/* 
+  OfferRedeemSuccess.strings
+  Credify
+
+  Created by Nalou Nguyen on 07/01/2021.
+  Copyright © 2021 Credify. All rights reserved.
+*/
+
+"NavTitle" = "Offer";
+
+"CongratulationMessage" = "Congratulations,\n\nYou’ve successfully redeemed the offer from %@!";
+"Details" = "Detail";
+"Timestamp" = "Timestamp";
+"TransactionID" = "Transaction ID";
+"SupportMessage" = "%@’s officers will contact you shortly to support your onboarding process. Thank you.";
+"goToConsumerWebsite" = "Go to %@ website";

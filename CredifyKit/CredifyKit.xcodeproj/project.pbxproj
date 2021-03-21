@@ -1,0 +1,1657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		B1D8436625FE7860001D3A91 /* TheCredifyKit */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B1D8436925FE7860001D3A91 /* Build configuration list for PBXAggregateTarget "TheCredifyKit" */;
+			buildPhases = (
+				B1D8436D25FE786E001D3A91 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = TheCredifyKit;
+			productName = TheCredifyKit;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0654F4A82F4EE5B2A2047486 /* Pods_CredifyKit_CredifyKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD86909BA85AF88F31FD5C9 /* Pods_CredifyKit_CredifyKitTests.framework */; };
+		26B0A7125B721CA1602F391B /* Pods_ExampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B71E3CB63D74A4FBDFD9D48 /* Pods_ExampleApp.framework */; };
+		B145A64D26070865000BCDEC /* UITapGestureRecognizer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B145A64C26070865000BCDEC /* UITapGestureRecognizer+Extension.swift */; };
+		B145A64E26070865000BCDEC /* UITapGestureRecognizer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B145A64C26070865000BCDEC /* UITapGestureRecognizer+Extension.swift */; };
+		B14789D626019D5700985CCD /* UserProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14789D526019D5700985CCD /* UserProfileModel.swift */; };
+		B14789D726019D5700985CCD /* UserProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14789D526019D5700985CCD /* UserProfileModel.swift */; };
+		B1480831260029DD004243E2 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1480830260029DD004243E2 /* UIApplication+Extension.swift */; };
+		B1480832260029DD004243E2 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1480830260029DD004243E2 /* UIApplication+Extension.swift */; };
+		B148083826002A01004243E2 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148083726002A01004243E2 /* UIFont+Extension.swift */; };
+		B148083926002A01004243E2 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148083726002A01004243E2 /* UIFont+Extension.swift */; };
+		B148083F26002A26004243E2 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148083E26002A26004243E2 /* UIColor+Extension.swift */; };
+		B148084026002A26004243E2 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148083E26002A26004243E2 /* UIColor+Extension.swift */; };
+		B148084626002A3A004243E2 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148084526002A3A004243E2 /* Date+Extension.swift */; };
+		B148084726002A3A004243E2 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148084526002A3A004243E2 /* Date+Extension.swift */; };
+		B148084B26002A48004243E2 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148084A26002A48004243E2 /* UIButton+Extension.swift */; };
+		B148084C26002A48004243E2 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148084A26002A48004243E2 /* UIButton+Extension.swift */; };
+		B148085026002A5E004243E2 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148084F26002A5E004243E2 /* UIImage+Extension.swift */; };
+		B148085126002A5E004243E2 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148084F26002A5E004243E2 /* UIImage+Extension.swift */; };
+		B148085526002A72004243E2 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148085426002A72004243E2 /* UIViewController+Extension.swift */; };
+		B148085626002A72004243E2 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148085426002A72004243E2 /* UIViewController+Extension.swift */; };
+		B148085A26002A90004243E2 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148085926002A90004243E2 /* String+Extension.swift */; };
+		B148085B26002A90004243E2 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148085926002A90004243E2 /* String+Extension.swift */; };
+		B148085F26002ABA004243E2 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148085E26002ABA004243E2 /* Extension.swift */; };
+		B148086026002ABA004243E2 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148085E26002ABA004243E2 /* Extension.swift */; };
+		B148086426002ACE004243E2 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148086326002ACE004243E2 /* Error.swift */; };
+		B148086526002ACE004243E2 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148086326002ACE004243E2 /* Error.swift */; };
+		B148086B26002B93004243E2 /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148086A26002B93004243E2 /* SkyFloatingLabelTextField.swift */; };
+		B148086C26002B93004243E2 /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148086A26002B93004243E2 /* SkyFloatingLabelTextField.swift */; };
+		B148087226002BA7004243E2 /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148087126002BA7004243E2 /* UITextField+fixCaretPosition.swift */; };
+		B148087326002BA7004243E2 /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148087126002BA7004243E2 /* UITextField+fixCaretPosition.swift */; };
+		B148087726002BBD004243E2 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148087626002BBD004243E2 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
+		B148087826002BBD004243E2 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148087626002BBD004243E2 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
+		B148087C26002BD2004243E2 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148087B26002BD2004243E2 /* AlertController.swift */; };
+		B148087D26002BD2004243E2 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148087B26002BD2004243E2 /* AlertController.swift */; };
+		B148088126002BE7004243E2 /* NotificationBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148088026002BE7004243E2 /* NotificationBanner.swift */; };
+		B148088226002BE7004243E2 /* NotificationBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148088026002BE7004243E2 /* NotificationBanner.swift */; };
+		B14808B726002C47004243E2 /* InitialOfferFlowPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148088826002C47004243E2 /* InitialOfferFlowPresenter.swift */; };
+		B14808B826002C47004243E2 /* InitialOfferFlowPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148088826002C47004243E2 /* InitialOfferFlowPresenter.swift */; };
+		B14808B926002C47004243E2 /* InitialOfferFlowConfigurer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148088926002C47004243E2 /* InitialOfferFlowConfigurer.swift */; };
+		B14808BA26002C47004243E2 /* InitialOfferFlowConfigurer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148088926002C47004243E2 /* InitialOfferFlowConfigurer.swift */; };
+		B14808BB26002C47004243E2 /* InitialOfferFlow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B148088B26002C47004243E2 /* InitialOfferFlow.storyboard */; };
+		B14808BC26002C47004243E2 /* InitialOfferFlow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B148088B26002C47004243E2 /* InitialOfferFlow.storyboard */; };
+		B14808BD26002C47004243E2 /* InitialOfferFlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148088C26002C47004243E2 /* InitialOfferFlowViewController.swift */; };
+		B14808BE26002C47004243E2 /* InitialOfferFlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148088C26002C47004243E2 /* InitialOfferFlowViewController.swift */; };
+		B14808BF26002C47004243E2 /* OfferRedeemSuccess.strings in Resources */ = {isa = PBXBuildFile; fileRef = B148088E26002C47004243E2 /* OfferRedeemSuccess.strings */; };
+		B14808C026002C47004243E2 /* OfferRedeemSuccess.strings in Resources */ = {isa = PBXBuildFile; fileRef = B148088E26002C47004243E2 /* OfferRedeemSuccess.strings */; };
+		B14808C126002C47004243E2 /* OfferRedeemSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148089226002C47004243E2 /* OfferRedeemSuccessViewController.swift */; };
+		B14808C226002C47004243E2 /* OfferRedeemSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148089226002C47004243E2 /* OfferRedeemSuccessViewController.swift */; };
+		B14808C326002C47004243E2 /* OfferRedeemSuccess.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B148089326002C47004243E2 /* OfferRedeemSuccess.storyboard */; };
+		B14808C426002C47004243E2 /* OfferRedeemSuccess.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B148089326002C47004243E2 /* OfferRedeemSuccess.storyboard */; };
+		B14808C526002C47004243E2 /* WKWebView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B148089626002C47004243E2 /* WKWebView.storyboard */; };
+		B14808C626002C47004243E2 /* WKWebView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B148089626002C47004243E2 /* WKWebView.storyboard */; };
+		B14808C726002C47004243E2 /* WKWebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148089726002C47004243E2 /* WKWebViewViewController.swift */; };
+		B14808C826002C47004243E2 /* WKWebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148089726002C47004243E2 /* WKWebViewViewController.swift */; };
+		B14808C926002C47004243E2 /* CreateNewAccountPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148089926002C47004243E2 /* CreateNewAccountPresenter.swift */; };
+		B14808CA26002C47004243E2 /* CreateNewAccountPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148089926002C47004243E2 /* CreateNewAccountPresenter.swift */; };
+		B14808CB26002C47004243E2 /* CreateNewAccountConfigurer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148089A26002C47004243E2 /* CreateNewAccountConfigurer.swift */; };
+		B14808CC26002C47004243E2 /* CreateNewAccountConfigurer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148089A26002C47004243E2 /* CreateNewAccountConfigurer.swift */; };
+		B14808CD26002C47004243E2 /* CreateNewAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148089C26002C47004243E2 /* CreateNewAccountViewController.swift */; };
+		B14808CE26002C47004243E2 /* CreateNewAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148089C26002C47004243E2 /* CreateNewAccountViewController.swift */; };
+		B14808CF26002C47004243E2 /* CreateNewAccount.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B148089D26002C47004243E2 /* CreateNewAccount.storyboard */; };
+		B14808D026002C47004243E2 /* CreateNewAccount.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B148089D26002C47004243E2 /* CreateNewAccount.storyboard */; };
+		B14808D126002C47004243E2 /* OfferEvaluationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148089F26002C47004243E2 /* OfferEvaluationPresenter.swift */; };
+		B14808D226002C47004243E2 /* OfferEvaluationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148089F26002C47004243E2 /* OfferEvaluationPresenter.swift */; };
+		B14808D326002C47004243E2 /* OfferEvaluationConfigurer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14808A026002C47004243E2 /* OfferEvaluationConfigurer.swift */; };
+		B14808D426002C47004243E2 /* OfferEvaluationConfigurer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14808A026002C47004243E2 /* OfferEvaluationConfigurer.swift */; };
+		B14808D526002C47004243E2 /* OfferBenefitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14808A226002C47004243E2 /* OfferBenefitHeaderView.swift */; };
+		B14808D626002C47004243E2 /* OfferBenefitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14808A226002C47004243E2 /* OfferBenefitHeaderView.swift */; };
+		B14808D726002C47004243E2 /* OfferBenefitHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B14808A326002C47004243E2 /* OfferBenefitHeaderView.xib */; };
+		B14808D826002C47004243E2 /* OfferBenefitHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B14808A326002C47004243E2 /* OfferBenefitHeaderView.xib */; };
+		B14808D926002C47004243E2 /* OfferEvaluationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14808A426002C47004243E2 /* OfferEvaluationViewController.swift */; };
+		B14808DA26002C47004243E2 /* OfferEvaluationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14808A426002C47004243E2 /* OfferEvaluationViewController.swift */; };
+		B14808DB26002C47004243E2 /* OfferThumbnailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B14808A526002C47004243E2 /* OfferThumbnailTableViewCell.xib */; };
+		B14808DC26002C47004243E2 /* OfferThumbnailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B14808A526002C47004243E2 /* OfferThumbnailTableViewCell.xib */; };
+		B14808DD26002C47004243E2 /* OfferThumbnailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14808A626002C47004243E2 /* OfferThumbnailTableViewCell.swift */; };
+		B14808DE26002C47004243E2 /* OfferThumbnailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14808A626002C47004243E2 /* OfferThumbnailTableViewCell.swift */; };
+		B14808DF26002C47004243E2 /* OfferScopeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14808A726002C47004243E2 /* OfferScopeTableViewCell.swift */; };
+		B14808E026002C47004243E2 /* OfferScopeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14808A726002C47004243E2 /* OfferScopeTableViewCell.swift */; };
+		B14808E126002C47004243E2 /* OfferScopeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B14808A826002C47004243E2 /* OfferScopeTableViewCell.xib */; };
+		B14808E226002C47004243E2 /* OfferScopeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B14808A826002C47004243E2 /* OfferScopeTableViewCell.xib */; };
+		B14808E326002C47004243E2 /* OfferEvaluation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B14808A926002C47004243E2 /* OfferEvaluation.storyboard */; };
+		B14808E426002C47004243E2 /* OfferEvaluation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B14808A926002C47004243E2 /* OfferEvaluation.storyboard */; };
+		B14808E526002C47004243E2 /* ImageViewWithBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14808AB26002C47004243E2 /* ImageViewWithBorder.swift */; };
+		B14808E626002C47004243E2 /* ImageViewWithBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14808AB26002C47004243E2 /* ImageViewWithBorder.swift */; };
+		B14808E726002C47004243E2 /* ButtonWithBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14808AD26002C47004243E2 /* ButtonWithBorder.swift */; };
+		B14808E826002C47004243E2 /* ButtonWithBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14808AD26002C47004243E2 /* ButtonWithBorder.swift */; };
+		B14808E926002C47004243E2 /* CredifyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14808AE26002C47004243E2 /* CredifyButton.swift */; };
+		B14808EA26002C47004243E2 /* CredifyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14808AE26002C47004243E2 /* CredifyButton.swift */; };
+		B14808EB26002C47004243E2 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14808AF26002C47004243E2 /* PrimaryButton.swift */; };
+		B14808EC26002C47004243E2 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14808AF26002C47004243E2 /* PrimaryButton.swift */; };
+		B14808ED26002C47004243E2 /* CredifyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14808B026002C47004243E2 /* CredifyTextField.swift */; };
+		B14808EE26002C47004243E2 /* CredifyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14808B026002C47004243E2 /* CredifyTextField.swift */; };
+		B14808EF26002C47004243E2 /* CredifyGradientLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14808B226002C47004243E2 /* CredifyGradientLabel.swift */; };
+		B14808F026002C47004243E2 /* CredifyGradientLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14808B226002C47004243E2 /* CredifyGradientLabel.swift */; };
+		B14808F126002C47004243E2 /* GradientLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14808B326002C47004243E2 /* GradientLabel.swift */; };
+		B14808F226002C47004243E2 /* GradientLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14808B326002C47004243E2 /* GradientLabel.swift */; };
+		B14808F326002C47004243E2 /* ViewWithBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14808B526002C47004243E2 /* ViewWithBorder.swift */; };
+		B14808F426002C47004243E2 /* ViewWithBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14808B526002C47004243E2 /* ViewWithBorder.swift */; };
+		B14808F526002C47004243E2 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14808B626002C47004243E2 /* LoadingView.swift */; };
+		B14808F626002C47004243E2 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14808B626002C47004243E2 /* LoadingView.swift */; };
+		B14808FD26002C65004243E2 /* OfferManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14808FC26002C65004243E2 /* OfferManager.swift */; };
+		B14808FE26002C65004243E2 /* OfferManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14808FC26002C65004243E2 /* OfferManager.swift */; };
+		B148091D26002E2A004243E2 /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148091C26002E2A004243E2 /* Structs.swift */; };
+		B148091E26002E2A004243E2 /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148091C26002E2A004243E2 /* Structs.swift */; };
+		B1480928260043EB004243E2 /* ScopeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1480927260043EB004243E2 /* ScopeData.swift */; };
+		B1480929260043EB004243E2 /* ScopeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1480927260043EB004243E2 /* ScopeData.swift */; };
+		B1480961260051AC004243E2 /* CredifyCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1480960260051AC004243E2 /* CredifyCore.framework */; };
+		B1480962260051AC004243E2 /* CredifyCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1480960260051AC004243E2 /* CredifyCore.framework */; };
+		B148098826005C0A004243E2 /* ScopeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148098726005C0A004243E2 /* ScopeModel.swift */; };
+		B148098926005C0A004243E2 /* ScopeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148098726005C0A004243E2 /* ScopeModel.swift */; };
+		B148098D26005F0C004243E2 /* ClaimModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148098C26005F0C004243E2 /* ClaimModel.swift */; };
+		B148098E26005F0C004243E2 /* ClaimModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148098C26005F0C004243E2 /* ClaimModel.swift */; };
+		B148099326005F84004243E2 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148099226005F84004243E2 /* Enums.swift */; };
+		B148099426005F84004243E2 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148099226005F84004243E2 /* Enums.swift */; };
+		B14809A626008268004243E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B14809A426008267004243E2 /* Assets.xcassets */; };
+		B14809C0260084AF004243E2 /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B14809B1260084AF004243E2 /* Quicksand-Bold.ttf */; };
+		B14809C1260084AF004243E2 /* RobotoSlab-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B14809B3260084AF004243E2 /* RobotoSlab-Medium.ttf */; };
+		B14809C2260084AF004243E2 /* RobotoSlab-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B14809B4260084AF004243E2 /* RobotoSlab-Thin.ttf */; };
+		B14809C3260084AF004243E2 /* RobotoSlab-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B14809B5260084AF004243E2 /* RobotoSlab-Black.ttf */; };
+		B14809C4260084AF004243E2 /* RobotoSlab-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B14809B6260084AF004243E2 /* RobotoSlab-Bold.ttf */; };
+		B14809C5260084AF004243E2 /* RobotoSlab-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B14809B7260084AF004243E2 /* RobotoSlab-Light.ttf */; };
+		B14809C6260084AF004243E2 /* RobotoSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B14809B8260084AF004243E2 /* RobotoSlab-Regular.ttf */; };
+		B14809C7260084AF004243E2 /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B14809B9260084AF004243E2 /* Quicksand-Medium.ttf */; };
+		B14809C8260084AF004243E2 /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B14809BA260084AF004243E2 /* Quicksand-Regular.ttf */; };
+		B14809C9260084AF004243E2 /* Oswald-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B14809BC260084AF004243E2 /* Oswald-Regular.ttf */; };
+		B14809CA260084AF004243E2 /* Quicksand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B14809BD260084AF004243E2 /* Quicksand-Light.ttf */; };
+		B14809CB260084AF004243E2 /* ABEAKRG.TTF in Resources */ = {isa = PBXBuildFile; fileRef = B14809BE260084AF004243E2 /* ABEAKRG.TTF */; };
+		B14809CC260084AF004243E2 /* abeatbyKaiRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B14809BF260084AF004243E2 /* abeatbyKaiRegular.otf */; };
+		B14809D126008BFD004243E2 /* ProviderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14809D026008BFD004243E2 /* ProviderService.swift */; };
+		B164D95F2606CBC90084BA93 /* credify-loading.json in Resources */ = {isa = PBXBuildFile; fileRef = B164D95D2606CBC90084BA93 /* credify-loading.json */; };
+		B164D9762606D3860084BA93 /* credify-loading.json in Resources */ = {isa = PBXBuildFile; fileRef = B164D95D2606CBC90084BA93 /* credify-loading.json */; };
+		B164D9902606E8890084BA93 /* Errors.strings in Resources */ = {isa = PBXBuildFile; fileRef = B164D9932606E8890084BA93 /* Errors.strings */; };
+		B164D9912606E8890084BA93 /* Errors.strings in Resources */ = {isa = PBXBuildFile; fileRef = B164D9932606E8890084BA93 /* Errors.strings */; };
+		B17AB6DA2602EE62003A6104 /* CredifyConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17AB6D92602EE62003A6104 /* CredifyConfiguration.swift */; };
+		B17AB6DB2602EE62003A6104 /* CredifyConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17AB6D92602EE62003A6104 /* CredifyConfiguration.swift */; };
+		B17AB6F0260320E4003A6104 /* Validator.strings in Resources */ = {isa = PBXBuildFile; fileRef = B17AB6F3260320E4003A6104 /* Validator.strings */; };
+		B17AB6F1260320E4003A6104 /* Validator.strings in Resources */ = {isa = PBXBuildFile; fileRef = B17AB6F3260320E4003A6104 /* Validator.strings */; };
+		B17AB70726033F0E003A6104 /* InitialOfferFlow.strings in Resources */ = {isa = PBXBuildFile; fileRef = B17AB70A26033F0E003A6104 /* InitialOfferFlow.strings */; };
+		B17AB70826033F0E003A6104 /* InitialOfferFlow.strings in Resources */ = {isa = PBXBuildFile; fileRef = B17AB70A26033F0E003A6104 /* InitialOfferFlow.strings */; };
+		B17C918626028BBD00DA2E18 /* OfferEvaluation.strings in Resources */ = {isa = PBXBuildFile; fileRef = B17C918926028BBD00DA2E18 /* OfferEvaluation.strings */; };
+		B17C918726028BBD00DA2E18 /* OfferEvaluation.strings in Resources */ = {isa = PBXBuildFile; fileRef = B17C918926028BBD00DA2E18 /* OfferEvaluation.strings */; };
+		B1B1BD6F260785C500F75141 /* CredifyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D83CC025FE73F6001D3A91 /* CredifyKit.framework */; };
+		B1B1BD70260785C500F75141 /* CredifyKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B1D83CC025FE73F6001D3A91 /* CredifyKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B1C44C4926045FDD004FB287 /* UserExternalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C44C4826045FDD004FB287 /* UserExternalModel.swift */; };
+		B1C44C4A26045FDD004FB287 /* UserExternalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C44C4826045FDD004FB287 /* UserExternalModel.swift */; };
+		B1D83CCA25FE73F6001D3A91 /* CredifyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D83CC025FE73F6001D3A91 /* CredifyKit.framework */; };
+		B1D83CCF25FE73F6001D3A91 /* CredifyKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D83CCE25FE73F6001D3A91 /* CredifyKitTests.swift */; };
+		B1D83CD125FE73F6001D3A91 /* CredifyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B1D83CC325FE73F6001D3A91 /* CredifyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1D8437825FE79DB001D3A91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D8437725FE79DB001D3A91 /* AppDelegate.swift */; };
+		B1D8437C25FE79DB001D3A91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D8437B25FE79DB001D3A91 /* ViewController.swift */; };
+		B1D8437F25FE79DB001D3A91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1D8437D25FE79DB001D3A91 /* Main.storyboard */; };
+		B1D8438425FE79DC001D3A91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1D8438225FE79DC001D3A91 /* LaunchScreen.storyboard */; };
+		B1DA3E052603522900103F22 /* CreateNewAccount.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1DA3E082603522900103F22 /* CreateNewAccount.strings */; };
+		B1DA3E062603522900103F22 /* CreateNewAccount.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1DA3E082603522900103F22 /* CreateNewAccount.strings */; };
+		B1DA3E112603611000103F22 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DA3E102603611000103F22 /* BaseViewController.swift */; };
+		B1DA3E122603611000103F22 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DA3E102603611000103F22 /* BaseViewController.swift */; };
+		B1EECE4D26015C1400088038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1EECE46260159D400088038 /* Assets.xcassets */; };
+		C68203FB2DCA123C07F7FE41 /* Pods_CredifyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14678597F21EE8ED1B87B435 /* Pods_CredifyKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1D83CCB25FE73F6001D3A91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1D83CB725FE73F6001D3A91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1D83CBF25FE73F6001D3A91;
+			remoteInfo = CredifyKit;
+		};
+		B1D843DF25FE7F70001D3A91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1D83CB725FE73F6001D3A91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1D83CBF25FE73F6001D3A91;
+			remoteInfo = CredifyKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B14807FB25FFB19A004243E2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B1BD71260785C500F75141 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B1B1BD70260785C500F75141 /* CredifyKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00B5ADA7BC03E09634F94A0B /* Pods-CredifyKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CredifyKit.release.xcconfig"; path = "Target Support Files/Pods-CredifyKit/Pods-CredifyKit.release.xcconfig"; sourceTree = "<group>"; };
+		0CBAE7A137122D9F20DCA043 /* Pods-CredifyKit-CredifyKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CredifyKit-CredifyKitTests.release.xcconfig"; path = "Target Support Files/Pods-CredifyKit-CredifyKitTests/Pods-CredifyKit-CredifyKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		14678597F21EE8ED1B87B435 /* Pods_CredifyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CredifyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B21CA9AEEDF9BECA385B0D4 /* Pods-ExampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleApp.debug.xcconfig"; path = "Target Support Files/Pods-ExampleApp/Pods-ExampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		3CC592C73DD594ABBE055495 /* Pods-CredifyKit-CredifyKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CredifyKit-CredifyKitTests.debug.xcconfig"; path = "Target Support Files/Pods-CredifyKit-CredifyKitTests/Pods-CredifyKit-CredifyKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B71E3CB63D74A4FBDFD9D48 /* Pods_ExampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		922D96F9341051FB203E5835 /* Pods-CredifyKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CredifyKit.debug.xcconfig"; path = "Target Support Files/Pods-CredifyKit/Pods-CredifyKit.debug.xcconfig"; sourceTree = "<group>"; };
+		ADD86909BA85AF88F31FD5C9 /* Pods_CredifyKit_CredifyKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CredifyKit_CredifyKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B145A64C26070865000BCDEC /* UITapGestureRecognizer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITapGestureRecognizer+Extension.swift"; sourceTree = "<group>"; };
+		B14789D526019D5700985CCD /* UserProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileModel.swift; sourceTree = "<group>"; };
+		B1480830260029DD004243E2 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		B148083726002A01004243E2 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		B148083E26002A26004243E2 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		B148084526002A3A004243E2 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		B148084A26002A48004243E2 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		B148084F26002A5E004243E2 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		B148085426002A72004243E2 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		B148085926002A90004243E2 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		B148085E26002ABA004243E2 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		B148086326002ACE004243E2 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		B148086A26002B93004243E2 /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
+		B148087126002BA7004243E2 /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
+		B148087626002BBD004243E2 /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
+		B148087B26002BD2004243E2 /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		B148088026002BE7004243E2 /* NotificationBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationBanner.swift; sourceTree = "<group>"; };
+		B148088826002C47004243E2 /* InitialOfferFlowPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialOfferFlowPresenter.swift; sourceTree = "<group>"; };
+		B148088926002C47004243E2 /* InitialOfferFlowConfigurer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialOfferFlowConfigurer.swift; sourceTree = "<group>"; };
+		B148088B26002C47004243E2 /* InitialOfferFlow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = InitialOfferFlow.storyboard; sourceTree = "<group>"; };
+		B148088C26002C47004243E2 /* InitialOfferFlowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialOfferFlowViewController.swift; sourceTree = "<group>"; };
+		B148088F26002C47004243E2 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/OfferRedeemSuccess.strings; sourceTree = "<group>"; };
+		B148089026002C47004243E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/OfferRedeemSuccess.strings; sourceTree = "<group>"; };
+		B148089226002C47004243E2 /* OfferRedeemSuccessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferRedeemSuccessViewController.swift; sourceTree = "<group>"; };
+		B148089326002C47004243E2 /* OfferRedeemSuccess.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OfferRedeemSuccess.storyboard; sourceTree = "<group>"; };
+		B148089626002C47004243E2 /* WKWebView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WKWebView.storyboard; sourceTree = "<group>"; };
+		B148089726002C47004243E2 /* WKWebViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKWebViewViewController.swift; sourceTree = "<group>"; };
+		B148089926002C47004243E2 /* CreateNewAccountPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateNewAccountPresenter.swift; sourceTree = "<group>"; };
+		B148089A26002C47004243E2 /* CreateNewAccountConfigurer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateNewAccountConfigurer.swift; sourceTree = "<group>"; };
+		B148089C26002C47004243E2 /* CreateNewAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateNewAccountViewController.swift; sourceTree = "<group>"; };
+		B148089D26002C47004243E2 /* CreateNewAccount.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CreateNewAccount.storyboard; sourceTree = "<group>"; };
+		B148089F26002C47004243E2 /* OfferEvaluationPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferEvaluationPresenter.swift; sourceTree = "<group>"; };
+		B14808A026002C47004243E2 /* OfferEvaluationConfigurer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferEvaluationConfigurer.swift; sourceTree = "<group>"; };
+		B14808A226002C47004243E2 /* OfferBenefitHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferBenefitHeaderView.swift; sourceTree = "<group>"; };
+		B14808A326002C47004243E2 /* OfferBenefitHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OfferBenefitHeaderView.xib; sourceTree = "<group>"; };
+		B14808A426002C47004243E2 /* OfferEvaluationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferEvaluationViewController.swift; sourceTree = "<group>"; };
+		B14808A526002C47004243E2 /* OfferThumbnailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OfferThumbnailTableViewCell.xib; sourceTree = "<group>"; };
+		B14808A626002C47004243E2 /* OfferThumbnailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferThumbnailTableViewCell.swift; sourceTree = "<group>"; };
+		B14808A726002C47004243E2 /* OfferScopeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferScopeTableViewCell.swift; sourceTree = "<group>"; };
+		B14808A826002C47004243E2 /* OfferScopeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OfferScopeTableViewCell.xib; sourceTree = "<group>"; };
+		B14808A926002C47004243E2 /* OfferEvaluation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OfferEvaluation.storyboard; sourceTree = "<group>"; };
+		B14808AB26002C47004243E2 /* ImageViewWithBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewWithBorder.swift; sourceTree = "<group>"; };
+		B14808AD26002C47004243E2 /* ButtonWithBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonWithBorder.swift; sourceTree = "<group>"; };
+		B14808AE26002C47004243E2 /* CredifyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CredifyButton.swift; sourceTree = "<group>"; };
+		B14808AF26002C47004243E2 /* PrimaryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		B14808B026002C47004243E2 /* CredifyTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CredifyTextField.swift; sourceTree = "<group>"; };
+		B14808B226002C47004243E2 /* CredifyGradientLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CredifyGradientLabel.swift; sourceTree = "<group>"; };
+		B14808B326002C47004243E2 /* GradientLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientLabel.swift; sourceTree = "<group>"; };
+		B14808B526002C47004243E2 /* ViewWithBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewWithBorder.swift; sourceTree = "<group>"; };
+		B14808B626002C47004243E2 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		B14808FC26002C65004243E2 /* OfferManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferManager.swift; sourceTree = "<group>"; };
+		B148091C26002E2A004243E2 /* Structs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
+		B1480927260043EB004243E2 /* ScopeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScopeData.swift; sourceTree = "<group>"; };
+		B1480960260051AC004243E2 /* CredifyCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CredifyCore.framework; sourceTree = "<group>"; };
+		B148098726005C0A004243E2 /* ScopeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScopeModel.swift; sourceTree = "<group>"; };
+		B148098C26005F0C004243E2 /* ClaimModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimModel.swift; sourceTree = "<group>"; };
+		B148099226005F84004243E2 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		B14809A426008267004243E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B14809B1260084AF004243E2 /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Bold.ttf"; sourceTree = "<group>"; };
+		B14809B3260084AF004243E2 /* RobotoSlab-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Medium.ttf"; sourceTree = "<group>"; };
+		B14809B4260084AF004243E2 /* RobotoSlab-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Thin.ttf"; sourceTree = "<group>"; };
+		B14809B5260084AF004243E2 /* RobotoSlab-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Black.ttf"; sourceTree = "<group>"; };
+		B14809B6260084AF004243E2 /* RobotoSlab-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Bold.ttf"; sourceTree = "<group>"; };
+		B14809B7260084AF004243E2 /* RobotoSlab-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Light.ttf"; sourceTree = "<group>"; };
+		B14809B8260084AF004243E2 /* RobotoSlab-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Regular.ttf"; sourceTree = "<group>"; };
+		B14809B9260084AF004243E2 /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Medium.ttf"; sourceTree = "<group>"; };
+		B14809BA260084AF004243E2 /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Regular.ttf"; sourceTree = "<group>"; };
+		B14809BC260084AF004243E2 /* Oswald-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Regular.ttf"; sourceTree = "<group>"; };
+		B14809BD260084AF004243E2 /* Quicksand-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Light.ttf"; sourceTree = "<group>"; };
+		B14809BE260084AF004243E2 /* ABEAKRG.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = ABEAKRG.TTF; sourceTree = "<group>"; };
+		B14809BF260084AF004243E2 /* abeatbyKaiRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = abeatbyKaiRegular.otf; sourceTree = "<group>"; };
+		B14809D026008BFD004243E2 /* ProviderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderService.swift; sourceTree = "<group>"; };
+		B164D95D2606CBC90084BA93 /* credify-loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "credify-loading.json"; sourceTree = "<group>"; };
+		B164D9922606E8890084BA93 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Errors.strings; sourceTree = "<group>"; };
+		B164D9972606E88E0084BA93 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Errors.strings; sourceTree = "<group>"; };
+		B1750ABE2600C48100062F43 /* libCredifyCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCredifyCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B17AB6D92602EE62003A6104 /* CredifyConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredifyConfiguration.swift; sourceTree = "<group>"; };
+		B17AB6F2260320E4003A6104 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Validator.strings; sourceTree = "<group>"; };
+		B17AB6F7260320E9003A6104 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Validator.strings; sourceTree = "<group>"; };
+		B17AB70926033F0E003A6104 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InitialOfferFlow.strings; sourceTree = "<group>"; };
+		B17AB70E26033F10003A6104 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InitialOfferFlow.strings; sourceTree = "<group>"; };
+		B17C918826028BBD00DA2E18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/OfferEvaluation.strings; sourceTree = "<group>"; };
+		B17C918D26028BC200DA2E18 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/OfferEvaluation.strings; sourceTree = "<group>"; };
+		B1C44C4826045FDD004FB287 /* UserExternalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserExternalModel.swift; sourceTree = "<group>"; };
+		B1D83CC025FE73F6001D3A91 /* CredifyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CredifyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1D83CC325FE73F6001D3A91 /* CredifyKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CredifyKit.h; sourceTree = "<group>"; };
+		B1D83CC425FE73F6001D3A91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1D83CC925FE73F6001D3A91 /* CredifyKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CredifyKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1D83CCE25FE73F6001D3A91 /* CredifyKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredifyKitTests.swift; sourceTree = "<group>"; };
+		B1D83CD025FE73F6001D3A91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1D8437525FE79DB001D3A91 /* ExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1D8437725FE79DB001D3A91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B1D8437B25FE79DB001D3A91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B1D8437E25FE79DB001D3A91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1D8438325FE79DC001D3A91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1D8438525FE79DC001D3A91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1DA3E072603522900103F22 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/CreateNewAccount.strings; sourceTree = "<group>"; };
+		B1DA3E0C2603522E00103F22 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/CreateNewAccount.strings; sourceTree = "<group>"; };
+		B1DA3E102603611000103F22 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		B1EECE46260159D400088038 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = CredifyKit/Assets.xcassets; sourceTree = "<group>"; };
+		BFA5653B83C051BA4A545DAF /* Pods-ExampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleApp.release.xcconfig"; path = "Target Support Files/Pods-ExampleApp/Pods-ExampleApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1D83CBD25FE73F6001D3A91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1480961260051AC004243E2 /* CredifyCore.framework in Frameworks */,
+				C68203FB2DCA123C07F7FE41 /* Pods_CredifyKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D83CC625FE73F6001D3A91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D83CCA25FE73F6001D3A91 /* CredifyKit.framework in Frameworks */,
+				0654F4A82F4EE5B2A2047486 /* Pods_CredifyKit_CredifyKitTests.framework in Frameworks */,
+				B1480962260051AC004243E2 /* CredifyCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D8437225FE79DB001D3A91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1B1BD6F260785C500F75141 /* CredifyKit.framework in Frameworks */,
+				26B0A7125B721CA1602F391B /* Pods_ExampleApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B148082F260029C3004243E2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B1480830260029DD004243E2 /* UIApplication+Extension.swift */,
+				B148083726002A01004243E2 /* UIFont+Extension.swift */,
+				B148083E26002A26004243E2 /* UIColor+Extension.swift */,
+				B148084526002A3A004243E2 /* Date+Extension.swift */,
+				B148084A26002A48004243E2 /* UIButton+Extension.swift */,
+				B148084F26002A5E004243E2 /* UIImage+Extension.swift */,
+				B148085426002A72004243E2 /* UIViewController+Extension.swift */,
+				B148085926002A90004243E2 /* String+Extension.swift */,
+				B148085E26002ABA004243E2 /* Extension.swift */,
+				B148086326002ACE004243E2 /* Error.swift */,
+				B164D9932606E8890084BA93 /* Errors.strings */,
+				B17AB6F3260320E4003A6104 /* Validator.strings */,
+				B145A64C26070865000BCDEC /* UITapGestureRecognizer+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B148086826002B73004243E2 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B148086926002B7A004243E2 /* SkyFloatingLabelTextField */,
+				B148087B26002BD2004243E2 /* AlertController.swift */,
+				B148088026002BE7004243E2 /* NotificationBanner.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		B148086926002B7A004243E2 /* SkyFloatingLabelTextField */ = {
+			isa = PBXGroup;
+			children = (
+				B148086A26002B93004243E2 /* SkyFloatingLabelTextField.swift */,
+				B148087126002BA7004243E2 /* UITextField+fixCaretPosition.swift */,
+				B148087626002BBD004243E2 /* SkyFloatingLabelTextFieldWithIcon.swift */,
+			);
+			path = SkyFloatingLabelTextField;
+			sourceTree = "<group>";
+		};
+		B148088526002C47004243E2 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				B148088626002C47004243E2 /* OfferFlow */,
+				B14808AA26002C47004243E2 /* Components */,
+				B1DA3E102603611000103F22 /* BaseViewController.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		B148088626002C47004243E2 /* OfferFlow */ = {
+			isa = PBXGroup;
+			children = (
+				B148088726002C47004243E2 /* InitialOfferFlow */,
+				B148089826002C47004243E2 /* CreateNewAccount */,
+				B148088D26002C47004243E2 /* OfferRedeemSuccess */,
+				B148089426002C47004243E2 /* WebView */,
+				B148089E26002C47004243E2 /* OfferEvaluation */,
+			);
+			path = OfferFlow;
+			sourceTree = "<group>";
+		};
+		B148088726002C47004243E2 /* InitialOfferFlow */ = {
+			isa = PBXGroup;
+			children = (
+				B148088826002C47004243E2 /* InitialOfferFlowPresenter.swift */,
+				B148088926002C47004243E2 /* InitialOfferFlowConfigurer.swift */,
+				B148088A26002C47004243E2 /* Views */,
+				B17AB70A26033F0E003A6104 /* InitialOfferFlow.strings */,
+			);
+			path = InitialOfferFlow;
+			sourceTree = "<group>";
+		};
+		B148088A26002C47004243E2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B148088B26002C47004243E2 /* InitialOfferFlow.storyboard */,
+				B148088C26002C47004243E2 /* InitialOfferFlowViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B148088D26002C47004243E2 /* OfferRedeemSuccess */ = {
+			isa = PBXGroup;
+			children = (
+				B148088E26002C47004243E2 /* OfferRedeemSuccess.strings */,
+				B148089126002C47004243E2 /* Views */,
+			);
+			path = OfferRedeemSuccess;
+			sourceTree = "<group>";
+		};
+		B148089126002C47004243E2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B148089226002C47004243E2 /* OfferRedeemSuccessViewController.swift */,
+				B148089326002C47004243E2 /* OfferRedeemSuccess.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B148089426002C47004243E2 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				B148089526002C47004243E2 /* Views */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		B148089526002C47004243E2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B148089626002C47004243E2 /* WKWebView.storyboard */,
+				B148089726002C47004243E2 /* WKWebViewViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B148089826002C47004243E2 /* CreateNewAccount */ = {
+			isa = PBXGroup;
+			children = (
+				B148089926002C47004243E2 /* CreateNewAccountPresenter.swift */,
+				B148089A26002C47004243E2 /* CreateNewAccountConfigurer.swift */,
+				B148089B26002C47004243E2 /* Views */,
+				B1DA3E082603522900103F22 /* CreateNewAccount.strings */,
+			);
+			path = CreateNewAccount;
+			sourceTree = "<group>";
+		};
+		B148089B26002C47004243E2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B148089C26002C47004243E2 /* CreateNewAccountViewController.swift */,
+				B148089D26002C47004243E2 /* CreateNewAccount.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B148089E26002C47004243E2 /* OfferEvaluation */ = {
+			isa = PBXGroup;
+			children = (
+				B148089F26002C47004243E2 /* OfferEvaluationPresenter.swift */,
+				B14808A026002C47004243E2 /* OfferEvaluationConfigurer.swift */,
+				B14808A126002C47004243E2 /* Views */,
+				B17C918926028BBD00DA2E18 /* OfferEvaluation.strings */,
+			);
+			path = OfferEvaluation;
+			sourceTree = "<group>";
+		};
+		B14808A126002C47004243E2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B14808A426002C47004243E2 /* OfferEvaluationViewController.swift */,
+				B14808A926002C47004243E2 /* OfferEvaluation.storyboard */,
+				B14808A226002C47004243E2 /* OfferBenefitHeaderView.swift */,
+				B14808A326002C47004243E2 /* OfferBenefitHeaderView.xib */,
+				B14808A526002C47004243E2 /* OfferThumbnailTableViewCell.xib */,
+				B14808A626002C47004243E2 /* OfferThumbnailTableViewCell.swift */,
+				B14808A726002C47004243E2 /* OfferScopeTableViewCell.swift */,
+				B14808A826002C47004243E2 /* OfferScopeTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B14808AA26002C47004243E2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B164D9662606CBCC0084BA93 /* LoadingView */,
+				B14808AB26002C47004243E2 /* ImageViewWithBorder.swift */,
+				B14808AC26002C47004243E2 /* Buttons */,
+				B14808B026002C47004243E2 /* CredifyTextField.swift */,
+				B14808B126002C47004243E2 /* Labels */,
+				B14808B426002C47004243E2 /* Views */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B14808AC26002C47004243E2 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				B14808AD26002C47004243E2 /* ButtonWithBorder.swift */,
+				B14808AE26002C47004243E2 /* CredifyButton.swift */,
+				B14808AF26002C47004243E2 /* PrimaryButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		B14808B126002C47004243E2 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				B14808B226002C47004243E2 /* CredifyGradientLabel.swift */,
+				B14808B326002C47004243E2 /* GradientLabel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		B14808B426002C47004243E2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B14808B526002C47004243E2 /* ViewWithBorder.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B14808FB26002C65004243E2 /* Managements */ = {
+			isa = PBXGroup;
+			children = (
+				B14808FC26002C65004243E2 /* OfferManager.swift */,
+				B14809F42600A408004243E2 /* Services */,
+				B17AB6D92602EE62003A6104 /* CredifyConfiguration.swift */,
+			);
+			path = Managements;
+			sourceTree = "<group>";
+		};
+		B148091A26002E2A004243E2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B148091B26002E2A004243E2 /* Common */,
+				B1480927260043EB004243E2 /* ScopeData.swift */,
+				B148098726005C0A004243E2 /* ScopeModel.swift */,
+				B148098C26005F0C004243E2 /* ClaimModel.swift */,
+				B14789D526019D5700985CCD /* UserProfileModel.swift */,
+				B1C44C4826045FDD004FB287 /* UserExternalModel.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B148091B26002E2A004243E2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B148091C26002E2A004243E2 /* Structs.swift */,
+				B148099226005F84004243E2 /* Enums.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B14809B0260084AF004243E2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B14809B1260084AF004243E2 /* Quicksand-Bold.ttf */,
+				B14809B2260084AF004243E2 /* RobotoSlab */,
+				B14809B9260084AF004243E2 /* Quicksand-Medium.ttf */,
+				B14809BA260084AF004243E2 /* Quicksand-Regular.ttf */,
+				B14809BB260084AF004243E2 /* Oswald */,
+				B14809BD260084AF004243E2 /* Quicksand-Light.ttf */,
+				B14809BE260084AF004243E2 /* ABEAKRG.TTF */,
+				B14809BF260084AF004243E2 /* abeatbyKaiRegular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B14809B2260084AF004243E2 /* RobotoSlab */ = {
+			isa = PBXGroup;
+			children = (
+				B14809B3260084AF004243E2 /* RobotoSlab-Medium.ttf */,
+				B14809B4260084AF004243E2 /* RobotoSlab-Thin.ttf */,
+				B14809B5260084AF004243E2 /* RobotoSlab-Black.ttf */,
+				B14809B6260084AF004243E2 /* RobotoSlab-Bold.ttf */,
+				B14809B7260084AF004243E2 /* RobotoSlab-Light.ttf */,
+				B14809B8260084AF004243E2 /* RobotoSlab-Regular.ttf */,
+			);
+			path = RobotoSlab;
+			sourceTree = "<group>";
+		};
+		B14809BB260084AF004243E2 /* Oswald */ = {
+			isa = PBXGroup;
+			children = (
+				B14809BC260084AF004243E2 /* Oswald-Regular.ttf */,
+			);
+			path = Oswald;
+			sourceTree = "<group>";
+		};
+		B14809F42600A408004243E2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B14809D026008BFD004243E2 /* ProviderService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B164D9662606CBCC0084BA93 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				B14808B626002C47004243E2 /* LoadingView.swift */,
+				B164D95D2606CBC90084BA93 /* credify-loading.json */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		B1D83CB625FE73F6001D3A91 = {
+			isa = PBXGroup;
+			children = (
+				B1EECE46260159D400088038 /* Assets.xcassets */,
+				B1480960260051AC004243E2 /* CredifyCore.framework */,
+				B1D83CC225FE73F6001D3A91 /* CredifyKit */,
+				B1D83CCD25FE73F6001D3A91 /* CredifyKitTests */,
+				B1D8437625FE79DB001D3A91 /* ExampleApp */,
+				B1D83CC125FE73F6001D3A91 /* Products */,
+				B1D8431B25FE755C001D3A91 /* Frameworks */,
+				F18F5A3438EF0055A543005E /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		B1D83CC125FE73F6001D3A91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1D83CC025FE73F6001D3A91 /* CredifyKit.framework */,
+				B1D83CC925FE73F6001D3A91 /* CredifyKitTests.xctest */,
+				B1D8437525FE79DB001D3A91 /* ExampleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1D83CC225FE73F6001D3A91 /* CredifyKit */ = {
+			isa = PBXGroup;
+			children = (
+				B14809A426008267004243E2 /* Assets.xcassets */,
+				B148091A26002E2A004243E2 /* Data */,
+				B14808FB26002C65004243E2 /* Managements */,
+				B148088526002C47004243E2 /* Scenes */,
+				B148086826002B73004243E2 /* Utilities */,
+				B148082F260029C3004243E2 /* Extensions */,
+				B1D83CC325FE73F6001D3A91 /* CredifyKit.h */,
+				B1D83CC425FE73F6001D3A91 /* Info.plist */,
+			);
+			path = CredifyKit;
+			sourceTree = "<group>";
+		};
+		B1D83CCD25FE73F6001D3A91 /* CredifyKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1D83CCE25FE73F6001D3A91 /* CredifyKitTests.swift */,
+				B1D83CD025FE73F6001D3A91 /* Info.plist */,
+			);
+			path = CredifyKitTests;
+			sourceTree = "<group>";
+		};
+		B1D8431B25FE755C001D3A91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1750ABE2600C48100062F43 /* libCredifyCore.a */,
+				14678597F21EE8ED1B87B435 /* Pods_CredifyKit.framework */,
+				ADD86909BA85AF88F31FD5C9 /* Pods_CredifyKit_CredifyKitTests.framework */,
+				5B71E3CB63D74A4FBDFD9D48 /* Pods_ExampleApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1D8437625FE79DB001D3A91 /* ExampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				B1D8437725FE79DB001D3A91 /* AppDelegate.swift */,
+				B1D8437B25FE79DB001D3A91 /* ViewController.swift */,
+				B1D8437D25FE79DB001D3A91 /* Main.storyboard */,
+				B14809B0260084AF004243E2 /* Fonts */,
+				B1D8438225FE79DC001D3A91 /* LaunchScreen.storyboard */,
+				B1D8438525FE79DC001D3A91 /* Info.plist */,
+			);
+			path = ExampleApp;
+			sourceTree = "<group>";
+		};
+		F18F5A3438EF0055A543005E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				922D96F9341051FB203E5835 /* Pods-CredifyKit.debug.xcconfig */,
+				00B5ADA7BC03E09634F94A0B /* Pods-CredifyKit.release.xcconfig */,
+				3CC592C73DD594ABBE055495 /* Pods-CredifyKit-CredifyKitTests.debug.xcconfig */,
+				0CBAE7A137122D9F20DCA043 /* Pods-CredifyKit-CredifyKitTests.release.xcconfig */,
+				2B21CA9AEEDF9BECA385B0D4 /* Pods-ExampleApp.debug.xcconfig */,
+				BFA5653B83C051BA4A545DAF /* Pods-ExampleApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B1D83CBB25FE73F6001D3A91 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D83CD125FE73F6001D3A91 /* CredifyKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B1D83CBF25FE73F6001D3A91 /* CredifyKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1D83CD425FE73F6001D3A91 /* Build configuration list for PBXNativeTarget "CredifyKit" */;
+			buildPhases = (
+				116F59FC03C4A87DA4ED62D6 /* [CP] Check Pods Manifest.lock */,
+				B1D83CBB25FE73F6001D3A91 /* Headers */,
+				B1D83CBC25FE73F6001D3A91 /* Sources */,
+				B1D83CBD25FE73F6001D3A91 /* Frameworks */,
+				B1D83CBE25FE73F6001D3A91 /* Resources */,
+				B14807FB25FFB19A004243E2 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CredifyKit;
+			productName = CredifyKit;
+			productReference = B1D83CC025FE73F6001D3A91 /* CredifyKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B1D83CC825FE73F6001D3A91 /* CredifyKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1D83CD725FE73F6001D3A91 /* Build configuration list for PBXNativeTarget "CredifyKitTests" */;
+			buildPhases = (
+				DAC5A53A450F3474B7B0A10E /* [CP] Check Pods Manifest.lock */,
+				B1D83CC525FE73F6001D3A91 /* Sources */,
+				B1D83CC625FE73F6001D3A91 /* Frameworks */,
+				B1D83CC725FE73F6001D3A91 /* Resources */,
+				E98159656FB9A555D4F9E609 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1D83CCC25FE73F6001D3A91 /* PBXTargetDependency */,
+			);
+			name = CredifyKitTests;
+			productName = CredifyKitTests;
+			productReference = B1D83CC925FE73F6001D3A91 /* CredifyKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B1D8437425FE79DB001D3A91 /* ExampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1D8438625FE79DC001D3A91 /* Build configuration list for PBXNativeTarget "ExampleApp" */;
+			buildPhases = (
+				4024D0F0E0FF8A84ED084CC8 /* [CP] Check Pods Manifest.lock */,
+				B1D8437125FE79DB001D3A91 /* Sources */,
+				B1D8437225FE79DB001D3A91 /* Frameworks */,
+				B1D8437325FE79DB001D3A91 /* Resources */,
+				BD1141DFA406704406A29373 /* [CP] Embed Pods Frameworks */,
+				B1B1BD71260785C500F75141 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1D843E025FE7F70001D3A91 /* PBXTargetDependency */,
+			);
+			name = ExampleApp;
+			productName = ExampleApp;
+			productReference = B1D8437525FE79DB001D3A91 /* ExampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1D83CB725FE73F6001D3A91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = Credify;
+				TargetAttributes = {
+					B1D83CBF25FE73F6001D3A91 = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
+					};
+					B1D83CC825FE73F6001D3A91 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					B1D8436625FE7860001D3A91 = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
+					};
+					B1D8437425FE79DB001D3A91 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = B1D83CBA25FE73F6001D3A91 /* Build configuration list for PBXProject "CredifyKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+			);
+			mainGroup = B1D83CB625FE73F6001D3A91;
+			productRefGroup = B1D83CC125FE73F6001D3A91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1D83CBF25FE73F6001D3A91 /* CredifyKit */,
+				B1D83CC825FE73F6001D3A91 /* CredifyKitTests */,
+				B1D8436625FE7860001D3A91 /* TheCredifyKit */,
+				B1D8437425FE79DB001D3A91 /* ExampleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1D83CBE25FE73F6001D3A91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B164D9762606D3860084BA93 /* credify-loading.json in Resources */,
+				B1EECE4D26015C1400088038 /* Assets.xcassets in Resources */,
+				B14808C326002C47004243E2 /* OfferRedeemSuccess.storyboard in Resources */,
+				B164D9902606E8890084BA93 /* Errors.strings in Resources */,
+				B14808BB26002C47004243E2 /* InitialOfferFlow.storyboard in Resources */,
+				B14808CF26002C47004243E2 /* CreateNewAccount.storyboard in Resources */,
+				B17C918626028BBD00DA2E18 /* OfferEvaluation.strings in Resources */,
+				B14808E126002C47004243E2 /* OfferScopeTableViewCell.xib in Resources */,
+				B14808C526002C47004243E2 /* WKWebView.storyboard in Resources */,
+				B1DA3E052603522900103F22 /* CreateNewAccount.strings in Resources */,
+				B14808D726002C47004243E2 /* OfferBenefitHeaderView.xib in Resources */,
+				B17AB6F0260320E4003A6104 /* Validator.strings in Resources */,
+				B14808E326002C47004243E2 /* OfferEvaluation.storyboard in Resources */,
+				B14808DB26002C47004243E2 /* OfferThumbnailTableViewCell.xib in Resources */,
+				B14808BF26002C47004243E2 /* OfferRedeemSuccess.strings in Resources */,
+				B17AB70726033F0E003A6104 /* InitialOfferFlow.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D83CC725FE73F6001D3A91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B14808C426002C47004243E2 /* OfferRedeemSuccess.storyboard in Resources */,
+				B164D95F2606CBC90084BA93 /* credify-loading.json in Resources */,
+				B14808BC26002C47004243E2 /* InitialOfferFlow.storyboard in Resources */,
+				B164D9912606E8890084BA93 /* Errors.strings in Resources */,
+				B14808D026002C47004243E2 /* CreateNewAccount.storyboard in Resources */,
+				B14808E226002C47004243E2 /* OfferScopeTableViewCell.xib in Resources */,
+				B17C918726028BBD00DA2E18 /* OfferEvaluation.strings in Resources */,
+				B14809A626008268004243E2 /* Assets.xcassets in Resources */,
+				B14808C626002C47004243E2 /* WKWebView.storyboard in Resources */,
+				B1DA3E062603522900103F22 /* CreateNewAccount.strings in Resources */,
+				B14808D826002C47004243E2 /* OfferBenefitHeaderView.xib in Resources */,
+				B17AB6F1260320E4003A6104 /* Validator.strings in Resources */,
+				B14808E426002C47004243E2 /* OfferEvaluation.storyboard in Resources */,
+				B14808DC26002C47004243E2 /* OfferThumbnailTableViewCell.xib in Resources */,
+				B14808C026002C47004243E2 /* OfferRedeemSuccess.strings in Resources */,
+				B17AB70826033F0E003A6104 /* InitialOfferFlow.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D8437325FE79DB001D3A91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B14809C9260084AF004243E2 /* Oswald-Regular.ttf in Resources */,
+				B1D8438425FE79DC001D3A91 /* LaunchScreen.storyboard in Resources */,
+				B14809CA260084AF004243E2 /* Quicksand-Light.ttf in Resources */,
+				B14809C3260084AF004243E2 /* RobotoSlab-Black.ttf in Resources */,
+				B1D8437F25FE79DB001D3A91 /* Main.storyboard in Resources */,
+				B14809C4260084AF004243E2 /* RobotoSlab-Bold.ttf in Resources */,
+				B14809C7260084AF004243E2 /* Quicksand-Medium.ttf in Resources */,
+				B14809C5260084AF004243E2 /* RobotoSlab-Light.ttf in Resources */,
+				B14809C8260084AF004243E2 /* Quicksand-Regular.ttf in Resources */,
+				B14809C6260084AF004243E2 /* RobotoSlab-Regular.ttf in Resources */,
+				B14809CC260084AF004243E2 /* abeatbyKaiRegular.otf in Resources */,
+				B14809C0260084AF004243E2 /* Quicksand-Bold.ttf in Resources */,
+				B14809C2260084AF004243E2 /* RobotoSlab-Thin.ttf in Resources */,
+				B14809C1260084AF004243E2 /* RobotoSlab-Medium.ttf in Resources */,
+				B14809CB260084AF004243E2 /* ABEAKRG.TTF in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		116F59FC03C4A87DA4ED62D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CredifyKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4024D0F0E0FF8A84ED084CC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExampleApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1D8436D25FE786E001D3A91 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\n# 0. clean build directories\nrm -rf   derived_data   ${PROJECT_NAME}.framework\n\n# 1.1 Build framework for simulator\nxcodebuild build -workspace ${PROJECT_NAME}.xcworkspace -scheme ${PROJECT_NAME} -configuration Release -derivedDataPath derived_data -arch x86_64 -sdk iphonesimulator SKIP_INSTALL=NO BUILD_LIBRARIES_FOR_DISTRIBUTION=YES\n\n# 1.1 Build framework for iOS devices\nxcodebuild build -workspace ${PROJECT_NAME}.xcworkspace -scheme ${PROJECT_NAME} -configuration Release -derivedDataPath derived_data -arch arm64 -sdk iphoneos SKIP_INSTALL=NO BUILD_LIBRARIES_FOR_DISTRIBUTION=YES\n# 2. Create framework\nmkdir CredifyKit.framework/\n\n\n# 3. Create binary compatible with devices and simulators\n#lipo -create   derived_data/Build/Products/Release-iphoneos/CredifyKit.framework/CredifyKit   derived_data/Build/Products/Release-iphonesimulator/CredifyKit.framework/CredifyKit   -o CredifyKit.framework/CredifyKit\n\n$ xcrun xcodebuild -create-xcframework \\\n    -framework derived_data/Build/Products/Release-iphoneos/CredifyKit.framework \\\n    -framework /Build/Products/Release-iphonesimulator/CredifyKit.framework \\\n    -output CredifyKit.xcframework\n\n# 4.1 Create empty public interface directory\nmkdir CredifyKit.framework/CredifyKit.swiftmodule\n# 4.2 Copy public interfaces for device and simulators into static framework public interfaces directory\ncp -r derived_data/Build/Products/*/CredifyKit.framework/Modules/${PROJECT_NAME}.swiftmodule/* CredifyKit.framework/CredifyKit.swiftmodule\n\n\n\n\n\n\n\n\n\n";
+		};
+		BD1141DFA406704406A29373 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExampleApp/Pods-ExampleApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExampleApp/Pods-ExampleApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExampleApp/Pods-ExampleApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAC5A53A450F3474B7B0A10E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CredifyKit-CredifyKitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E98159656FB9A555D4F9E609 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CredifyKit-CredifyKitTests/Pods-CredifyKit-CredifyKitTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CredifyKit-CredifyKitTests/Pods-CredifyKit-CredifyKitTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CredifyKit-CredifyKitTests/Pods-CredifyKit-CredifyKitTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1D83CBC25FE73F6001D3A91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1C44C4926045FDD004FB287 /* UserExternalModel.swift in Sources */,
+				B14808D326002C47004243E2 /* OfferEvaluationConfigurer.swift in Sources */,
+				B14808E926002C47004243E2 /* CredifyButton.swift in Sources */,
+				B148088126002BE7004243E2 /* NotificationBanner.swift in Sources */,
+				B14808CD26002C47004243E2 /* CreateNewAccountViewController.swift in Sources */,
+				B148091D26002E2A004243E2 /* Structs.swift in Sources */,
+				B14808F326002C47004243E2 /* ViewWithBorder.swift in Sources */,
+				B14808D526002C47004243E2 /* OfferBenefitHeaderView.swift in Sources */,
+				B148099326005F84004243E2 /* Enums.swift in Sources */,
+				B148085526002A72004243E2 /* UIViewController+Extension.swift in Sources */,
+				B14808F126002C47004243E2 /* GradientLabel.swift in Sources */,
+				B148087C26002BD2004243E2 /* AlertController.swift in Sources */,
+				B14808C726002C47004243E2 /* WKWebViewViewController.swift in Sources */,
+				B14808FD26002C65004243E2 /* OfferManager.swift in Sources */,
+				B14808E726002C47004243E2 /* ButtonWithBorder.swift in Sources */,
+				B14808F526002C47004243E2 /* LoadingView.swift in Sources */,
+				B14808CB26002C47004243E2 /* CreateNewAccountConfigurer.swift in Sources */,
+				B148085A26002A90004243E2 /* String+Extension.swift in Sources */,
+				B148084626002A3A004243E2 /* Date+Extension.swift in Sources */,
+				B148087226002BA7004243E2 /* UITextField+fixCaretPosition.swift in Sources */,
+				B148098826005C0A004243E2 /* ScopeModel.swift in Sources */,
+				B14808ED26002C47004243E2 /* CredifyTextField.swift in Sources */,
+				B14808DF26002C47004243E2 /* OfferScopeTableViewCell.swift in Sources */,
+				B148086426002ACE004243E2 /* Error.swift in Sources */,
+				B14808D126002C47004243E2 /* OfferEvaluationPresenter.swift in Sources */,
+				B17AB6DA2602EE62003A6104 /* CredifyConfiguration.swift in Sources */,
+				B1480928260043EB004243E2 /* ScopeData.swift in Sources */,
+				B148085026002A5E004243E2 /* UIImage+Extension.swift in Sources */,
+				B14808E526002C47004243E2 /* ImageViewWithBorder.swift in Sources */,
+				B14808B926002C47004243E2 /* InitialOfferFlowConfigurer.swift in Sources */,
+				B1DA3E112603611000103F22 /* BaseViewController.swift in Sources */,
+				B14808B726002C47004243E2 /* InitialOfferFlowPresenter.swift in Sources */,
+				B14808C926002C47004243E2 /* CreateNewAccountPresenter.swift in Sources */,
+				B148083826002A01004243E2 /* UIFont+Extension.swift in Sources */,
+				B148086B26002B93004243E2 /* SkyFloatingLabelTextField.swift in Sources */,
+				B14808D926002C47004243E2 /* OfferEvaluationViewController.swift in Sources */,
+				B14808EB26002C47004243E2 /* PrimaryButton.swift in Sources */,
+				B14808BD26002C47004243E2 /* InitialOfferFlowViewController.swift in Sources */,
+				B148098D26005F0C004243E2 /* ClaimModel.swift in Sources */,
+				B14808C126002C47004243E2 /* OfferRedeemSuccessViewController.swift in Sources */,
+				B148085F26002ABA004243E2 /* Extension.swift in Sources */,
+				B14808EF26002C47004243E2 /* CredifyGradientLabel.swift in Sources */,
+				B148087726002BBD004243E2 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
+				B1480831260029DD004243E2 /* UIApplication+Extension.swift in Sources */,
+				B148083F26002A26004243E2 /* UIColor+Extension.swift in Sources */,
+				B145A64D26070865000BCDEC /* UITapGestureRecognizer+Extension.swift in Sources */,
+				B148084B26002A48004243E2 /* UIButton+Extension.swift in Sources */,
+				B14809D126008BFD004243E2 /* ProviderService.swift in Sources */,
+				B14808DD26002C47004243E2 /* OfferThumbnailTableViewCell.swift in Sources */,
+				B14789D626019D5700985CCD /* UserProfileModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D83CC525FE73F6001D3A91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1C44C4A26045FDD004FB287 /* UserExternalModel.swift in Sources */,
+				B148087326002BA7004243E2 /* UITextField+fixCaretPosition.swift in Sources */,
+				B148087826002BBD004243E2 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
+				B148085626002A72004243E2 /* UIViewController+Extension.swift in Sources */,
+				B14808CC26002C47004243E2 /* CreateNewAccountConfigurer.swift in Sources */,
+				B1480832260029DD004243E2 /* UIApplication+Extension.swift in Sources */,
+				B148083926002A01004243E2 /* UIFont+Extension.swift in Sources */,
+				B14808C826002C47004243E2 /* WKWebViewViewController.swift in Sources */,
+				B14808D426002C47004243E2 /* OfferEvaluationConfigurer.swift in Sources */,
+				B14808DA26002C47004243E2 /* OfferEvaluationViewController.swift in Sources */,
+				B1480929260043EB004243E2 /* ScopeData.swift in Sources */,
+				B14808C226002C47004243E2 /* OfferRedeemSuccessViewController.swift in Sources */,
+				B14808D626002C47004243E2 /* OfferBenefitHeaderView.swift in Sources */,
+				B14808E626002C47004243E2 /* ImageViewWithBorder.swift in Sources */,
+				B14808F626002C47004243E2 /* LoadingView.swift in Sources */,
+				B148086526002ACE004243E2 /* Error.swift in Sources */,
+				B14808CE26002C47004243E2 /* CreateNewAccountViewController.swift in Sources */,
+				B148086026002ABA004243E2 /* Extension.swift in Sources */,
+				B14808EA26002C47004243E2 /* CredifyButton.swift in Sources */,
+				B148085126002A5E004243E2 /* UIImage+Extension.swift in Sources */,
+				B148086C26002B93004243E2 /* SkyFloatingLabelTextField.swift in Sources */,
+				B1D83CCF25FE73F6001D3A91 /* CredifyKitTests.swift in Sources */,
+				B148098926005C0A004243E2 /* ScopeModel.swift in Sources */,
+				B14808F426002C47004243E2 /* ViewWithBorder.swift in Sources */,
+				B14808E826002C47004243E2 /* ButtonWithBorder.swift in Sources */,
+				B17AB6DB2602EE62003A6104 /* CredifyConfiguration.swift in Sources */,
+				B14808E026002C47004243E2 /* OfferScopeTableViewCell.swift in Sources */,
+				B148091E26002E2A004243E2 /* Structs.swift in Sources */,
+				B14808F226002C47004243E2 /* GradientLabel.swift in Sources */,
+				B148098E26005F0C004243E2 /* ClaimModel.swift in Sources */,
+				B1DA3E122603611000103F22 /* BaseViewController.swift in Sources */,
+				B14808CA26002C47004243E2 /* CreateNewAccountPresenter.swift in Sources */,
+				B148084026002A26004243E2 /* UIColor+Extension.swift in Sources */,
+				B14808D226002C47004243E2 /* OfferEvaluationPresenter.swift in Sources */,
+				B148099426005F84004243E2 /* Enums.swift in Sources */,
+				B148087D26002BD2004243E2 /* AlertController.swift in Sources */,
+				B14808BA26002C47004243E2 /* InitialOfferFlowConfigurer.swift in Sources */,
+				B14808BE26002C47004243E2 /* InitialOfferFlowViewController.swift in Sources */,
+				B14808EE26002C47004243E2 /* CredifyTextField.swift in Sources */,
+				B14808FE26002C65004243E2 /* OfferManager.swift in Sources */,
+				B148084726002A3A004243E2 /* Date+Extension.swift in Sources */,
+				B14808B826002C47004243E2 /* InitialOfferFlowPresenter.swift in Sources */,
+				B148088226002BE7004243E2 /* NotificationBanner.swift in Sources */,
+				B148085B26002A90004243E2 /* String+Extension.swift in Sources */,
+				B14808EC26002C47004243E2 /* PrimaryButton.swift in Sources */,
+				B145A64E26070865000BCDEC /* UITapGestureRecognizer+Extension.swift in Sources */,
+				B148084C26002A48004243E2 /* UIButton+Extension.swift in Sources */,
+				B14808F026002C47004243E2 /* CredifyGradientLabel.swift in Sources */,
+				B14808DE26002C47004243E2 /* OfferThumbnailTableViewCell.swift in Sources */,
+				B14789D726019D5700985CCD /* UserProfileModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D8437125FE79DB001D3A91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D8437C25FE79DB001D3A91 /* ViewController.swift in Sources */,
+				B1D8437825FE79DB001D3A91 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1D83CCC25FE73F6001D3A91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1D83CBF25FE73F6001D3A91 /* CredifyKit */;
+			targetProxy = B1D83CCB25FE73F6001D3A91 /* PBXContainerItemProxy */;
+		};
+		B1D843E025FE7F70001D3A91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1D83CBF25FE73F6001D3A91 /* CredifyKit */;
+			targetProxy = B1D843DF25FE7F70001D3A91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B148088E26002C47004243E2 /* OfferRedeemSuccess.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B148088F26002C47004243E2 /* ja */,
+				B148089026002C47004243E2 /* en */,
+			);
+			name = OfferRedeemSuccess.strings;
+			sourceTree = "<group>";
+		};
+		B164D9932606E8890084BA93 /* Errors.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B164D9922606E8890084BA93 /* en */,
+				B164D9972606E88E0084BA93 /* ja */,
+			);
+			name = Errors.strings;
+			sourceTree = "<group>";
+		};
+		B17AB6F3260320E4003A6104 /* Validator.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B17AB6F2260320E4003A6104 /* en */,
+				B17AB6F7260320E9003A6104 /* ja */,
+			);
+			name = Validator.strings;
+			sourceTree = "<group>";
+		};
+		B17AB70A26033F0E003A6104 /* InitialOfferFlow.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B17AB70926033F0E003A6104 /* en */,
+				B17AB70E26033F10003A6104 /* ja */,
+			);
+			name = InitialOfferFlow.strings;
+			sourceTree = "<group>";
+		};
+		B17C918926028BBD00DA2E18 /* OfferEvaluation.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B17C918826028BBD00DA2E18 /* en */,
+				B17C918D26028BC200DA2E18 /* ja */,
+			);
+			name = OfferEvaluation.strings;
+			sourceTree = "<group>";
+		};
+		B1D8437D25FE79DB001D3A91 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1D8437E25FE79DB001D3A91 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B1D8438225FE79DC001D3A91 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1D8438325FE79DC001D3A91 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B1DA3E082603522900103F22 /* CreateNewAccount.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1DA3E072603522900103F22 /* en */,
+				B1DA3E0C2603522E00103F22 /* ja */,
+			);
+			name = CreateNewAccount.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1D83CD225FE73F6001D3A91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B1D83CD325FE73F6001D3A91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B1D83CD525FE73F6001D3A91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 922D96F9341051FB203E5835 /* Pods-CredifyKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CredifyKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = one.credify.CredifyKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/CredifyCore.framework";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_WORKSPACE = NO;
+			};
+			name = Debug;
+		};
+		B1D83CD625FE73F6001D3A91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00B5ADA7BC03E09634F94A0B /* Pods-CredifyKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CredifyKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = one.credify.CredifyKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/CredifyCore.framework";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_WORKSPACE = NO;
+			};
+			name = Release;
+		};
+		B1D83CD825FE73F6001D3A91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CC592C73DD594ABBE055495 /* Pods-CredifyKit-CredifyKitTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CredifyKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = one.credify.CredifyKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1D83CD925FE73F6001D3A91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CBAE7A137122D9F20DCA043 /* Pods-CredifyKit-CredifyKitTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CredifyKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = one.credify.CredifyKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B1D8436725FE7860001D3A91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B1D8436825FE7860001D3A91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B1D8438725FE79DC001D3A91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B21CA9AEEDF9BECA385B0D4 /* Pods-ExampleApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34C29C245L;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CredifyCryptoSwift\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/KeychainAccess\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Kingfisher\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RxCocoa\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RxRelay\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RxSwift\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/lottie-ios\"",
+					"\"${PODS_ROOT}/CredifyCryptoSwift/CredifyCryptoSwift\"",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = ExampleApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = one.credify.ExampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B1D8438825FE79DC001D3A91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFA5653B83C051BA4A545DAF /* Pods-ExampleApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34C29C245L;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = ExampleApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = one.credify.ExampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1D83CBA25FE73F6001D3A91 /* Build configuration list for PBXProject "CredifyKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D83CD225FE73F6001D3A91 /* Debug */,
+				B1D83CD325FE73F6001D3A91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1D83CD425FE73F6001D3A91 /* Build configuration list for PBXNativeTarget "CredifyKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D83CD525FE73F6001D3A91 /* Debug */,
+				B1D83CD625FE73F6001D3A91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1D83CD725FE73F6001D3A91 /* Build configuration list for PBXNativeTarget "CredifyKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D83CD825FE73F6001D3A91 /* Debug */,
+				B1D83CD925FE73F6001D3A91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1D8436925FE7860001D3A91 /* Build configuration list for PBXAggregateTarget "TheCredifyKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D8436725FE7860001D3A91 /* Debug */,
+				B1D8436825FE7860001D3A91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1D8438625FE79DC001D3A91 /* Build configuration list for PBXNativeTarget "ExampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D8438725FE79DC001D3A91 /* Debug */,
+				B1D8438825FE79DC001D3A91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1D83CB725FE73F6001D3A91 /* Project object */;
+}

@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "5a6675dd9b70fc14530615495257330c"
+build_time: [1616165765, 984184000]
+inputs:
+  "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyKit/Pods/RxRelay/RxRelay/BehaviorRelay.swift": [9223372036, 854775807]
+  "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyKit/Pods/RxRelay/RxRelay/Observable+Bind.swift": [9223372036, 854775807]
+  "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyKit/Pods/RxRelay/RxRelay/PublishRelay.swift": [9223372036, 854775807]
+  "/Users/nalousnguyen/Documents/FinalSDK/CredifyIOS/CredifyKit/Pods/RxRelay/RxRelay/Utils.swift": [9223372036, 854775807]
